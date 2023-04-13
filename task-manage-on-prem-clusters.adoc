@@ -1,0 +1,90 @@
+---
+sidebar: sidebar 
+permalink: task-manage-on-prem-clusters.html 
+keywords: digital wallet, cluster, on-prem ontap cluster, onprem cluster, contract, licensing, ontap licensing, ontap contract 
+summary: BlueXPデジタルウォレットを使用すると、オンプレミスのONTAP クラスタごとに契約の詳細を確認できます。BlueXPでクラスタをまだ検出していない場合は、デジタルウォレットから検出することもできます。 
+---
+= オンプレミスのONTAP クラスタのライセンスを管理します
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+BlueXPデジタルウォレットを使用すると、オンプレミスのONTAP クラスタごとに契約の詳細を確認できます。BlueXPでクラスタをまだ検出していない場合は、デジタルウォレットから検出することもできます。
+
+.作業を開始する前に
+BlueXPデジタルウォレットには、作業環境として検出したオンプレミスのONTAP クラスタ、またはBlueXPに追加したNetApp Support Site アカウントに関連付けられているオンプレミスのクラスタに関する詳細が表示されます。
+
+* https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["オンプレミスのONTAP クラスタを検出する方法について説明します"^]
+* https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-nss-accounts.html["BlueXPアカウントに関連付けられたNSSクレデンシャルを管理する方法について説明します"^]
+
+
+
+
+== クラスタ情報と契約の詳細を表示します
+
+オンプレミスのONTAP クラスタのハードウェアとソフトウェアの契約ステータスを表示して、有効期限が切れる前に契約を更新できるようにします。
+
+.手順
+. BlueXPナビゲーションメニューから、* Governance > Digital Wallet *を選択します。
+. オンプレミスONTAP *を選択します。
++
+各クラスタの行にソフトウェア契約とハードウェア契約の有効期限が表示されます。
+
++
+最初にNetApp Support Site （NSS）アカウントのクレデンシャルを入力するように求められたら、*[Add NSS Account]*を選択します。アカウントを追加すると、そのNSSアカウントに関連付けられているクラスタが表示されます。
+
+. 契約が有効期限に近づいている場合や期限切れになっている場合は、BlueXPコンソールの右下にあるチャットアイコンをクリックして、契約の延長をリクエストできます。
+. 詳細を表示するには、をクリックします image:button_down_caret.png["下キャレットアイコン"] をクリックしてクラスタ情報を展開します。
++
+image:screenshot_digital_wallet_license_info.png["クラスタのライセンス情報を表示するためにクラスタを拡張したスクリーンショット。"]
+
+
+
+
+
+== クラスタを検出します
+
+作業環境としてオンプレミスのONTAP クラスタが検出されていない場合は、BlueXPのデジタルウォレットから実行できます。検出されたクラスタは、BlueXPで作業環境として使用できるようになり、管理できるようになります。
+
+.作業を開始する前に
+検出と管理のオプション（コネクタを使用した検出またはコネクタを使用しない直接検出）と検出の要件について理解しておく必要があります。
+
+https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["検出のオプションと要件について説明します"^]。
+
+.手順
+. BlueXPナビゲーションメニューから、* Governance > Digital Wallet *を選択します。
+. オンプレミスONTAP *を選択します。
++
+image:screenshot_digital_wallet_onprem_main.png["オンプレミスの ONTAP クラスタのデジタルウォレットページのスクリーンショット。"]
+
++
+ONTAP クラスタには、BlueXPで検出されたかどうかのステータスが表示されます。
+
++
+最初にNetApp Support Site （NSS）アカウントのクレデンシャルを入力するように求められたら、*[Add NSS Account]*を選択します。アカウントを追加すると、そのNSSアカウントに関連付けられているクラスタが表示されます。
+
+. BlueXPで管理するクラスタの[* Discover *（検出）]をクリックします。
+. Discover ONTAP Cluster_page で、 admin ユーザアカウントのパスワードを入力し、 * Discover * をクリックします。
++
+image:screenshot_discover_ontap_wallet.png["ONTAP のクラスタ詳細ページの例を示すスクリーンショット：クラスタ管理 IP アドレス、ユーザ名、パスワード"]
+
++
+クラスタ管理IPアドレスは、NetApp Support Site アカウントの情報に基づいて設定されています。
+
+
+
+.結果
+BlueXPがクラスタを検出し、Canvasの作業環境として追加します。クラスタのステータスが、オンプレミスの ONTAP ページで * Discovered * に変わります。作業環境名はクラスタの名前です。
+
+image:screenshot_onprem_cluster.png["キャンバス内のオンプレミス ONTAP クラスタのスクリーンショット。"]
+
+これで、クラスタの管理を開始できます。
+
+* https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-manage-ontap-connector.html["コネクタを使用して検出されたクラスタを管理する方法について説明します"^]
+* https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-manage-ontap-direct.html["直接検出されたクラスタを管理する方法について説明します"^]
+

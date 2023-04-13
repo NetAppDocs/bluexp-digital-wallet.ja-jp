@@ -1,0 +1,41 @@
+---
+sidebar: sidebar 
+permalink: concept-digital-wallet.html 
+keywords: digital wallet, bluexp digital wallet, licensing, licenses, services, supported services 
+summary: BlueXPデジタルウォレットを使用すると、ネットアップ（BYOL）、BlueXPマーケットプレイスのサブスクリプション、NetApp Keystone から購入したBlueXPライセンスを管理、監視できます。 
+---
+= BlueXPのデジタルウォレットの詳細をご確認ください
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/media/
+
+
+[role="lead"]
+BlueXPデジタルウォレットを使用すると、ネットアップ（BYOL）、BlueXPマーケットプレイスのサブスクリプション、NetApp Keystone から購入したBlueXPライセンスを管理、監視できます。
+
+
+
+== の機能
+
+* Cloud Volumes ONTAP の容量ベースライセンスとノードベースライセンスを管理します
+* BlueXPデータサービスのライセンスを追加および管理します
+* BlueXPアカウントとAstraに関連付けられたPAYGOおよび年間契約のサブスクリプションを管理します
+* Cloud Volumes ONTAP で使用するKeystone Flexサブスクリプションを管理し、コミット済み容量の変更をリクエストする
+* オンプレミスのONTAP クラスタのハードウェアとソフトウェアの契約ステータス情報を表示します
+
+
+
+
+== サポートされるサービス
+
+BlueXPデジタルウォレットでは、次のBlueXPサービスのライセンスを管理できます。
+
+* クラウドバックアップ
+* クラウドデータの意味
+* クラウド階層化
+* Cloud Volumes ONTAP
+* オンプレミスの ONTAP クラスタ
+

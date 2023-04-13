@@ -1,0 +1,70 @@
+---
+settings:
+  name: BlueXP digital wallet
+  platform: cloud
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  langs: ja-jp,us-en,ko-kr,zh-cn,zh-tw,de-de,es-es,fr-fr
+sidebar:
+  entries:
+  - title: BlueXPデジタルウォレットドキュメント
+    url: "/index.html"
+  - title: リリースノート
+    url: "/whats-new.html"
+  - title: はじめに
+    entries:
+    - title: BlueXPのデジタルウォレットの詳細をご確認ください
+      url: "/concept-digital-wallet.html"
+  - title: BlueXPのデジタルウォレットをご利用ください
+    entries:
+    - title: Cloud Volumes ONTAP のライセンスを管理します
+      entries:
+      - title: 容量ベースのライセンス
+        url: "/task-manage-capacity-licenses.html"
+      - title: ノードベースのライセンス
+        url: "/task-manage-node-based-licenses.html"
+    - title: BlueXPデータサービスのライセンスを管理します
+      url: "/task-manage-data-services-licenses.html"
+    - title: PAYGOのサブスクリプションと契約を管理
+      url: "/task-manage-subscriptions.html"
+    - title: Keystone Flexサブスクリプションの管理
+      url: "/task-manage-keystone.html"
+    - title: オンプレミスのONTAP クラスタのライセンスを管理します
+      url: "/task-manage-on-prem-clusters.html"
+  - title: 知識とサポート
+    entries:
+    - title: サポートに登録します
+      url: "/task-support-registration.html"
+    - title: ヘルプを表示します
+      url: "/task-get-help.html"
+  - title: 法的通知
+    url: "/legal-notices.html"
+homepage:
+  tiles:
+  - title: はじめに
+    links:
+    - title: BlueXPのデジタルウォレットの詳細をご確認ください
+      url: concept-digital-wallet.html
+  - title: ライセンスを管理します
+    links:
+    - title: Cloud Volumes ONTAP の容量ベースのライセンスを管理します
+      url: task-manage-capacity-licenses.html
+    - title: BlueXPデータサービスのライセンスを管理します
+      url: task-manage-data-services-licenses.html
+    - title: PAYGOのサブスクリプションと契約を管理
+      url: task-manage-subscriptions.html
+  - title: ブログとコミュニティ
+    links:
+    - title: ネットアップコミュニティ
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: BlueXPブログ
+      url: https://bluexp.netapp.com/blog
+    - title: クラウドに関する Web セミナー
+      url: https://bluexp.netapp.com/events
+product-family:
+  name: BlueXP
+  repo: cloud-manager-family
+  sidebar_label: BlueXPのすべてのマニュアル
