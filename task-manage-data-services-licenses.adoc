@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-manage-data-services-licenses.html 
 keywords: data services, byol, cloud backup, cloud tiering, data sense, cloud data sense, obtain license file, nlf, add license, update license 
-summary: BlueXPのデジタルウォレットでは、ネットアップから直接購入したライセンス（BYOL）を管理して、Cloud Backup、Cloud Data Sense、Cloud Tieringで使用できます。使用済みライセンス容量、残りの空き容量を確認でき、容量の上限や有効期限に達した場合に通知が表示されます。 
+summary: BlueXPのデジタルウォレットでは、ネットアップから直接購入したライセンス（BYOL）を管理して、BlueXPのバックアップとリカバリ、分類、階層化に使用できます。使用済みライセンス容量、残りの空き容量を確認でき、容量の上限や有効期限に達した場合に通知が表示されます。 
 ---
 = BlueXPデータサービスのライセンスを管理します
 :hardbreaks:
@@ -14,13 +14,13 @@ summary: BlueXPのデジタルウォレットでは、ネットアップから�
 
 
 [role="lead"]
-BlueXPのデジタルウォレットでは、ネットアップから直接購入したライセンス（BYOL）を管理して、Cloud Backup、Cloud Data Sense、Cloud Tieringで使用できます。使用済みライセンス容量、残りの空き容量を確認でき、容量の上限や有効期限に達した場合に通知が表示されます。
+BlueXPのデジタルウォレットでは、ネットアップから直接購入したライセンス（BYOL）を管理して、BlueXPのバックアップとリカバリ、分類、階層化に使用できます。使用済みライセンス容量、残りの空き容量を確認でき、容量の上限や有効期限に達した場合に通知が表示されます。
 
 このページの手順には、環境 の各サービスに関する情報が記載されています。これらのサービスのライセンスの詳細については、次のページを参照してください。
 
-* https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-licensing-cloud-backup.html["Cloud Backup のライセンスをセットアップします"^]
-* https://docs.netapp.com/us-en/cloud-manager-data-sense/task-licensing-datasense.html["クラウドデータセンスのライセンスをセットアップする"^]
-* https://docs.netapp.com/us-en/cloud-manager-tiering/task-licensing-cloud-tiering.html["Cloud Tiering のライセンスをセットアップ"^]
+* https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-licensing-cloud-backup.html["BlueXPのバックアップとリカバリのライセンスをセットアップ"^]
+* https://docs.netapp.com/us-en/cloud-manager-data-sense/task-licensing-datasense.html["BlueXP分類用のライセンスをセットアップ"^]
+* https://docs.netapp.com/us-en/cloud-manager-tiering/task-licensing-cloud-tiering.html["BlueXP階層化のライセンスをセットアップ"^]
 
 
 
@@ -62,7 +62,7 @@ BlueXPデータサービスのライセンスを購入したら、ライセン�
 
 ** ライセンスファイル（BlueXPをプライベートモードで使用する場合に必要）がある場合は、*[ライセンスファイルのアップロード]*オプションを選択し、プロンプトに従ってファイルを添付します。
 +
-image:screenshot_services_license_add2.png["Cloud Backup BYOL ライセンスを追加するページのスクリーンショット。"]
+image:screenshot_services_license_add2.png["BYOLライセンスを追加するページのスクリーンショット。"]
 
 
 
@@ -75,14 +75,14 @@ BlueXPにライセンスが追加されました。
 
 == ライセンスを更新します
 
-ライセンス期間が有効期限に近づいている場合、またはライセンス容量が上限に達している場合は、Digital Walletで通知されます。有効期限が切れる前にライセンスを更新して、BlueXPデータサービスの使用が中断されないようにすることができます。
+ライセンス期間が有効期限に近づいている場合、またはライセンス容量が上限に達している場合は、BlueXPのデジタルウォレットで通知されます。有効期限が切れる前にライセンスを更新して、BlueXPデータサービスの使用が中断されないようにすることができます。
 
 image:screenshot_services_license_expire.png["Digital Wallet ページに期限切れになるライセンスを示すスクリーンショット。"]
 
 .手順
 . BlueXPの右下にあるチャットアイコンをクリックするか、サポートにお問い合わせください。特定のシリアル番号に対する契約期間の延長やライセンスの容量の追加をリクエストできます。
 +
-ライセンスの支払いが完了し、NetApp Support Site に登録されると、BlueXPは自動的にデジタルウォレットのライセンスを更新し、[データサービスのライセンス]ページには5～10分で変更が反映されます。
+ライセンスの料金を支払ってNetApp Support Site に登録すると、デジタルウォレット内のライセンスがBlueXPによって自動的に更新され、[Data Services Licenses]ページに5~10分で変更が反映されます。
 
 . BlueXPでライセンスを自動的に更新できない場合（BlueXPをプライベートモードで使用している場合など）は、ライセンスファイルを手動でアップロードする必要があります。
 +
