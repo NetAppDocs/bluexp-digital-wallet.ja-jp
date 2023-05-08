@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: task-manage-keystone.html 
-keywords: license, licensing, install, keystone, requst capacity, link subscription, add keystone subscription, keystone subscription 
-summary: '[ デジタルウォレット ] ページでは、 Cloud Volumes ONTAP のライセンスを 1 箇所から管理できます。新しいライセンスを追加したり、既存のライセンスを更新したりできます。' 
+keywords: license, licensing, install, keystone, request capacity, link subscription, add keystone subscription, keystone subscription 
+summary: Keystoneサブスクリプションサービスをデジタルウォレットから管理し、Cloud Volumes ONTAP で使用するサブスクリプションを有効にする。コミット済み容量に対する変更を要求したり、サブスクリプションのリンクを解除したりすることもできます。 
 ---
-= Keystone Flex Subscriptions を管理します
+= Keystoneサブスクリプションサービスを管理する
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

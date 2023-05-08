@@ -30,7 +30,7 @@ sidebar:
       url: "/task-manage-data-services-licenses.html"
     - title: PAYGOのサブスクリプションと契約を管理
       url: "/task-manage-subscriptions.html"
-    - title: Keystone Flexサブスクリプションの管理
+    - title: Keystoneサブスクリプションサービスを管理する
       url: "/task-manage-keystone.html"
     - title: オンプレミスのONTAP クラスタのライセンスを管理します
       url: "/task-manage-on-prem-clusters.html"

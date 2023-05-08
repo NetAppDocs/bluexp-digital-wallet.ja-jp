@@ -23,7 +23,7 @@ BlueXPデジタルウォレットを使用すると、ネットアップ（BYOL�
 * Cloud Volumes ONTAP の容量ベースライセンスとノードベースライセンスを管理します
 * BlueXPデータサービスのライセンスを追加および管理します
 * BlueXPアカウントとAstra Controlに関連付けられたPAYGOおよび年間契約のサブスクリプションを管理します
-* Cloud Volumes ONTAP で使用するKeystone Flexサブスクリプションを管理し、コミット済み容量の変更をリクエストする
+* Cloud Volumes ONTAP とともに使用するKeystoneサブスクリプションサービスを管理し、コミット済み容量の変更を申請する
 * オンプレミスのONTAP クラスタのハードウェアとソフトウェアの契約ステータス情報を表示します
 
 

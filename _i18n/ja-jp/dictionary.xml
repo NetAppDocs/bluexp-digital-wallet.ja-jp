@@ -74,7 +74,6 @@
   <block id="98f770b0af18ca763421bac22b4b6805" category="section-title">の機能</block>
   <block id="012ae05db65bea80da7b7050b5d96f9e" category="list-text">Cloud Volumes ONTAP の容量ベースライセンスとノードベースライセンスを管理します</block>
   <block id="62d9aca3bac1caa2d9cff120588c3e35" category="list-text">BlueXPデータサービスのライセンスを追加および管理します</block>
-  <block id="68893f701c3397a3a6f6ae5a965a7ef6" category="list-text">Cloud Volumes ONTAP で使用するKeystone Flexサブスクリプションを管理し、コミット済み容量の変更をリクエストする</block>
   <block id="385b7e85ac73053263ffe4f49784da13" category="list-text">オンプレミスのONTAP クラスタのハードウェアとソフトウェアの契約ステータス情報を表示します</block>
   <block id="ea22f9957523103248d84695e98b17ba" category="section-title">サポートされるサービス</block>
   <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="list-text">Cloud Volumes ONTAP</block>
@@ -270,8 +269,6 @@
   <block id="9d37072f5a1b76b16e647a14826ade70" category="paragraph"><block ref="9d37072f5a1b76b16e647a14826ade70" category="inline-image-macro-rx" type="image"></block></block>
   <block id="41e921305ae1b027e5d364af4a2a9df2" category="list-text">_Update License_page で、ライセンスファイルをアップロードし、 * ライセンスの更新 * をクリックします。</block>
   <block id="34674441113c2bf2e8f3d38a0e8276bb" category="paragraph">BlueXPでライセンスが更新されます。</block>
-  <block id="75b8c5a187d84d0b9176c9a71ca76c92" category="summary">[ デジタルウォレット ] ページでは、 Cloud Volumes ONTAP のライセンスを 1 箇所から管理できます。新しいライセンスを追加したり、既存のライセンスを更新したりできます。</block>
-  <block id="46172ce69f0d69dc6b2a28ea9573950b" category="doc">Keystone Flex Subscriptions を管理します</block>
   <block id="541be6e1dda8fc9678c974d148e15469" category="paragraph">Cloud Volumes ONTAP でサブスクリプションを使用できるようにすることで、デジタルウォレットから Keystone Flex Subscriptions を管理できます。コミット済み容量に対する変更を要求したり、サブスクリプションのリンクを解除したりすることもできます。</block>
   <block id="144db5f18aa0a48a9fe63c8b55bd0275" category="paragraph">a_Keystone Flex Subscription_ は、ネットアップが提供する、ビジネスの成長に合わせて拡張できるストレージサービスです。</block>
   <block id="4edb70089cdbc18de22fa9ead5189bc8" category="section-title">アカウントを承認します</block>
@@ -505,7 +502,6 @@
   <block id="fbf5bb26f6374732410ccc529ef29ffa" category="sidebar">Cloud Volumes ONTAP のライセンスを管理します</block>
   <block id="f52ead6bbf1fb1c871d206603e5a2347" category="sidebar">容量ベースのライセンス</block>
   <block id="d56bf07ec8cd4e9f29339d605ffef95c" category="sidebar">ノードベースのライセンス</block>
-  <block id="5800a1d9dbde53529f0b345493ff9e4e" category="sidebar">Keystone Flexサブスクリプションの管理</block>
   <block id="064ff692e4b4a468969f66368c68e2c8" category="sidebar">オンプレミスのONTAP クラスタのライセンスを管理します</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識とサポート</block>
   <block id="25b1fde564bb1fc860069167d8668df6" category="sidebar">ライセンスを管理します</block>
@@ -563,4 +559,7 @@
   <block id="cf5f3091e30dee6597885d8c0e0c357f" category="list-text">期間</block>
   <block id="314c4a4eeddb6d1cd1f813b95714f7a2" category="list-text">Google Cloudサブスクリプションがプライベートオファーに関連付けられていて、そのプライベートオファーが作成および承認された後に変更された場合は、「N/A」と表示されますこのシナリオでは、Google Cloud Marketplaceから受け取ったAPI応答に用語関連の情報は含まれていません。</block>
   <block id="3b3f3f7253f4c57a7eb145d69d119e28" category="list-text">Google Cloudプライベートオファーをお持ちの場合、契約オプションは利用できません。</block>
+  <block id="885ce97feb1a2410a348b3f3764dee9d" category="list-text">Cloud Volumes ONTAP とともに使用するKeystoneサブスクリプションサービスを管理し、コミット済み容量の変更を申請する</block>
+  <block id="e29dbbc5408d2fe6da0ae9249031fad5" category="summary">Keystoneサブスクリプションサービスをデジタルウォレットから管理し、Cloud Volumes ONTAP で使用するサブスクリプションを有効にする。コミット済み容量に対する変更を要求したり、サブスクリプションのリンクを解除したりすることもできます。</block>
+  <block id="8cd29d21eeca72789ed2e573a1032dbd" category="doc">Keystoneサブスクリプションサービスを管理する</block>
 </blocks>
