@@ -549,4 +549,18 @@
   <block id="25b3c421a2199fb638256d316af13699" category="list-text">BlueXPのデジタルウォレットには、終了日と、契約がまもなく更新されるかまもなく終了するか、すでに終了しているかが表示されます。</block>
   <block id="c2e2efadf42aef45b4e8e6b176f32df0" category="paragraph">BlueXPデジタルウォレットでサブスクリプションを管理するには、サブスクリプションの名前を変更して、そのサブスクリプションに関連付けられているアカウントを選択します。</block>
   <block id="5a91158751eaabe4d195cd633fa37db6" category="paragraph">デジタルウォレットでノードベースライセンスを管理し、各Cloud Volumes ONTAP システムに必要な容量を含む有効なライセンスがあることを確認します。</block>
+  <block id="71bff2737bdd059023a4784358e71a64" category="section-title">2023年5月7日</block>
+  <block id="060a6559f6065c5058aca6b22d897bce" category="section-title">Google Cloudプライベートオファー</block>
+  <block id="bfe876190faa5e7a4cd6d5029395b658" category="paragraph">BlueXPのデジタルウォレットに、プライベートオファーに関連付けられているGoogle Cloud Marketplaceサブスクリプションが表示され、サブスクリプションの終了日と期間が表示されるようになりました。この機能強化により、プライベートオファーが正常に受け入れられたことを確認し、その条件を検証できます。</block>
+  <block id="2cd5985150a2728c0c6295c5162b2b1d" category="section-title">充電使用量の内訳</block>
+  <block id="d0f5a029263e80e902caf444fa5e9080" category="paragraph">容量ベースのライセンスにサブスクライブしたときに課金される料金を確認できるようになりました。次のタイプの使用状況レポートは、BlueXPデジタルウォレットからダウンロードできます。使用状況レポートには、サブスクリプションの容量の詳細と、Cloud Volumes ONTAP サブスクリプションのリソースに対する課金状況が表示されます。ダウンロード可能なレポートは、他のユーザーと簡単に共有できます。</block>
+  <block id="ed54fb55b53f11e61f612ff99520f4bc" category="list-text">Cloud Volumes ONTAP パッケージの使用状況</block>
+  <block id="160ba974abba347f5e939a1a0acd5982" category="list-text">使用状況の概要</block>
+  <block id="bf951096cc9eea5fae867ec94f06dfa3" category="list-text">Storage VMの使用状況</block>
+  <block id="3c5979c173a0a4fe3ff27e0e6185a693" category="list-text">ボリュームの使用状況</block>
+  <block id="8156321649d649dc3e16c2849d8aa212" category="paragraph">詳細については、を参照してください <block ref="862b3811f42dd37621050f0605c0d301" category="inline-link-macro-rx"></block>。</block>
+  <block id="76631958e748db22b905b65fb2cba5d2" category="paragraph">Google Cloudの場合、プライベートオファーに関連付けられているマーケットプレイスサブスクリプションを特定することもできます。これにより、オファーが正常に受け入れられたことを確認できます。</block>
+  <block id="cf5f3091e30dee6597885d8c0e0c357f" category="list-text">期間</block>
+  <block id="314c4a4eeddb6d1cd1f813b95714f7a2" category="list-text">Google Cloudサブスクリプションがプライベートオファーに関連付けられていて、そのプライベートオファーが作成および承認された後に変更された場合は、「N/A」と表示されますこのシナリオでは、Google Cloud Marketplaceから受け取ったAPI応答に用語関連の情報は含まれていません。</block>
+  <block id="3b3f3f7253f4c57a7eb145d69d119e28" category="list-text">Google Cloudプライベートオファーをお持ちの場合、契約オプションは利用できません。</block>
 </blocks>
