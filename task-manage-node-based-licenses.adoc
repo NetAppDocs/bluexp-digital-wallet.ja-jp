@@ -14,7 +14,7 @@ summary: 各 Cloud Volumes ONTAP システムに必要な容量の有効なラ�
 
 
 [role="lead"]
-デジタルウォレットでノードベースライセンスを管理し、各Cloud Volumes ONTAP システムに必要な容量を含む有効なライセンスがあることを確認します。
+BlueXPデジタルウォレットでノードベースライセンスを管理し、各Cloud Volumes ONTAP システムに必要な容量を含む有効なライセンスがあることを確認する。
 
 ノードベースライセンス _ は旧世代のライセンスモデルです（新規のお客様は使用できません）。
 
@@ -22,7 +22,7 @@ summary: 各 Cloud Volumes ONTAP システムに必要な容量の有効なラ�
 * クラウドプロバイダの市場から従量課金制（ PAYGO ）で 1 時間単位のサブスクリプションが提供されます
 
 
-_Digital Wallet では、 Cloud Volumes ONTAP のライセンスを 1 箇所から管理できます。新しいライセンスを追加したり、既存のライセンスを更新したりできます。
+BlueXPデジタルウォレット_を使用すると、Cloud Volumes ONTAP のライセンスを1つの場所から管理できます。新しいライセンスを追加したり、既存のライセンスを更新したりできます。
 
 https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html["Cloud Volumes ONTAP ライセンスの詳細については、こちらをご覧ください"]。
 
@@ -30,7 +30,7 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensin
 
 == PAYGO ライセンスを管理します
 
-デジタルウォレットページでは、シリアル番号と PAYGO ライセンスタイプを含む、 PAYGO Cloud Volumes ONTAP の各システムに関する詳細を表示できます。
+BlueXPのデジタルウォレットページでは、各PAYGO Cloud Volumes ONTAP システムの詳細（シリアル番号やPAYGOライセンスタイプなど）を確認できます。
 
 .手順
 . BlueXPナビゲーションメニューから、* Governance > Digital Wallet *を選択します。
@@ -38,7 +38,7 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensin
 . [PAYGO] をクリックします。
 . PAYGO ライセンスごとに詳細を表に示します。
 +
-image:screenshot_paygo_licenses.png["3 つのペイゴライセンスを含むデジタルウォレットページの表を示すスクリーンショット。各行には、名前、システムのタイプ、シリアル番号、パッケージ、およびライセンスを管理するためのリンクが表示されます。"]
+image:screenshot_paygo_licenses.png["BlueXPのデジタルウォレットページの表のスクリーンショット。3つの有料ライセンスが含まれています。各行には、名前、システムのタイプ、シリアル番号、パッケージ、およびライセンスを管理するためのリンクが表示されます。"]
 
 . 必要に応じて、 [PAYGO ライセンスの管理（ Manage PAYGO License ） ] をクリックして、 PAYGO ライセンスを変更するか、インスタンスタイプを変更します。
 
@@ -53,7 +53,7 @@ image:screenshot_paygo_licenses.png["3 つのペイゴライセンスを含む�
 
 === 未割り当てのライセンスを追加します
 
-ノードベースのライセンスをデジタルウォレットに追加して、新しい Cloud Volumes ONTAP システムの作成時にライセンスを選択できるようにします。デジタルウォレットは、これらのライセンスを _unassigned _ として識別します。
+新しいCloud Volumes ONTAP システムの作成時にライセンスを選択できるように、BlueXPデジタルウォレットにノードベースライセンスを追加します。デジタルウォレットは、これらのライセンスを_unassigned_として識別します。
 
 .手順
 . BlueXPナビゲーションメニューから、* Governance > Digital Wallet *を選択します。
@@ -68,13 +68,13 @@ image:screenshot_paygo_licenses.png["3 つのペイゴライセンスを含む�
 
 
 .結果
-BlueXPは、デジタルウォレットにライセンスを追加します。ライセンスは、新しい Cloud Volumes ONTAP システムに関連付けるまでは未割り当てとみなされます。その場合、ライセンスはデジタルウォレットの *BYOL * タブに移動します。
+BlueXPはデジタルウォレットにライセンスを追加します。ライセンスは、新しい Cloud Volumes ONTAP システムに関連付けるまでは未割り当てとみなされます。その後、ライセンスはデジタルウォレットの* BYOL *タブに移動します。
 
 
 
 === 未割り当てのノードベースライセンスを交換します
 
-Cloud Volumes ONTAP 用の未割り当てのノードベースライセンスがあり、使用していない場合は、そのライセンスを Cloud Backup ライセンス、 Cloud Data Sense ライセンス、 Cloud Tiering ライセンスに変換することでライセンスを交換できます。
+Cloud Volumes ONTAP の未割り当てのノードベースライセンスがある場合は、BlueXPバックアップおよびリカバリライセンス、BlueXP分類ライセンス、またはBlueXP階層化ライセンスに変換することでライセンスを交換できます。
 
 ライセンスを交換すると、 Cloud Volumes ONTAP ライセンスが取り消され、サービスのドル相当ライセンスが作成されます。
 
