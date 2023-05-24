@@ -42,6 +42,7 @@
   <link rel="alternate" hreflang="de" href="https://docs.netapp.com/de-de/bluexp-digital-wallet/task-manage-keystone.html" />
   <link rel="alternate" hreflang="es" href="https://docs.netapp.com/es-es/bluexp-digital-wallet/task-manage-keystone.html" />
   <link rel="alternate" hreflang="fr" href="https://docs.netapp.com/fr-fr/bluexp-digital-wallet/task-manage-keystone.html" />
+  <link rel="alternate" hreflang="it" href="https://docs.netapp.com/it-it/bluexp-digital-wallet/task-manage-keystone.html" />
   <link rel='stylesheet' href='/ja-jp/bluexp-digital-wallet/css/na-feature.css' type='text/css'><!-- Top level site integrations --><script>
     function addAdobeLaunch(adobeId) {
       var head = document.getElementsByTagName('head')[0];
@@ -176,7 +177,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/bluexp-digital-wallet/issues/new?body=Page%3A%20[Keystoneサブスクリプションサービスを管理する](https://docs.netapp.com/ja-jp/bluexp-digital-wallet/task-manage-keystone.html)&template=public-issue-template.md" class="page-nav-contribute-link" role="button"><img src="/ja-jp/bluexp-digital-wallet/images/discuss-sm.svg" alt="" class="github-icon" />ドキュメントの変更をリクエスト</a><a target="_blank" href="https://github.com/NetAppDocs/bluexp-digital-wallet/blob/main/task-manage-keystone.adoc" class="page-nav-contribute-link" role="button"><img src="/ja-jp/bluexp-digital-wallet/images/edit-sm.svg" alt="" class="github-icon" />GitHub で編集</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ja-jp/bluexp-digital-wallet/images/article-sm.svg" alt="" class="github-icon" />寄稿者向けガイド</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/bluexp-digital-wallet.ja-jp/issues/new?template=new-from-page.yml&page-url=https://docs.netapp.com/ja-jp/bluexp-digital-wallet/task-manage-keystone.html&page-title=Keystoneサブスクリプションサービスを管理する" class="page-nav-contribute-link" role="button"><img src="/ja-jp/bluexp-digital-wallet/images/discuss-sm.svg" alt="" class="github-icon" />ドキュメントの変更をリクエスト</a><a target="_blank" href="https://github.com/NetAppDocs/bluexp-digital-wallet/blob/main/task-manage-keystone.adoc" class="page-nav-contribute-link" role="button"><img src="/ja-jp/bluexp-digital-wallet/images/edit-sm.svg" alt="" class="github-icon" />GitHub で編集</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ja-jp/bluexp-digital-wallet/images/article-sm.svg" alt="" class="github-icon" />寄稿者向けガイド</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">このページ</div>
@@ -269,8 +270,8 @@
           data-did-you-mean="{suggestion} を検索"
           data-no-results-found-did-you-mean="{query} に該当する結果はありません。{suggestion} の間違いではありませんか?"
           data-results-found="{hitCount} 件見つかりました"
-          data-error-message="We're sorry, an issue occurred when fetching your results. Please try again."
-          data-error-reset="Reset Search"
+          data-error-message="検索結果の取得中に問題が発生しました。もう一度お試しください。"
+          data-error-reset="検索をリセット"
           data-sk-es-pf-indexes=""
           data-flavor=""></div>
           <button class="n-property-bar__search-toggle-button" type="button">
@@ -311,6 +312,8 @@
           <a href="https://docs.netapp.com/es-es/bluexp-digital-wallet/task-manage-keystone.html" target="_self"><span translate="no" class="notranslate">Español</span></a>
         </li><li>
           <a href="https://docs.netapp.com/fr-fr/bluexp-digital-wallet/task-manage-keystone.html" target="_self"><span translate="no" class="notranslate">Français</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/it-it/bluexp-digital-wallet/task-manage-keystone.html" target="_self"><span translate="no" class="notranslate">Italiano</span></a>
         </li></ul>
     </div>
     <!-- End Language Selector -->
@@ -688,7 +691,7 @@
 <p class="page-details">
   
     
-    <time datetime="2023-05-08 14:13:11 +0000">05/08/2023</time>
+    <time datetime="2023-05-24 00:12:06 +0000">05/24/2023</time>
     
   
 
@@ -701,13 +704,13 @@
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph lead">
-<p>Cloud Volumes ONTAP でサブスクリプションを使用できるようにすることで、デジタルウォレットから Keystone Flex Subscriptions を管理できます。コミット済み容量に対する変更を要求したり、サブスクリプションのリンクを解除したりすることもできます。</p>
+<p>KeystoneサブスクリプションをCloud Volumes ONTAP で使用できるようにすることで、BlueXPのデジタルウォレットから管理できます。コミット済み容量に対する変更を要求したり、サブスクリプションのリンクを解除したりすることもできます。</p>
 </div>
 <div class="paragraph">
-<p>a_Keystone Flex Subscription_ は、ネットアップが提供する、ビジネスの成長に合わせて拡張できるストレージサービスです。</p>
+<p>A_Keystoneサブスクリプション_は、ネットアップが提供する従量課金制のストレージサービスです。</p>
 </div>
 <div class="paragraph">
-<p>_Digital Wallet では、 Cloud Volumes ONTAP のライセンスを 1 箇所から管理できます。新しいライセンスを追加したり、既存のライセンスを更新したりできます。</p>
+<p>BlueXPデジタルウォレット_を使用すると、Cloud Volumes ONTAP のライセンスを1つの場所から管理できます。新しいライセンスを追加したり、既存のライセンスを更新したりできます。</p>
 </div>
 <div class="paragraph">
 <p><a href="https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html">"Cloud Volumes ONTAP ライセンスの詳細については、こちらをご覧ください"</a>。</p>
@@ -718,7 +721,7 @@
 <h2 id="アカウントを承認します">アカウントを承認します</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>BlueXPでKeystone Flex Subscriptionsを使用して管理する前に、ネットアップに連絡して、Keystone Flex SubscriptionsでBlueXPユーザーアカウントを承認する必要があります。</p>
+<p>BlueXPでKeystoneサブスクリプションを使用および管理する前に、ネットアップに連絡して、KeystoneサブスクリプションでBlueXPユーザアカウントを承認する必要があります。</p>
 </div>
 <div class="olist arabic">
 <div class="title">手順</div>
@@ -736,9 +739,9 @@
 </div>
 </li>
 <li>
-<p>サブスクリプションを確認するには、 * Keystone Flex Subscription * に戻ってください。</p>
+<p>Keystoneサブスクリプション*に戻ってサブスクリプションを確認してください。</p>
 <div class="paragraph">
-<p><span class="image"><img src="https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/media/screenshot-keystone-overview.png" alt="Keystone Flex Subscriptions のリストを示すスクリーンショット。"></span></p>
+<p><span class="image"><img src="https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/media/screenshot-keystone-overview.png" alt="Keystoneサブスクリプションのリストを示すスクリーンショット。"></span></p>
 </div>
 </li>
 </ol>
@@ -753,7 +756,7 @@
 <h2 id="サブスクリプションをリンクします">サブスクリプションをリンクします</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>ネットアップがアカウントを承認したら、 Keystone Flex Subscriptions をリンクして Cloud Volumes ONTAP で使用できるようにする必要があります。この操作により、新しい Cloud Volumes ONTAP システムの充電方法としてサブスクリプションを選択できます。</p>
+<p>ネットアップがお客様のアカウントを承認したら、Cloud Volumes ONTAP で使用するためにKeystoneサブスクリプションをリンクする必要があります。この操作により、新しい Cloud Volumes ONTAP システムの充電方法としてサブスクリプションを選択できます。</p>
 </div>
 <div class="olist arabic">
 <div class="title">手順</div>
@@ -817,7 +820,7 @@
 <h2 id="サブスクリプションのリンクを解除します">サブスクリプションのリンクを解除します</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>新しい Cloud Volumes ONTAP システムで Keystone Flex サブスクリプションを使用する必要がなくなった場合は、サブスクリプションのリンクを解除できます。既存の Cloud Volumes ONTAP サブスクリプションに関連付けられていないサブスクリプションはリンク解除のみ可能です。</p>
+<p>新しいCloud Volumes ONTAP システムでKeystoneサブスクリプションを使用する必要がなくなった場合は、サブスクリプションのリンクを解除できます。既存の Cloud Volumes ONTAP サブスクリプションに関連付けられていないサブスクリプションはリンク解除のみ可能です。</p>
 </div>
 <div class="olist arabic">
 <div class="title">手順</div>

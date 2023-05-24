@@ -42,6 +42,7 @@
   <link rel="alternate" hreflang="de" href="https://docs.netapp.com/de-de/bluexp-digital-wallet/task-manage-node-based-licenses.html" />
   <link rel="alternate" hreflang="es" href="https://docs.netapp.com/es-es/bluexp-digital-wallet/task-manage-node-based-licenses.html" />
   <link rel="alternate" hreflang="fr" href="https://docs.netapp.com/fr-fr/bluexp-digital-wallet/task-manage-node-based-licenses.html" />
+  <link rel="alternate" hreflang="it" href="https://docs.netapp.com/it-it/bluexp-digital-wallet/task-manage-node-based-licenses.html" />
   <link rel='stylesheet' href='/ja-jp/bluexp-digital-wallet/css/na-feature.css' type='text/css'><!-- Top level site integrations --><script>
     function addAdobeLaunch(adobeId) {
       var head = document.getElementsByTagName('head')[0];
@@ -176,7 +177,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/bluexp-digital-wallet/issues/new?body=Page%3A%20[ノードベースのライセンスを管理します](https://docs.netapp.com/ja-jp/bluexp-digital-wallet/task-manage-node-based-licenses.html)&template=public-issue-template.md" class="page-nav-contribute-link" role="button"><img src="/ja-jp/bluexp-digital-wallet/images/discuss-sm.svg" alt="" class="github-icon" />ドキュメントの変更をリクエスト</a><a target="_blank" href="https://github.com/NetAppDocs/bluexp-digital-wallet/blob/main/task-manage-node-based-licenses.adoc" class="page-nav-contribute-link" role="button"><img src="/ja-jp/bluexp-digital-wallet/images/edit-sm.svg" alt="" class="github-icon" />GitHub で編集</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ja-jp/bluexp-digital-wallet/images/article-sm.svg" alt="" class="github-icon" />寄稿者向けガイド</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/bluexp-digital-wallet.ja-jp/issues/new?template=new-from-page.yml&page-url=https://docs.netapp.com/ja-jp/bluexp-digital-wallet/task-manage-node-based-licenses.html&page-title=ノードベースのライセンスを管理します" class="page-nav-contribute-link" role="button"><img src="/ja-jp/bluexp-digital-wallet/images/discuss-sm.svg" alt="" class="github-icon" />ドキュメントの変更をリクエスト</a><a target="_blank" href="https://github.com/NetAppDocs/bluexp-digital-wallet/blob/main/task-manage-node-based-licenses.adoc" class="page-nav-contribute-link" role="button"><img src="/ja-jp/bluexp-digital-wallet/images/edit-sm.svg" alt="" class="github-icon" />GitHub で編集</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ja-jp/bluexp-digital-wallet/images/article-sm.svg" alt="" class="github-icon" />寄稿者向けガイド</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">このページ</div>
@@ -269,8 +270,8 @@
           data-did-you-mean="{suggestion} を検索"
           data-no-results-found-did-you-mean="{query} に該当する結果はありません。{suggestion} の間違いではありませんか?"
           data-results-found="{hitCount} 件見つかりました"
-          data-error-message="We're sorry, an issue occurred when fetching your results. Please try again."
-          data-error-reset="Reset Search"
+          data-error-message="検索結果の取得中に問題が発生しました。もう一度お試しください。"
+          data-error-reset="検索をリセット"
           data-sk-es-pf-indexes=""
           data-flavor=""></div>
           <button class="n-property-bar__search-toggle-button" type="button">
@@ -311,6 +312,8 @@
           <a href="https://docs.netapp.com/es-es/bluexp-digital-wallet/task-manage-node-based-licenses.html" target="_self"><span translate="no" class="notranslate">Español</span></a>
         </li><li>
           <a href="https://docs.netapp.com/fr-fr/bluexp-digital-wallet/task-manage-node-based-licenses.html" target="_self"><span translate="no" class="notranslate">Français</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/it-it/bluexp-digital-wallet/task-manage-node-based-licenses.html" target="_self"><span translate="no" class="notranslate">Italiano</span></a>
         </li></ul>
     </div>
     <!-- End Language Selector -->
@@ -688,7 +691,7 @@
 <p class="page-details">
   
     
-    <time datetime="2023-04-21 15:55:58 +0000">04/21/2023</time>
+    <time datetime="2023-05-24 00:12:06 +0000">05/24/2023</time>
     
   
 
@@ -701,7 +704,7 @@
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph lead">
-<p>デジタルウォレットでノードベースライセンスを管理し、各Cloud Volumes ONTAP システムに必要な容量を含む有効なライセンスがあることを確認します。</p>
+<p>BlueXPデジタルウォレットでノードベースライセンスを管理し、各Cloud Volumes ONTAP システムに必要な容量を含む有効なライセンスがあることを確認する。</p>
 </div>
 <div class="paragraph">
 <p>ノードベースライセンス _ は旧世代のライセンスモデルです（新規のお客様は使用できません）。</p>
@@ -717,7 +720,7 @@
 </ul>
 </div>
 <div class="paragraph">
-<p>_Digital Wallet では、 Cloud Volumes ONTAP のライセンスを 1 箇所から管理できます。新しいライセンスを追加したり、既存のライセンスを更新したりできます。</p>
+<p>BlueXPデジタルウォレット_を使用すると、Cloud Volumes ONTAP のライセンスを1つの場所から管理できます。新しいライセンスを追加したり、既存のライセンスを更新したりできます。</p>
 </div>
 <div class="paragraph">
 <p><a href="https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html">"Cloud Volumes ONTAP ライセンスの詳細については、こちらをご覧ください"</a>。</p>
@@ -728,7 +731,7 @@
 <h2 id="paygo-ライセンスを管理します">PAYGO ライセンスを管理します</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>デジタルウォレットページでは、シリアル番号と PAYGO ライセンスタイプを含む、 PAYGO Cloud Volumes ONTAP の各システムに関する詳細を表示できます。</p>
+<p>BlueXPのデジタルウォレットページでは、各PAYGO Cloud Volumes ONTAP システムの詳細（シリアル番号やPAYGOライセンスタイプなど）を確認できます。</p>
 </div>
 <div class="olist arabic">
 <div class="title">手順</div>
@@ -745,7 +748,7 @@
 <li>
 <p>PAYGO ライセンスごとに詳細を表に示します。</p>
 <div class="paragraph">
-<p><span class="image"><img src="https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/media/screenshot_paygo_licenses.png" alt="3 つのペイゴライセンスを含むデジタルウォレットページの表を示すスクリーンショット。各行には、名前、システムのタイプ、シリアル番号、パッケージ、およびライセンスを管理するためのリンクが表示されます。"></span></p>
+<p><span class="image"><img src="https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/media/screenshot_paygo_licenses.png" alt="BlueXPのデジタルウォレットページの表のスクリーンショット。3つの有料ライセンスが含まれています。各行には、名前、システムのタイプ、シリアル番号、パッケージ、およびライセンスを管理するためのリンクが表示されます。"></span></p>
 </div>
 </li>
 <li>
@@ -764,7 +767,7 @@
 <div class="sect2">
 <h3 id="未割り当てのライセンスを追加します">未割り当てのライセンスを追加します</h3>
 <div class="paragraph">
-<p>ノードベースのライセンスをデジタルウォレットに追加して、新しい Cloud Volumes ONTAP システムの作成時にライセンスを選択できるようにします。デジタルウォレットは、これらのライセンスを _unassigned _ として識別します。</p>
+<p>新しいCloud Volumes ONTAP システムの作成時にライセンスを選択できるように、BlueXPデジタルウォレットにノードベースライセンスを追加します。デジタルウォレットは、これらのライセンスを_unassigned_として識別します。</p>
 </div>
 <div class="olist arabic">
 <div class="title">手順</div>
@@ -794,13 +797,13 @@
 </div>
 <div class="paragraph">
 <div class="title">結果</div>
-<p>BlueXPは、デジタルウォレットにライセンスを追加します。ライセンスは、新しい Cloud Volumes ONTAP システムに関連付けるまでは未割り当てとみなされます。その場合、ライセンスはデジタルウォレットの *BYOL * タブに移動します。</p>
+<p>BlueXPはデジタルウォレットにライセンスを追加します。ライセンスは、新しい Cloud Volumes ONTAP システムに関連付けるまでは未割り当てとみなされます。その後、ライセンスはデジタルウォレットの* BYOL *タブに移動します。</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="未割り当てのノードベースライセンスを交換します">未割り当てのノードベースライセンスを交換します</h3>
 <div class="paragraph">
-<p>Cloud Volumes ONTAP 用の未割り当てのノードベースライセンスがあり、使用していない場合は、そのライセンスを Cloud Backup ライセンス、 Cloud Data Sense ライセンス、 Cloud Tiering ライセンスに変換することでライセンスを交換できます。</p>
+<p>Cloud Volumes ONTAP の未割り当てのノードベースライセンスがある場合は、BlueXPバックアップおよびリカバリライセンス、BlueXP分類ライセンス、またはBlueXP階層化ライセンスに変換することでライセンスを交換できます。</p>
 </div>
 <div class="paragraph">
 <p>ライセンスを交換すると、 Cloud Volumes ONTAP ライセンスが取り消され、サービスのドル相当ライセンスが作成されます。</p>
