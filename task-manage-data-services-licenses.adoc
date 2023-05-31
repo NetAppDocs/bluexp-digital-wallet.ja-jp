@@ -10,7 +10,7 @@ summary: BlueXPのデジタルウォレットでは、ネットアップから�
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: https://docs.netapp.com/us-en/cloud-manager-backup-restore/media/
+:imagesdir: https://docs.netapp.com/us-en/bluexp-backup-recovery/media/
 
 
 [role="lead"]
@@ -18,9 +18,9 @@ BlueXPのデジタルウォレットでは、ネットアップから直接購�
 
 このページの手順には、環境 の各サービスに関する情報が記載されています。これらのサービスのライセンスの詳細については、次のページを参照してください。
 
-* https://docs.netapp.com/us-en/cloud-manager-backup-restore/task-licensing-cloud-backup.html["BlueXPのバックアップとリカバリのライセンスをセットアップ"^]
-* https://docs.netapp.com/us-en/cloud-manager-data-sense/task-licensing-datasense.html["BlueXP分類用のライセンスをセットアップ"^]
-* https://docs.netapp.com/us-en/cloud-manager-tiering/task-licensing-cloud-tiering.html["BlueXP階層化のライセンスをセットアップ"^]
+* https://docs.netapp.com/us-en/bluexp-backup-recovery/task-licensing-cloud-backup.html["BlueXPのバックアップとリカバリのライセンスをセットアップ"^]
+* https://docs.netapp.com/us-en/bluexp-classification/task-licensing-datasense.html["BlueXP分類用のライセンスをセットアップ"^]
+* https://docs.netapp.com/us-en/bluexp-tiering/task-licensing-cloud-tiering.html["BlueXP階層化のライセンスをセットアップ"^]
 
 
 
@@ -58,7 +58,7 @@ BlueXPデータサービスのライセンスを購入したら、ライセン�
 +
 ** シリアル番号をお持ちでNSSアカウントがわかっている場合は、*[シリアル番号の入力]*オプションを選択してその情報を入力します。
 +
-お使いのNetApp Support Siteのアカウントがドロップダウンリストにない場合は、 https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-nss-accounts.html["NSSアカウントをBlueXPに追加します"^]
+お使いのNetApp Support Siteのアカウントがドロップダウンリストにない場合は、 https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["NSSアカウントをBlueXPに追加します"^]
 
 ** ライセンスファイル（BlueXPをプライベートモードで使用する場合に必要）がある場合は、*[ライセンスファイルのアップロード]*オプションを選択し、プロンプトに従ってファイルを添付します。
 +

@@ -10,7 +10,7 @@ summary: 各 Cloud Volumes ONTAP システムに必要な容量の有効なラ�
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/media/
+:imagesdir: https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/media/
 
 
 [role="lead"]
@@ -24,7 +24,7 @@ BlueXPデジタルウォレットでノードベースライセンスを管理�
 
 BlueXPデジタルウォレット_を使用すると、Cloud Volumes ONTAP のライセンスを1つの場所から管理できます。新しいライセンスを追加したり、既存のライセンスを更新したりできます。
 
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html["Cloud Volumes ONTAP ライセンスの詳細については、こちらをご覧ください"]。
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["Cloud Volumes ONTAP ライセンスの詳細については、こちらをご覧ください"]。
 
 
 
@@ -224,10 +224,10 @@ BlueXPが変換プロセスを開始しますCloud Volumes ONTAP は、このプ
 . 新しい Cloud Volumes ONTAP の作業環境を作成します。
 . レプリケートする必要があるボリュームごとに、システム間の1回限りのデータレプリケーションを設定します。
 +
-https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["システム間でデータをレプリケートする方法について説明します"^]
+https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["システム間でデータをレプリケートする方法について説明します"^]
 
 . 元の作業環境を削除して、不要になった Cloud Volumes ONTAP システムを終了します。
 +
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-deleting-working-env.html["Cloud Volumes ONTAP 作業環境を削除する方法について説明します"]。
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deleting-working-env.html["Cloud Volumes ONTAP 作業環境を削除する方法について説明します"]。
 
 

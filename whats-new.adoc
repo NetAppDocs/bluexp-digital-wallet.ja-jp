@@ -52,7 +52,7 @@ Eメール通知がBlueXPデジタルウォレットでサポートされるよ�
 
 通知を設定すると、BYOLライセンスの有効期限が近づいたとき（「警告」通知）、またはすでに有効期限が切れているとき（「エラー」通知）にEメール通知を受け取ることができます。
 
-https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-monitor-cm-operations.html["Eメール通知の設定方法については、こちらをご覧ください"^]
+https://docs.netapp.com/us-en/bluexp-setup-admin/task-monitor-cm-operations.html["Eメール通知の設定方法については、こちらをご覧ください"^]
 
 
 
@@ -110,7 +110,7 @@ https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-license
 
 に、アカウントの合計消費容量とライセンスパッケージ別の消費容量が表示されるようになりました。この情報は、料金の支払い方法や、容量の追加購入が必要かどうかを把握するのに役立ちます。
 
-image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-cloud-volumes-ontap/main/media/screenshot-digital-wallet-summary.png["容量ベースライセンスのページを示すスクリーンショット。アカウントの使用済み容量の概要が表示され、ライセンスパッケージ別に容量が表示されます。"]
+image:https://raw.githubusercontent.com/NetAppDocs/bluexp-cloud-volumes-ontap/main/media/screenshot-digital-wallet-summary.png["容量ベースライセンスのページを示すスクリーンショット。アカウントの使用済み容量の概要が表示され、ライセンスパッケージ別に容量が表示されます。"]
 
 
 

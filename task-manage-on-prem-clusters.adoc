@@ -19,8 +19,8 @@ BlueXPデジタルウォレットを使用すると、オンプレミスのONTAP
 .作業を開始する前に
 BlueXPデジタルウォレットには、作業環境として検出したオンプレミスのONTAP クラスタ、またはBlueXPに追加したNetApp Support Site アカウントに関連付けられているオンプレミスのクラスタに関する詳細が表示されます。
 
-* https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["オンプレミスのONTAP クラスタを検出する方法について説明します"^]
-* https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-nss-accounts.html["BlueXPアカウントに関連付けられたNSSクレデンシャルを管理する方法について説明します"^]
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["オンプレミスのONTAP クラスタを検出する方法について説明します"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["BlueXPアカウントに関連付けられたNSSクレデンシャルを管理する方法について説明します"^]
 
 
 
@@ -54,7 +54,7 @@ image:screenshot_digital_wallet_license_info.png["クラスタのライセンス
 .作業を開始する前に
 検出と管理のオプション（コネクタを使用した検出またはコネクタを使用しない直接検出）と検出の要件について理解しておく必要があります。
 
-https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["検出のオプションと要件について説明します"^]。
+https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["検出のオプションと要件について説明します"^]。
 
 .手順
 . BlueXPナビゲーションメニューから、* Governance > Digital Wallet *を選択します。
@@ -85,6 +85,6 @@ image:screenshot_onprem_cluster.png["キャンバス内のオンプレミス ONT
 
 これで、クラスタの管理を開始できます。
 
-* https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-manage-ontap-connector.html["コネクタを使用して検出されたクラスタを管理する方法について説明します"^]
-* https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-manage-ontap-direct.html["直接検出されたクラスタを管理する方法について説明します"^]
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-manage-ontap-connector.html["コネクタを使用して検出されたクラスタを管理する方法について説明します"^]
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-manage-ontap-direct.html["直接検出されたクラスタを管理する方法について説明します"^]
 

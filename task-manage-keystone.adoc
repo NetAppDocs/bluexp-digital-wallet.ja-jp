@@ -10,7 +10,7 @@ summary: Keystoneサブスクリプションサービスをデジタルウォレ
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/media/
+:imagesdir: https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/media/
 
 
 [role="lead"]
@@ -20,7 +20,7 @@ A_Keystoneサブスクリプション_は、ネットアップが提供する従
 
 BlueXPデジタルウォレット_を使用すると、Cloud Volumes ONTAP のライセンスを1つの場所から管理できます。新しいライセンスを追加したり、既存のライセンスを更新したりできます。
 
-https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-licensing.html["Cloud Volumes ONTAP ライセンスの詳細については、こちらをご覧ください"]。
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["Cloud Volumes ONTAP ライセンスの詳細については、こちらをご覧ください"]。
 
 
 
