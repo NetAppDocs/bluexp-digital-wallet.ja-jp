@@ -76,10 +76,7 @@
   <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">これらのシリアル番号は、通常PAY_GOシリアル番号と呼ばれ、Cloud Volumes ONTAP の導入時にBlueXPによって生成されます。</block>
   <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">お客様レベルのアカウントをお持ちの場合は、1つ以上のNSSアカウントを追加することもできます。</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">パートナーアカウントまたはリセラーアカウントをお持ちの場合は、1つ以上のNSSアカウントを追加することはできますが、お客様レベルのアカウントと一緒に追加することはできません。</block>
-  <block id="1afe19576f77bb0073c93359ed2cbb18" category="list-text">BlueXPコンソールの右上にある[ヘルプ]アイコンをクリックし、[*Support*]を選択します。</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">[ ヘルプ ] メニューのスクリーンショット。サポートは最初に表示されるオプションです</block>
-  <block id="d17d6b5dafebab6b7659da8850737e70" category="list-text">[*NSS Management] &gt; [Add NSS Account*] をクリックします。</block>
-  <block id="8aaf101e623c543c7eef3c65f6233366" category="list-text">メッセージが表示されたら、 [* Continue （続行） ] をクリックして Microsoft ログインページにリダイレクトします。</block>
   <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">ネットアップは、サポートとライセンスに固有の認証サービスのアイデンティティプロバイダとして Microsoft Azure Active Directory を使用しています。</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">ログインページで、NetApp Support Siteの登録 E メールアドレスとパスワードを入力して認証プロセスを実行します。</block>
   <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">これらのアクションにより、BlueXPはライセンスのダウンロード、ソフトウェアのアップグレード検証、および将来のサポート登録などの目的でNSSアカウントを使用できます。</block>
@@ -130,10 +127,7 @@
   <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">ネットアップサポートと一緒にケースを作成します</block>
   <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">上記のセルフサポートオプションに加え、サポートを有効にしたあとで問題が発生した場合は、ネットアップサポートの担当者と相談して解決できます。</block>
   <block id="8fece025a1a8fef7018449bf104a2527" category="paragraph-title">始める前に</block>
-  <block id="6254a4afeeb76765a127fe74d31c1b3d" category="list-text">BlueXPで、[ヘルプ]、[サポート]の順にクリックします。</block>
   <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">[*Resources*]ページで、[Technical Support]で次のいずれかのオプションを選択します。</block>
-  <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">電話の相手と話したい場合は、「*お電話」をクリックしてください。netapp.comのページに移動し、電話番号が表示されます。</block>
-  <block id="5be2e1dfe4bf215289731df45ec8157b" category="list-text">[ケースの作成]*をクリックして、ネットアップサポートスペシャリストとのチケットをオープンします。</block>
   <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*Service*:問題 が関連付けられているサービスを選択します。たとえば、サービス内のワークフローまたは機能を備えたテクニカルサポート問題 に固有のBlueXPなどです。</block>
   <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*作業環境*：ストレージに該当する場合は、* Cloud Volumes ONTAP *または*オンプレミス*を選択し、関連する作業環境を選択します。</block>
   <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">作業環境のリストは、サービスの上部バナーで選択したBlueXPアカウント、ワークスペース、コネクタの範囲内にあります。</block>
@@ -145,7 +139,6 @@
   <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">添付ファイルはファイルあたり25 MBに制限されています。サポートされているファイル拡張子は、txt、log、pdf、jpg/jpeg、rtf、 doc/docx、xls/xlsx、およびcsv。</block>
   <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">ネットアップサポートでケースを作成できるケースの作成フォームのスクリーンショット。</block>
   <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">ポップアップにサポートケース番号が表示されます。ネットアップのサポート担当者がケースを確認し、すぐに対応させていただきます。</block>
-  <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">サポートケースの履歴を確認するには、[*設定]、[タイムライン*]の順にクリックして、[サポートケースの作成]という名前のアクションを探します。 右端のボタンをクリックすると、アクションを展開して詳細を表示できます。</block>
   <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">ケースを作成しようとすると、次のエラーメッセージが表示される場合があります。</block>
   <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"選択したサービスに対してケースを作成する権限がありません"</block>
   <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">製品内のチャットを使用します</block>
@@ -161,10 +154,8 @@
   <block id="56dcadeee6b0e5c47a52673f9b5a0bb3" category="list-text">目的の列を追加または削除したり、[優先度]や[ステータス]などの列の内容をフィルタリングしたりできます。他の列には、並べ替え機能だけがあります。</block>
   <block id="6f936762e1223311f031685422fcd3a4" category="paragraph">詳細については、以下の手順を参照してください。</block>
   <block id="b14929795a61440e9b4ec9f8a4885ae3" category="list-text">ケースごとに、ケースノートを更新したり、ステータスが「Closed」または「Pending Closed」でないケースをクローズしたりすることができます。</block>
-  <block id="34b1296d31cefa72dae9b3a364b1f444" category="list-text">[ケース管理]*をクリックし、プロンプトが表示されたらNSSアカウントをBlueXPに追加します。</block>
   <block id="d8ce1865cf1fe3cffd60300b4b86ad63" category="paragraph">ケース管理*ページには、BlueXPユーザアカウントに関連付けられたNSSアカウントに関連するオープンケースが表示されます。これは、* NSS管理*ページの上部に表示されるNSSアカウントと同じです。</block>
   <block id="2ae5ae78bdb2d222f15fd8e89248709c" category="list-text">必要に応じて、テーブルに表示される情報を変更します。</block>
-  <block id="27635a52fe4c34c39ffc6430f4244ec6" category="list-text">[Organization's Cases]*で[View]*をクリックすると、会社に関連付けられているすべてのケースが表示されます。</block>
   <block id="059e856250b59be3069246887b74a23c" category="list-text">正確な日付範囲を選択するか、別の期間を選択して、日付範囲を変更します。</block>
   <block id="dfb3764bce2548df4e06357403f9c7d0" category="inline-image-macro">[Case Management]ページのテーブルの上にあるオプションのスクリーンショット。正確な日付範囲、または過去7日、30日、または3カ月を選択できます。</block>
   <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">列の内容をフィルタリングします。</block>
@@ -174,26 +165,17 @@
   <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">テーブルの最後の列に表示される3つの点を持つアイコン</block>
   <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*ケースの表示*:特定のケースの詳細を表示します。</block>
   <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*ケースノートの更新*：問題の詳細を入力するか、*ファイルのアップロード*を選択して最大5つのファイルを添付します。</block>
-  <block id="f791bc685c526af8296381acff10f6a0" category="list-text">*ケースをクローズ*：ケースをクローズする理由の詳細を入力し、*ケースをクローズ*をクリックします。</block>
   <block id="e93217b2f709a398ce3c0fb753beb05f" category="inline-image-macro">テーブルの最後の列でメニューを選択した後に実行できる操作を示すスクリーンショット。</block>
   <block id="e9598339aeb07702e2b24ef63fca36cc" category="doc">BlueXPデータサービスのライセンスを管理します</block>
   <block id="9733849463a86c6a043ab58c8ddf1ac4" category="paragraph">このページの手順には、環境 の各サービスに関する情報が記載されています。これらのサービスのライセンスの詳細については、次のページを参照してください。</block>
   <block id="73acd586df3bf9938d39f0e738d5c161" category="section-title">ライセンスファイルを取得します</block>
   <block id="f11bf973a6c8039ecfd0152979db21be" category="paragraph">ライセンスの購入後、BlueXPでライセンスをアクティブ化するには、シリアル番号とNSSアカウントを入力するか、ネットアップライセンスファイル（NLF）をアップロードします。次の手順は、 NLF ライセンスファイルを取得する方法を示しています。</block>
   <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link">NetApp Support Site</block>
-  <block id="80c4b6e3dfa1d4f33033585b7c74e7e9" category="list-text">にサインインします<block ref="fcc52edac3ce57829c48ee35d97a295d" category="inline-link-rx"></block> [ システム ] 、 [ ソフトウェアライセンス ] の順にクリックします。</block>
   <block id="5f734fc198c7d1b1aaf7c6893cc13cd2" category="list-text">ライセンスのシリアル番号を入力します。</block>
   <block id="5190e9ec018f5e661ec4b31ff1b34423" category="inline-image-macro">シリアル番号で検索したあとのライセンスの一覧を示すスクリーンショット。</block>
   <block id="193bccfc2cf277cad00678895e527b35" category="paragraph"><block ref="193bccfc2cf277cad00678895e527b35" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="a6cfac773f21906007a8ddf407596067" category="list-text">[* License Key] 列で、 [* Get NetApp License File* ] をクリックします。</block>
-  <block id="f68bf28051d836364652b5a91d1bcd3a" category="list-text">BlueXPアカウントID (これはサポートサイトではテナントIDと呼ばれます)を入力し'[*Submit*]をクリックしてライセンスファイルをダウンロードします</block>
-  <block id="56273f3344c87fabbf5196fba9816fff" category="inline-image-macro">ライセンスの取得ダイアログボックスを示すスクリーンショット。テナント ID を入力し、送信をクリックしてライセンスファイルをダウンロードします。</block>
-  <block id="7ca3a83129f844a42c263755a0fa4a32" category="paragraph"><block ref="7ca3a83129f844a42c263755a0fa4a32" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="257ff1df6b80ed0bf9b3463d53be79f9" category="paragraph">BlueXPアカウントIDを確認するには、BlueXPの上部にある[*Account*]ドロップダウンを選択し、アカウントの横にある[*Manage Account*]をクリックします。アカウント ID は、 [ 概要 ] タブにあります。</block>
   <block id="ec01ce5d7a75843507cddc0f1e980f6a" category="section-title">ライセンスを追加します</block>
   <block id="e57e44bf22e7fb35d0bc0ba9f8593a5b" category="paragraph">BlueXPデータサービスのライセンスを購入したら、ライセンスをBlueXPに追加する必要があります。</block>
-  <block id="8d080a0104c2b8b29f5fc2be913926af" category="list-text">BlueXPメニューから、「ガバナンス」&gt;「デジタルウォレット」をクリックし、「*データサービスライセンス*」タブを選択します。</block>
-  <block id="c1b2dc0798d3960e25b8a12c751f53ec" category="list-text">_ ライセンスの追加 _ ダイアログで、ライセンス情報を入力し、 * ライセンスの追加 * をクリックします。</block>
   <block id="929bfeada83228e2a76020a5050a605e" category="list-text">シリアル番号をお持ちでNSSアカウントがわかっている場合は、*[シリアル番号の入力]*オプションを選択してその情報を入力します。</block>
   <block id="bae190eec3db4a0dd635ae72756acde8" category="inline-link">NSSアカウントをBlueXPに追加します</block>
   <block id="6e2573cea3af840a0c24f94975047370" category="list-text">ライセンスファイル（BlueXPをプライベートモードで使用する場合に必要）がある場合は、*[ライセンスファイルのアップロード]*オプションを選択し、プロンプトに従ってファイルを添付します。</block>
@@ -205,10 +187,8 @@
   <block id="b2b168bd64a341a85c749cb61bba40cb" category="inline-xref">ライセンスファイルをNetApp Support Siteから入手します</block>
   <block id="5281a9b97c306047dc796d618670919d" category="list-text">可能です <block ref="2ee9df93e68c4a0ffa870dc00950ab97" category="inline-xref-macro-rx"></block>。</block>
   <block id="8f0a75d2d5a82f31f2cf069c3b0ee684" category="inline-image-macro">[ 詳細 ] アイコン</block>
-  <block id="99da83a7a226f8a0da83a88d51713f13" category="list-text">[_Data Services Licenses_]タブで、をクリックします <block ref="50acd719b1954eb4890c002b3b5e71a6" category="inline-image-macro-rx" type="image"></block> 更新するサービスシリアル番号の場合は、 ［ * ライセンスの更新 * ］ をクリックします。</block>
   <block id="3ce750f001c2369e23b68f3210d9f100" category="inline-image-macro">特定のサービスの [ ライセンスの更新 ] ボタンを選択するスクリーンショット。</block>
   <block id="9d37072f5a1b76b16e647a14826ade70" category="paragraph"><block ref="9d37072f5a1b76b16e647a14826ade70" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="41e921305ae1b027e5d364af4a2a9df2" category="list-text">_Update License_page で、ライセンスファイルをアップロードし、 * ライセンスの更新 * をクリックします。</block>
   <block id="34674441113c2bf2e8f3d38a0e8276bb" category="paragraph">BlueXPでライセンスが更新されます。</block>
   <block id="4edb70089cdbc18de22fa9ead5189bc8" category="section-title">アカウントを承認します</block>
   <block id="492847bcbc9ec0bd3075b612aa43e4a7" category="list-text">[Keystone ]*を選択します。</block>
@@ -276,9 +256,7 @@
   <block id="e65135bd79d15db91bec6c98a9f8dabe" category="list-text">オンプレミスONTAP *を選択します。</block>
   <block id="84c2c11254da9ee11c4482a60291186d" category="paragraph">各クラスタの行にソフトウェア契約とハードウェア契約の有効期限が表示されます。</block>
   <block id="6723aa6a44348a3e74720156abb41f28" category="paragraph">最初にNetApp Support Site （NSS）アカウントのクレデンシャルを入力するように求められたら、*[Add NSS Account]*を選択します。アカウントを追加すると、そのNSSアカウントに関連付けられているクラスタが表示されます。</block>
-  <block id="a28ac2453944ea9dd8226245843a732a" category="list-text">契約が有効期限に近づいている場合や期限切れになっている場合は、BlueXPコンソールの右下にあるチャットアイコンをクリックして、契約の延長をリクエストできます。</block>
   <block id="2dc127a72bebec759447c53e48d44a81" category="inline-image-macro">下キャレットアイコン</block>
-  <block id="fcc677fe098adab7dfc32abe993e374e" category="list-text">詳細を表示するには、をクリックします <block ref="88c68341c12fbc9f1bcf1c9927535845" category="inline-image-macro-rx" type="image"></block> をクリックしてクラスタ情報を展開します。</block>
   <block id="18f84cf96ce5861e5585468ef883b180" category="inline-image-macro">クラスタのライセンス情報を表示するためにクラスタを拡張したスクリーンショット。</block>
   <block id="5796086a716a7059f711cc33be934605" category="paragraph"><block ref="5796086a716a7059f711cc33be934605" category="inline-image-macro-rx" type="image"></block></block>
   <block id="20dbb48f93e265cf5e1f55346fd44629" category="section-title">クラスタを検出します</block>
@@ -288,8 +266,6 @@
   <block id="705316ae4d75d35f1e961cab58a5d5df" category="inline-image-macro">オンプレミスの ONTAP クラスタのデジタルウォレットページのスクリーンショット。</block>
   <block id="7d584a90892954972995f98a62f03440" category="paragraph"><block ref="7d584a90892954972995f98a62f03440" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e3c5f2c16e01a4bb5b1747361f4b1fdf" category="paragraph">ONTAP クラスタには、BlueXPで検出されたかどうかのステータスが表示されます。</block>
-  <block id="0cd51dae8d109dd3491432cc2fd0c1fa" category="list-text">BlueXPで管理するクラスタの[* Discover *（検出）]をクリックします。</block>
-  <block id="f024b01de8a49fd78376b5b34e191e05" category="list-text">Discover ONTAP Cluster_page で、 admin ユーザアカウントのパスワードを入力し、 * Discover * をクリックします。</block>
   <block id="8de100c0dba6b3831c0b2881ceb2cda0" category="inline-image-macro">ONTAP のクラスタ詳細ページの例を示すスクリーンショット：クラスタ管理 IP アドレス、ユーザ名、パスワード</block>
   <block id="357d0c6bce7e8c970eebbf9c77a986a3" category="paragraph"><block ref="357d0c6bce7e8c970eebbf9c77a986a3" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1a2fb7ccfa21c70443bb345dbcce015c" category="paragraph">クラスタ管理IPアドレスは、NetApp Support Site アカウントの情報に基づいて設定されています。</block>
@@ -442,7 +418,6 @@
   <block id="f5b39d30a98c93c6a597de76a3901496" category="inline-image-macro">BYOLライセンスを追加するページのスクリーンショット。</block>
   <block id="2ab8c9555cb0a7278c9c119126d09972" category="paragraph"><block ref="2ab8c9555cb0a7278c9c119126d09972" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8d16d75f7a68c03867a9fa6a0c1e8e53" category="paragraph">ライセンス期間が有効期限に近づいている場合、またはライセンス容量が上限に達している場合は、BlueXPのデジタルウォレットで通知されます。有効期限が切れる前にライセンスを更新して、BlueXPデータサービスの使用が中断されないようにすることができます。</block>
-  <block id="2778ca24e217e309a35a740dcd70d977" category="list-text">BlueXPの右下にあるチャットアイコンをクリックするか、サポートにお問い合わせください。特定のシリアル番号に対する契約期間の延長やライセンスの容量の追加をリクエストできます。</block>
   <block id="1b87732cda1ee77b5952013e06e1ac10" category="paragraph">ライセンスの料金を支払ってNetApp Support Site に登録すると、デジタルウォレット内のライセンスがBlueXPによって自動的に更新され、[Data Services Licenses]ページに5~10分で変更が反映されます。</block>
   <block id="d128bda2634e1051cc984231da065144" category="paragraph">Eメール通知がBlueXPデジタルウォレットでサポートされるようになりました。</block>
   <block id="016c818ed3128119f94a31cbec32bf1f" category="paragraph">Cloud Volumes ONTAP の容量単位のライセンスを表示する場合、BlueXPデジタルウォレットに、マーケットプレイスのプライベートオファーで購入したライセンス容量が表示されるようになりました。</block>
@@ -565,9 +540,7 @@
   <block id="509259be6d5e15d8959f705cbe0cbcc1" category="paragraph"><block ref="509259be6d5e15d8959f705cbe0cbcc1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0972db30d942fdb65d1732e6e84bde99" category="paragraph"><block ref="0972db30d942fdb65d1732e6e84bde99" category="inline-image-macro-rx" type="image"></block></block>
   <block id="cb6a777dd3c6e43b0dc441d38519d219" category="paragraph"><block ref="cb6a777dd3c6e43b0dc441d38519d219" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="0f6cac2f77150840994f84044fc1b12b" category="list-text">をクリックして、テーブルに表示される列を変更します <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> 次に、表示する列を選択します。</block>
   <block id="e65065c4fd326b9f3a1eeb9453c30d73" category="paragraph"><block ref="e65065c4fd326b9f3a1eeb9453c30d73" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="6ba7d68d8b3ef0f3398afb9d3ea96172" category="list-text">をクリックして既存のケースを管理します <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> 使用可能なオプションのいずれかを選択します。</block>
   <block id="2ea260929e27ffcb623c8aa35689bd18" category="paragraph"><block ref="2ea260929e27ffcb623c8aa35689bd18" category="inline-image-macro-rx" type="image"></block></block>
   <block id="920fe1428c19533eda6222fe7e58efbe" category="inline-link">BlueXPログインに関連付けられているクレデンシャルの管理方法について説明します</block>
   <block id="e1d2e1a634647fd631081bc4f6f8e523" category="list-text">[ケースの作成]*機能を使用するには、最初にNetApp Support SiteクレデンシャルをBlueXPログインに関連付ける必要があります。<block ref="2a0d8b66ca9e99d023b48cf25f40fb12" category="inline-link-rx"></block>。</block>
@@ -578,10 +551,7 @@
   <block id="e922b9aa0836a1d93e11cac0fe4c9004" category="paragraph">以下のクラウドプロバイダソリューションに関するテクニカルサポートについては、その製品のBlueXPドキュメントの「困ったときは」を参照してください。</block>
   <block id="5a19febf1dcb23c10e8dcfde64ba764c" category="section-title">NetAppサポートにBlueXPアカウントを登録します</block>
   <block id="6bbc2ba432f59ab65ee3d8ac5a58336e" category="paragraph">サポートに登録してサポート利用資格をアクティブ化するには、BlueXPアカウントの1人のユーザがNetApp Support SiteアカウントをBlueXPログインに関連付ける必要があります。ネットアップサポートへの登録方法は、NetApp Support Site （NSS）アカウントがあるかどうかによって異なります。</block>
-  <block id="b019ab068deba8494415cbd226ca0c4e" category="list-text">BlueXPコンソールの右上にある[設定]アイコンをクリックし、[資格情報*]を選択します。</block>
-  <block id="41e1e3cff4a07ce2ecc08e6c09f11092" category="list-text">[ユーザクレデンシャル]*をクリックします。</block>
   <block id="0c788a722f31f8f0cf36539ee04615cf" category="list-text">[NSSクレデンシャルの追加]*を選択し、NetApp Support Site（NSS）認証プロンプトに従います。</block>
-  <block id="8c916e828e9e5a3592c8cac4e25928be" category="list-text">登録プロセスが正常に完了したことを確認するには、[ヘルプ]アイコンをクリックし、*[サポート]*を選択します。</block>
   <block id="8add4eb0d3f6ce61d374f3df3ee4eadf" category="paragraph">[リソース]ページに、アカウントがサポートに登録されていることが表示されます。</block>
   <block id="10c56875db7a47f791d653e5d5bff0e9" category="inline-image-macro">アカウントのシリアル番号、緑のチェックボックス、サポート登録済みのテキストを示すスクリーンショット。</block>
   <block id="3d183819a15163ef2e2e7d9d764254a9" category="paragraph"><block ref="3d183819a15163ef2e2e7d9d764254a9" category="inline-image-macro-rx" type="image"></block></block>
@@ -598,4 +568,35 @@
   <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">Cloud Volumes ONTAP ソフトウェアを最新リリースにアップグレードしています</block>
   <block id="39f382b97080640c75604b5890f3a5d3" category="paragraph">NSSクレデンシャルをBlueXPアカウントに関連付ける方法は、BlueXPユーザログインに関連付けられたNSSアカウントとは異なります。</block>
   <block id="e3bc6d35311568d55f1c8ea11984b964" category="paragraph">これらのNSSクレデンシャルは、特定のBlueXPアカウントIDに関連付けられています。BlueXPアカウントに属するユーザは、*[サポート]&gt;[NSS管理]*からこれらのクレデンシャルにアクセスできます。</block>
+  <block id="0307a12e5749f8dd930472ee78f69d2c" category="list-text">BlueXPコンソールの右上で、[設定]アイコンを選択し、*[クレデンシャル]*を選択します。</block>
+  <block id="f19ab635e6d5f884a22ee4ce067fdbfd" category="list-text">[ユーザクレデンシャル]*を選択します。</block>
+  <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">登録プロセスが正常に完了したことを確認するには、[ヘルプ]アイコンを選択し、*[サポート]*を選択します。</block>
+  <block id="d889e6e7cc4c5509ab5b37f8fc894e46" category="list-text">BlueXPコンソールの右上で、[ヘルプ]アイコンを選択し、*[サポート]*を選択します。</block>
+  <block id="c0e0b7ff0de9558404e9b77ece42948a" category="list-text">[NSS Management]&gt;[Add NSS Account]*を選択します。</block>
+  <block id="85b9386ed443776127e099931d73448a" category="list-text">プロンプトが表示されたら、*続行*を選択してMicrosoftログインページにリダイレクトします。</block>
+  <block id="24586b03da03249c22a79822574b4e88" category="list-text">にサインインします<block ref="fcc52edac3ce57829c48ee35d97a295d" category="inline-link-rx"></block> をクリックし、*[システム]&gt;[ソフトウェアライセンス]*を選択します。</block>
+  <block id="929a00c33ff1e797afba661a33f187d7" category="list-text">[License Key]列で、[Get NetApp License File]*を選択します。</block>
+  <block id="3a9ab049ef9711b68ac94e0bc034cb30" category="list-text">BlueXPアカウントID（サポートサイトではテナントIDと呼ばれています）を入力し、*[送信]*を選択してライセンスファイルをダウンロードします。</block>
+  <block id="b2ca6ef178712312d4798385b0f225aa" category="inline-image-macro">[Get license]ダイアログボックスのスクリーンショット。テナントIDを入力し、[Submit]を選択してライセンスファイルをダウンロードします。</block>
+  <block id="dd7d821dbf8e495a16f2e05e456de274" category="paragraph"><block ref="dd7d821dbf8e495a16f2e05e456de274" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="19a9d224e357593876fd44c3faede4ab" category="paragraph">BlueXPアカウントIDを確認するには、BlueXPの上部にある*[アカウント]*ドロップダウンを選択し、アカウントの横にある*[アカウントの管理]*を選択します。アカウント ID は、 [ 概要 ] タブにあります。</block>
+  <block id="519fe268f292c638e02a4e5bb7ab4dc1" category="list-text">BlueXPのメニューで* Governance &gt; Digital Wallet *を選択し、* Data Services Licenses *タブを選択します。</block>
+  <block id="c8508c0ce4da6dc634b7c66b1df15681" category="list-text">「 * ライセンスの追加 * 」を選択します。</block>
+  <block id="07a27581558b890ee2ba077c2fa844c8" category="list-text">[Add License]ダイアログで、ライセンス情報を入力し、*[Add License]*を選択します。</block>
+  <block id="4b70edd030d1f35b77e145be7305309a" category="list-text">BlueXPの右下にあるチャットアイコンを選択するか、サポートに連絡して、特定のシリアル番号に対する契約期間の延長やライセンスの容量の追加をリクエストしてください。</block>
+  <block id="bc5195c689315aceff2de5448f6b4288" category="list-text">Data Services Licenses_タブで、 <block ref="50acd719b1954eb4890c002b3b5e71a6" category="inline-image-macro-rx" type="image"></block> 更新するサービスのシリアル番号について、*[ライセンスの更新]*を選択します。</block>
+  <block id="48b5477be67ccdb4b19274cd4f66193d" category="list-text">[_Update License_]ページで、ライセンスファイルをアップロードし、*[Update License]*を選択します。</block>
+  <block id="7fe6981833e8fe7fd89e0a99a55573da" category="list-text">BlueXPで、*[ヘルプ]&gt;[サポート]*を選択します。</block>
+  <block id="6a1b74969231967ed071d465206b15c7" category="list-text">電話で誰かと話をしたい場合は、*[電話]*を選択します。netapp.comのページに移動し、電話番号が表示されます。</block>
+  <block id="d65a2a6fc9caad1867728d4382eeb989" category="list-text">[ケースの作成]*を選択して、NetAppサポートスペシャリストとのチケットをオープンします。</block>
+  <block id="0ff9b4b8684b9e03c9c1e1320935eae3" category="paragraph">サポートケースの履歴を確認するには、*[設定]&gt;[タイムライン]*を選択し、「サポートケースの作成」というアクションを検索します。 右端のボタンをクリックすると、アクションを展開して詳細を表示できます。</block>
+  <block id="0a4050ac39772e9281a9aba225254bf8" category="list-text">[ケース管理]*を選択し、プロンプトが表示されたらNSSアカウントをBlueXPに追加します。</block>
+  <block id="1d39d3ab518e1e3f16cbafb2a56e1fd9" category="list-text">[Organization's Cases]*で[View]*を選択すると、会社に関連付けられているすべてのケースが表示されます。</block>
+  <block id="cdf14d2156528231a5dbd12ad5c95d3f" category="list-text">テーブルに表示される列を変更するには、 <block ref="b574dd55d604ddb721d869a0fc302007" category="inline-image-macro-rx" type="image"></block> 次に、表示する列を選択します。</block>
+  <block id="348552521b849746260fe8d296d34c15" category="list-text">既存のケースを管理するには、 <block ref="566c029d89e7d5421080767a37bf443e" category="inline-image-macro-rx" type="image"></block> 使用可能なオプションのいずれかを選択します。</block>
+  <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">*ケースをクローズ*：ケースをクローズする理由の詳細を入力し、*ケースをクローズ*を選択します。</block>
+  <block id="78318c51194a56aa899abf4c464f0902" category="list-text">契約が有効期限に近づいている場合や期限切れになっている場合は、BlueXPコンソールの右下にあるチャットアイコンを選択して、契約の延長をリクエストできます。</block>
+  <block id="093ebe6e7f093a5d0ba33d387ce15bd0" category="list-text">詳細を表示するには、 <block ref="88c68341c12fbc9f1bcf1c9927535845" category="inline-image-macro-rx" type="image"></block> をクリックしてクラスタ情報を展開します。</block>
+  <block id="dd7c2502d7fdbd07b536ab7c70be2609" category="list-text">BlueXPで管理するクラスタの*[検出]*を選択します。</block>
+  <block id="65fd12713cafdbaee90c518b8e719b8a" category="list-text">[Discover ONTAP Cluster_]ページで、管理者ユーザアカウントのパスワードを入力し、*[Discover]*を選択します。</block>
 </blocks>

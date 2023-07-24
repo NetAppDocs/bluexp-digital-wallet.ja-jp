@@ -30,18 +30,18 @@ BlueXPのデジタルウォレットでは、ネットアップから直接購�
 ライセンスの購入後、BlueXPでライセンスをアクティブ化するには、シリアル番号とNSSアカウントを入力するか、ネットアップライセンスファイル（NLF）をアップロードします。次の手順は、 NLF ライセンスファイルを取得する方法を示しています。
 
 .手順
-. にサインインします https://mysupport.netapp.com["NetApp Support Site"^] [ システム ] 、 [ ソフトウェアライセンス ] の順にクリックします。
+. にサインインします https://mysupport.netapp.com["NetApp Support Site"^] をクリックし、*[システム]>[ソフトウェアライセンス]*を選択します。
 . ライセンスのシリアル番号を入力します。
 +
 image:screenshot_cloud_backup_license_step1.gif["シリアル番号で検索したあとのライセンスの一覧を示すスクリーンショット。"]
 
-. [* License Key] 列で、 [* Get NetApp License File* ] をクリックします。
-. BlueXPアカウントID (これはサポートサイトではテナントIDと呼ばれます)を入力し'[*Submit*]をクリックしてライセンスファイルをダウンロードします
+. [License Key]列で、[Get NetApp License File]*を選択します。
+. BlueXPアカウントID（サポートサイトではテナントIDと呼ばれています）を入力し、*[送信]*を選択してライセンスファイルをダウンロードします。
 +
-image:screenshot_cloud_backup_license_step2.gif["ライセンスの取得ダイアログボックスを示すスクリーンショット。テナント ID を入力し、送信をクリックしてライセンスファイルをダウンロードします。"]
+image:screenshot_cloud_backup_license_step2.gif["[Get license]ダイアログボックスのスクリーンショット。テナントIDを入力し、[Submit]を選択してライセンスファイルをダウンロードします。"]
 
 +
-BlueXPアカウントIDを確認するには、BlueXPの上部にある[*Account*]ドロップダウンを選択し、アカウントの横にある[*Manage Account*]をクリックします。アカウント ID は、 [ 概要 ] タブにあります。
+BlueXPアカウントIDを確認するには、BlueXPの上部にある*[アカウント]*ドロップダウンを選択し、アカウントの横にある*[アカウントの管理]*を選択します。アカウント ID は、 [ 概要 ] タブにあります。
 
 
 
@@ -52,9 +52,9 @@ BlueXPアカウントIDを確認するには、BlueXPの上部にある[*Account
 BlueXPデータサービスのライセンスを購入したら、ライセンスをBlueXPに追加する必要があります。
 
 .手順
-. BlueXPメニューから、「ガバナンス」>「デジタルウォレット」をクリックし、「*データサービスライセンス*」タブを選択します。
-. [ ライセンスの追加 ] をクリックします。
-. _ ライセンスの追加 _ ダイアログで、ライセンス情報を入力し、 * ライセンスの追加 * をクリックします。
+. BlueXPのメニューで* Governance > Digital Wallet *を選択し、* Data Services Licenses *タブを選択します。
+. 「 * ライセンスの追加 * 」を選択します。
+. [Add License]ダイアログで、ライセンス情報を入力し、*[Add License]*を選択します。
 +
 ** シリアル番号をお持ちでNSSアカウントがわかっている場合は、*[シリアル番号の入力]*オプションを選択してその情報を入力します。
 +
@@ -80,18 +80,18 @@ BlueXPにライセンスが追加されました。
 image:screenshot_services_license_expire.png["Digital Wallet ページに期限切れになるライセンスを示すスクリーンショット。"]
 
 .手順
-. BlueXPの右下にあるチャットアイコンをクリックするか、サポートにお問い合わせください。特定のシリアル番号に対する契約期間の延長やライセンスの容量の追加をリクエストできます。
+. BlueXPの右下にあるチャットアイコンを選択するか、サポートに連絡して、特定のシリアル番号に対する契約期間の延長やライセンスの容量の追加をリクエストしてください。
 +
 ライセンスの料金を支払ってNetApp Support Site に登録すると、デジタルウォレット内のライセンスがBlueXPによって自動的に更新され、[Data Services Licenses]ページに5~10分で変更が反映されます。
 
 . BlueXPでライセンスを自動的に更新できない場合（BlueXPをプライベートモードで使用している場合など）は、ライセンスファイルを手動でアップロードする必要があります。
 +
 .. 可能です <<ライセンスファイルを取得します,ライセンスファイルをNetApp Support Siteから入手します>>。
-.. [_Data Services Licenses_]タブで、をクリックします image:screenshot_horizontal_more_button.gif["[ 詳細 ] アイコン"] 更新するサービスシリアル番号の場合は、 ［ * ライセンスの更新 * ］ をクリックします。
+.. Data Services Licenses_タブで、 image:screenshot_horizontal_more_button.gif["[ 詳細 ] アイコン"] 更新するサービスのシリアル番号について、*[ライセンスの更新]*を選択します。
 +
 image:screenshot_services_license_update1.png["特定のサービスの [ ライセンスの更新 ] ボタンを選択するスクリーンショット。"]
 
-.. _Update License_page で、ライセンスファイルをアップロードし、 * ライセンスの更新 * をクリックします。
+.. [_Update License_]ページで、ライセンスファイルをアップロードし、*[Update License]*を選択します。
 
 
 
