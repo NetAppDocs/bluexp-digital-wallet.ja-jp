@@ -473,7 +473,6 @@
   <block id="baf09c6c43fd26effd8f15e252649384" category="list-text">PAYGOの合計容量</block>
   <block id="76101a2de96d735db21249323914bc6c" category="list-text">* Cloud Volumes ONTAP パッケージの使用状況*：このレポートには、デジタルウォレット内のパッケージカードに記載されている内容が正確に表示されます。最適化されたI/Oパッケージを除く各パッケージについて、次の情報が含まれています。</block>
   <block id="c01bbdbe6721d80a74779e943243486b" category="list-text">* Storage VMの使用量*：このレポートは、Cloud Volumes ONTAP システムとStorage Virtual Machine（SVM）全体で、課金された容量の内訳を表示します。この情報は、デジタルウォレットのどの画面にも表示されません。次の情報が含まれています。</block>
-  <block id="b16bfcaa9b0651f05b8e8894a2aebb31" category="list-text">作業環境ID（UUIDとして表示）</block>
   <block id="c8e2277ecfb1427838c488c217f99466" category="list-text">クラウド</block>
   <block id="4736cd35bf5b3fe63e1b1785fb2aa664" category="list-text">ネットアップアカウントID</block>
   <block id="bbfa34e8af02138b821f784c8962669b" category="list-text">作業環境の設定</block>
@@ -599,4 +598,16 @@
   <block id="093ebe6e7f093a5d0ba33d387ce15bd0" category="list-text">詳細を表示するには、 <block ref="88c68341c12fbc9f1bcf1c9927535845" category="inline-image-macro-rx" type="image"></block> をクリックしてクラスタ情報を展開します。</block>
   <block id="dd7c2502d7fdbd07b536ab7c70be2609" category="list-text">BlueXPで管理するクラスタの*[検出]*を選択します。</block>
   <block id="65fd12713cafdbaee90c518b8e719b8a" category="list-text">[Discover ONTAP Cluster_]ページで、管理者ユーザアカウントのパスワードを入力し、*[Discover]*を選択します。</block>
+  <block id="c94e28d852ce517312825c9ed339fc1d" category="section-title">2023年7月30日</block>
+  <block id="ee4272223579f1299444d14f2d185eb5" category="section-title">使用状況レポートの機能拡張</block>
+  <block id="c1ab40aac4724ff5a3b9540c19eed579" category="paragraph">Cloud Volumes ONTAP使用状況レポートにいくつかの改善点が追加されました。</block>
+  <block id="4c63050f1e33aa32db50cc80b682e805" category="list-text">TiB単位が列名に追加されました。</block>
+  <block id="c352c835cf612ee328fb7dba772bce4d" category="list-text">シリアル番号の新しい_node_fieldが追加されました。</block>
+  <block id="f949b800c66bf942c10c1e2b5847f5cf" category="list-text">[Storage VMs]使用状況レポートに新しい_Workload Type_columnが追加されました。</block>
+  <block id="9f02e3f417792785e27aead6a388ce7b" category="list-text">作業環境の名前がStorage VMとボリュームの使用状況レポートに表示されるようになりました。</block>
+  <block id="001f2392fde5e9977a349af817fa07e9" category="list-text">ボリュームタイプ_file_に_Primary（Read/Write）_というラベルが付けられます。</block>
+  <block id="af30dca925032347d49fd49d710f0164" category="list-text">ボリュームタイプ_secondary_のラベルが_secondary（DP）_に変更されました。</block>
+  <block id="2bb2d72e1ff09fcf49ad52f3b153b014" category="paragraph">使用状況レポートの詳細については、を参照してください。<block ref="8b82f3e29419f7f039b88f8e9f60bf47" category="inline-link-rx"></block></block>
+  <block id="4a9ebfe4f0e3302083955176f47a9519" category="list-text">作業環境のIDと名前（UUIDとして表示）</block>
+  <block id="427af860f9733f0c5427a1408195bb2b" category="list-text">ワークロードの種類</block>
 </blocks>

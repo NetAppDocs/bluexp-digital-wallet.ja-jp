@@ -107,7 +107,7 @@ image:screenshot-digital-wallet-usage-report.png["スクリーンショットは
 
 * * Storage VMの使用量*：このレポートは、Cloud Volumes ONTAP システムとStorage Virtual Machine（SVM）全体で、課金された容量の内訳を表示します。この情報は、デジタルウォレットのどの画面にも表示されません。次の情報が含まれています。
 +
-** 作業環境ID（UUIDとして表示）
+** 作業環境のIDと名前（UUIDとして表示）
 ** クラウド
 ** ネットアップアカウントID
 ** 作業環境の設定
@@ -118,11 +118,12 @@ image:screenshot-digital-wallet-usage-report.png["スクリーンショットは
 ** Cloud Volumes ONTAP パッケージまたは機能
 ** 課金SaaS Marketplaceサブスクリプション名
 ** 課金SaaS MarketplaceサブスクリプションID
+** ワークロードの種類
 
 
 * *ボリュームの使用量*：このレポートは、使用済み容量が作業環境内のボリューム別に内訳で表示されます。この情報は、デジタルウォレットのどの画面にも表示されません。次の情報が含まれています。
 +
-** 作業環境ID（UUIDとして表示）
+** 作業環境のIDと名前（UUIDとして表示）
 ** SVN名
 ** ボリューム ID
 ** ボリュームタイプ
