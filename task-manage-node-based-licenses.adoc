@@ -13,7 +13,7 @@ summary: 各 Cloud Volumes ONTAP システムに必要な容量の有効なラ�
 :imagesdir: https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/media/
 
 
-[role="lead"]
+[role="lead lead"]
 BlueXPデジタルウォレットでノードベースライセンスを管理し、各Cloud Volumes ONTAP システムに必要な容量を含む有効なライセンスがあることを確認する。
 
 ノードベースライセンス _ は旧世代のライセンスモデルです（新規のお客様は使用できません）。

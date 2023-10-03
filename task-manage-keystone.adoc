@@ -13,7 +13,7 @@ summary: Keystoneサブスクリプションサービスをデジタルウォレ
 :imagesdir: https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/media/
 
 
-[role="lead"]
+[role="lead lead"]
 KeystoneサブスクリプションをCloud Volumes ONTAP で使用できるようにすることで、BlueXPのデジタルウォレットから管理できます。コミット済み容量に対する変更を要求したり、サブスクリプションのリンクを解除したりすることもできます。
 
 A_Keystoneサブスクリプション_は、ネットアップが提供する従量課金制のストレージサービスです。
