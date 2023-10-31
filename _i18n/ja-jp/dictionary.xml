@@ -193,8 +193,6 @@
   <block id="492847bcbc9ec0bd3075b612aa43e4a7" category="list-text">[Keystone ]*を選択します。</block>
   <block id="daf4ae396784c74ec2cbf002eaaa25f4" category="list-text">「 NetApp Keystone へようこそ」ページが表示された場合は、ページに記載されているアドレスにメールを送信してください。</block>
   <block id="16692c26ca4528e651bbb36d93c465c7" category="paragraph">ネットアップの担当者は、お客様のユーザアカウントに登録へのアクセスを許可することで、リクエストを処理します。</block>
-  <block id="58eaebf972358f1cf03d386a4ade1a0f" category="paragraph-title">次の手順</block>
-  <block id="18dea2097f201a1ab3eb6d3305d42f0a" category="paragraph">Cloud Volumes ONTAP で使用するサブスクリプションをリンクします。</block>
   <block id="06f358c39bc3b4633cefd78beb67e671" category="section-title">サブスクリプションをリンクします</block>
   <block id="b0afff19aa3343a6f86619d833dbd316" category="inline-image-macro">横方向の 3 つの点を示すアイコン</block>
   <block id="fc6ada65ff8f08c80e7d6167f68c89c2" category="list-text">リンクするサブスクリプションの場合は、をクリックします <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> をクリックし、 * Link * を選択します。</block>
@@ -202,7 +200,6 @@
   <block id="53dd6d03631eca7d8e89d0d7d8cdeb77" category="paragraph"><block ref="53dd6d03631eca7d8e89d0d7d8cdeb77" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c01bba3f5cf220440d62298c4287d655" category="paragraph">これで、サブスクリプションがBlueXPアカウントにリンクされ、Cloud Volumes ONTAP 作業環境の作成時に選択できるようになりました。</block>
   <block id="1b02ed65c5ea56c85fffa6b88378d762" category="section-title">コミット済み容量を増やして申請してください</block>
-  <block id="51865ab5b1a727fd7b6804d74e80a1cd" category="paragraph">サブスクリプションのコミット済み容量を調整する必要がある場合は、BlueXPインターフェイスから直接リクエストを送信できます。</block>
   <block id="a2748c51966db7db689a8801f6ae4150" category="list-text">容量を調整するサブスクリプションの場合、をクリックします <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> をクリックし、 * 詳細を表示して編集 * を選択します。</block>
   <block id="56ecf988dec174f4d23028e78eeed82c" category="list-text">1 つ以上のサブスクリプションのコミット済み容量を入力します。</block>
   <block id="b21f9c14aa5cab57ac732dac504b7b63" category="inline-image-macro">サブスクリプションのコミット済み容量の変更を要求する機能を示すスクリーンショット。</block>
@@ -441,8 +438,6 @@
   <block id="314c4a4eeddb6d1cd1f813b95714f7a2" category="list-text">Google Cloudサブスクリプションがプライベートオファーに関連付けられていて、そのプライベートオファーが作成および承認された後に変更された場合は、「N/A」と表示されますこのシナリオでは、Google Cloud Marketplaceから受け取ったAPI応答に用語関連の情報は含まれていません。</block>
   <block id="3b3f3f7253f4c57a7eb145d69d119e28" category="list-text">Google Cloudプライベートオファーをお持ちの場合、契約オプションは利用できません。</block>
   <block id="885ce97feb1a2410a348b3f3764dee9d" category="list-text">Cloud Volumes ONTAP とともに使用するKeystoneサブスクリプションサービスを管理し、コミット済み容量の変更を申請する</block>
-  <block id="e29dbbc5408d2fe6da0ae9249031fad5" category="summary">Keystoneサブスクリプションサービスをデジタルウォレットから管理し、Cloud Volumes ONTAP で使用するサブスクリプションを有効にする。コミット済み容量に対する変更を要求したり、サブスクリプションのリンクを解除したりすることもできます。</block>
-  <block id="8cd29d21eeca72789ed2e573a1032dbd" category="doc">Keystoneサブスクリプションサービスを管理する</block>
   <block id="4112533811706ae9c45d956e68299f46" category="paragraph">BlueXPデジタルウォレットから容量ベースライセンスを管理して、ネットアップアカウントにCloud Volumes ONTAP システム用の十分な容量を確保します。</block>
   <block id="b37ea3f4c93245969c515634c741e9bf" category="paragraph">BlueXPデジタルウォレット_を使用すると、Cloud Volumes ONTAP のライセンスを1つの場所から管理できます。新しいライセンスを追加したり、既存のライセンスを更新したりできます。</block>
   <block id="03fc5be3f1d32a032f3da42181c0e6ed" category="section-title">BlueXPデジタルウォレットへのライセンスの追加方法</block>
@@ -490,14 +485,9 @@
   <block id="325ef46eb3d6b63c4d60ef08cdd6176f" category="inline-image-macro">BlueXPデジタルウォレットのCloud Volumes ONTAP ページのスクリーンショット。表のすぐ上に[Change Charging Method]ボタンがあります。</block>
   <block id="bdc5814154b1b181ca8722ef08ed8a28" category="paragraph"><block ref="bdc5814154b1b181ca8722ef08ed8a28" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d592a4e1d68c1047f1f5e39639bee6bf" category="paragraph">また、BlueXPのデジタルウォレットでは、変更に合わせてパッケージタイプごとの消費容量が更新されます。</block>
-  <block id="16c141e06e5f6ba408b4992a97c8b45f" category="paragraph">KeystoneサブスクリプションをCloud Volumes ONTAP で使用できるようにすることで、BlueXPのデジタルウォレットから管理できます。コミット済み容量に対する変更を要求したり、サブスクリプションのリンクを解除したりすることもできます。</block>
-  <block id="a99a383ab90c9f21375613d8a38ea1c8" category="paragraph">A_Keystoneサブスクリプション_は、ネットアップが提供する従量課金制のストレージサービスです。</block>
-  <block id="ef32689f1a32fe16e0893f8394486cba" category="paragraph">BlueXPでKeystoneサブスクリプションを使用および管理する前に、ネットアップに連絡して、KeystoneサブスクリプションでBlueXPユーザアカウントを承認する必要があります。</block>
   <block id="5da6315cfe65abaef2d0e00c90898ddc" category="list-text">Keystoneサブスクリプション*に戻ってサブスクリプションを確認してください。</block>
   <block id="3d6aabe991edb10f282fd60995e725ca" category="inline-image-macro">Keystoneサブスクリプションのリストを示すスクリーンショット。</block>
   <block id="6fd94fda3665b39867817d4700d184e8" category="paragraph"><block ref="6fd94fda3665b39867817d4700d184e8" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="b10dd47ec29edab7ffa21c2337ac7f5f" category="paragraph">ネットアップがお客様のアカウントを承認したら、Cloud Volumes ONTAP で使用するためにKeystoneサブスクリプションをリンクする必要があります。この操作により、新しい Cloud Volumes ONTAP システムの充電方法としてサブスクリプションを選択できます。</block>
-  <block id="7ec05ce6a514daa78763d92fa399d1b0" category="paragraph">新しいCloud Volumes ONTAP システムでKeystoneサブスクリプションを使用する必要がなくなった場合は、サブスクリプションのリンクを解除できます。既存の Cloud Volumes ONTAP サブスクリプションに関連付けられていないサブスクリプションはリンク解除のみ可能です。</block>
   <block id="990d530a36683451e6ac666b1b224270" category="paragraph">BlueXPデジタルウォレットでノードベースライセンスを管理し、各Cloud Volumes ONTAP システムに必要な容量を含む有効なライセンスがあることを確認する。</block>
   <block id="755544cd7e451192e8f70ab60b76986b" category="paragraph">BlueXPのデジタルウォレットページでは、各PAYGO Cloud Volumes ONTAP システムの詳細（シリアル番号やPAYGOライセンスタイプなど）を確認できます。</block>
   <block id="0ad53d9b2c46069812124453e75f768d" category="inline-image-macro">BlueXPのデジタルウォレットページの表のスクリーンショット。3つの有料ライセンスが含まれています。各行には、名前、システムのタイプ、シリアル番号、パッケージ、およびライセンスを管理するためのリンクが表示されます。</block>
@@ -614,4 +604,22 @@
   <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">クラウドプロバイダのファイルサービスのサポート</block>
   <block id="f6185bb12f5e53c800be8cda7fbca65b" category="paragraph">クラウドプロバイダのファイルサービスとそのインフラ、またはサービスを使用する解決策に関連するテクニカルサポートについては、該当する製品のBlueXPドキュメントの「困ったときは」を参照してください。</block>
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">BlueXPおよびそのストレージソリューションとサービスに固有のテクニカルサポートを受けるには、以下に記載されているサポートオプションを使用してください。</block>
+  <block id="3982145b9641373c27bb8d4756883699" category="inline-link">BlueXP（Standardモード）のサブスクライブ方法をご紹介します</block>
+  <block id="7f5bf22f42b3df7661bb90a8ee910f75" category="list-text"><block ref="7f5bf22f42b3df7661bb90a8ee910f75" category="inline-link-rx"></block></block>
+  <block id="7d546f7fc3c445881a171d5c7ee674c2" category="inline-link">BlueXP（制限モード）にサブスクライブする方法</block>
+  <block id="69dd33041899bf8cb4fdb69e6f455142" category="list-text"><block ref="69dd33041899bf8cb4fdb69e6f455142" category="inline-link-rx"></block></block>
+  <block id="c27b8e6a4f797d237583ca6d38a92cd6" category="summary">KeystoneサブスクリプションをBlueXPデジタルウォレットから管理するには、Cloud Volumes ONTAPで使用するサブスクリプションを有効にし、サブスクリプションのサービスレベルに応じてコミット済み容量の変更を要求します。サービスレベル用に容量の追加を要求すると、オンプレミスのONTAPクラスタやCloud Volumes ONTAPシステム用に追加のストレージが提供されます。</block>
+  <block id="52ba144dbaac8239e9b6d8e287db93dc" category="doc">Keystoneサブスクリプションを管理</block>
+  <block id="a3b1d6e06d4fd8ccc20c61ce51e45853" category="paragraph">NetApp Keystoneは、CAPEX（設備投資）やリースよりもOPEX（運用コスト）が望ましいお客様に、ハイブリッドクラウドエクスペリエンスを提供する、柔軟な従量課金制のサブスクリプションベースサービスです。</block>
+  <block id="8635fd9dae0faf14591abf5c00ba4c36" category="inline-link">Keystoneの詳細はこちら</block>
+  <block id="d9e1f569a60d13d4540b611846d761f5" category="paragraph"><block ref="d9e1f569a60d13d4540b611846d761f5" category="inline-link-rx"></block></block>
+  <block id="79554ac40a8f3a03c9aaedab34165bd3" category="paragraph">BlueXPでKeystoneサブスクリプションを使用および管理するには、NetAppに連絡して、KeystoneサブスクリプションでBlueXPユーザアカウントを承認する必要があります。</block>
+  <block id="8afaab6946e4a914b70539d7502e26ac" category="paragraph">NetAppがアカウントを承認したら、KeystoneサブスクリプションをCloud Volumes ONTAPで使用できるようにリンクできます。この操作により、新しい Cloud Volumes ONTAP システムの充電方法としてサブスクリプションを選択できます。</block>
+  <block id="6659aa983422f26fe41e5bcc67fa8466" category="paragraph">サブスクリプションのサービスレベルのコミット済み容量を変更する場合は、BlueXPからNetAppに直接リクエストを送信できます。サービスレベル用に容量の追加を要求すると、オンプレミスクラスタやCloud Volumes ONTAPシステム用に追加のストレージが提供されます。</block>
+  <block id="ec6e0d1bd46f010ced65478c609b1636" category="section-title">使用状況の監視</block>
+  <block id="4bb37917188b518967d0e67a2b819327" category="paragraph">BlueXPデジタルアドバイザダッシュボードを使用すると、Keystoneサブスクリプションの使用状況を監視したり、レポートを生成したりできます。</block>
+  <block id="20ea4c62f4c9e4254314fe7fbbef0319" category="inline-link">サブスクリプションの使用状況の監視の詳細</block>
+  <block id="d7105dd212dc96a8b292b6b48f84916f" category="paragraph"><block ref="d7105dd212dc96a8b292b6b48f84916f" category="inline-link-rx"></block></block>
+  <block id="28ca5cda5cdef790c457097830d81ca5" category="paragraph">BlueXPでKeystoneサブスクリプションを使用する必要がなくなった場合は、サブスクリプションのリンクを解除できます。既存の Cloud Volumes ONTAP サブスクリプションに関連付けられていないサブスクリプションはリンク解除のみ可能です。</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新機能</block>
 </blocks>

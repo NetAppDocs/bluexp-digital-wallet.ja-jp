@@ -16,6 +16,10 @@ summary: クラウドプロバイダのマーケットプレイスからBlueXP�
 [role="lead"]
 クラウドプロバイダのマーケットプレイスからBlueXPに登録すると、BlueXPのWebサイトにリダイレクトされます。このWebサイトでは、サブスクリプションを保存して、特定のアカウントに関連付ける必要があります。サブスクリプションを登録すると、BlueXPのデジタルウォレットから各サブスクリプションを管理できます。
 
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-subscribe-standard-mode.html["BlueXP（Standardモード）のサブスクライブ方法をご紹介します"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-subscribe-restricted-mode.html["BlueXP（制限モード）にサブスクライブする方法"^]
+
+
 
 
 == 月額プランを表示します

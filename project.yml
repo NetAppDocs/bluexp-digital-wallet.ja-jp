@@ -13,7 +13,9 @@ sidebar:
   - title: BlueXPデジタルウォレットドキュメント
     url: "/index.html"
   - title: リリースノート
-    url: "/whats-new.html"
+    entries:
+    - title: 新機能
+      url: "/whats-new.html"
   - title: はじめに
     entries:
     - title: BlueXPのデジタルウォレットの詳細をご確認ください
@@ -30,7 +32,7 @@ sidebar:
       url: "/task-manage-data-services-licenses.html"
     - title: PAYGOのサブスクリプションと契約を管理
       url: "/task-manage-subscriptions.html"
-    - title: Keystoneサブスクリプションサービスを管理する
+    - title: Keystoneサブスクリプションを管理
       url: "/task-manage-keystone.html"
     - title: オンプレミスのONTAP クラスタのライセンスを管理します
       url: "/task-manage-on-prem-clusters.html"

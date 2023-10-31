@@ -1,32 +1,30 @@
 ---
 sidebar: sidebar 
 permalink: task-manage-keystone.html 
-keywords: license, licensing, install, keystone, request capacity, link subscription, add keystone subscription, keystone subscription 
-summary: Keystoneサブスクリプションサービスをデジタルウォレットから管理し、Cloud Volumes ONTAP で使用するサブスクリプションを有効にする。コミット済み容量に対する変更を要求したり、サブスクリプションのリンクを解除したりすることもできます。 
+keywords: license, licensing, install, keystone, request capacity, link subscription, add keystone subscription, keystone subscription, digital wallet, keystone flex 
+summary: KeystoneサブスクリプションをBlueXPデジタルウォレットから管理するには、Cloud Volumes ONTAPで使用するサブスクリプションを有効にし、サブスクリプションのサービスレベルに応じてコミット済み容量の変更を要求します。サービスレベル用に容量の追加を要求すると、オンプレミスのONTAPクラスタやCloud Volumes ONTAPシステム用に追加のストレージが提供されます。 
 ---
-= Keystoneサブスクリプションサービスを管理する
+= Keystoneサブスクリプションを管理
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/media/
+:imagesdir: ./media/
 
 
-[role="lead lead"]
-KeystoneサブスクリプションをCloud Volumes ONTAP で使用できるようにすることで、BlueXPのデジタルウォレットから管理できます。コミット済み容量に対する変更を要求したり、サブスクリプションのリンクを解除したりすることもできます。
+[role="lead"]
+KeystoneサブスクリプションをBlueXPデジタルウォレットから管理するには、Cloud Volumes ONTAPで使用するサブスクリプションを有効にし、サブスクリプションのサービスレベルに応じてコミット済み容量の変更を要求します。サービスレベル用に容量の追加を要求すると、オンプレミスのONTAPクラスタやCloud Volumes ONTAPシステム用に追加のストレージが提供されます。
 
-A_Keystoneサブスクリプション_は、ネットアップが提供する従量課金制のストレージサービスです。
+NetApp Keystoneは、CAPEX（設備投資）やリースよりもOPEX（運用コスト）が望ましいお客様に、ハイブリッドクラウドエクスペリエンスを提供する、柔軟な従量課金制のサブスクリプションベースサービスです。
 
-BlueXPデジタルウォレット_を使用すると、Cloud Volumes ONTAP のライセンスを1つの場所から管理できます。新しいライセンスを追加したり、既存のライセンスを更新したりできます。
-
-https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["Cloud Volumes ONTAP ライセンスの詳細については、こちらをご覧ください"]。
+https://www.netapp.com/services/keystone/["Keystoneの詳細はこちら"^]
 
 
 
 == アカウントを承認します
 
-BlueXPでKeystoneサブスクリプションを使用および管理する前に、ネットアップに連絡して、KeystoneサブスクリプションでBlueXPユーザアカウントを承認する必要があります。
+BlueXPでKeystoneサブスクリプションを使用および管理するには、NetAppに連絡して、KeystoneサブスクリプションでBlueXPユーザアカウントを承認する必要があります。
 
 .手順
 . BlueXPナビゲーションメニューから、* Governance > Digital Wallet *を選択します。
@@ -41,14 +39,11 @@ image:screenshot-keystone-overview.png["Keystoneサブスクリプションの�
 
 
 
-.次の手順
-Cloud Volumes ONTAP で使用するサブスクリプションをリンクします。
-
 
 
 == サブスクリプションをリンクします
 
-ネットアップがお客様のアカウントを承認したら、Cloud Volumes ONTAP で使用するためにKeystoneサブスクリプションをリンクする必要があります。この操作により、新しい Cloud Volumes ONTAP システムの充電方法としてサブスクリプションを選択できます。
+NetAppがアカウントを承認したら、KeystoneサブスクリプションをCloud Volumes ONTAPで使用できるようにリンクできます。この操作により、新しい Cloud Volumes ONTAP システムの充電方法としてサブスクリプションを選択できます。
 
 .手順
 . BlueXPナビゲーションメニューから、* Governance > Digital Wallet *を選択します。
@@ -66,7 +61,7 @@ image:screenshot-keystone-link.png["サブスクリプションのリンクオ�
 
 == コミット済み容量を増やして申請してください
 
-サブスクリプションのコミット済み容量を調整する必要がある場合は、BlueXPインターフェイスから直接リクエストを送信できます。
+サブスクリプションのサービスレベルのコミット済み容量を変更する場合は、BlueXPからNetAppに直接リクエストを送信できます。サービスレベル用に容量の追加を要求すると、オンプレミスクラスタやCloud Volumes ONTAPシステム用に追加のストレージが提供されます。
 
 .手順
 . BlueXPナビゲーションメニューから、* Governance > Digital Wallet *を選択します。
@@ -84,9 +79,17 @@ image:screenshot-keystone-request.png["サブスクリプションのコミッ�
 
 
 
+== 使用状況の監視
+
+BlueXPデジタルアドバイザダッシュボードを使用すると、Keystoneサブスクリプションの使用状況を監視したり、レポートを生成したりできます。
+
+https://docs.netapp.com/us-en/keystone-staas/integrations/aiq-keystone-details.html["サブスクリプションの使用状況の監視の詳細"^]
+
+
+
 == サブスクリプションのリンクを解除します
 
-新しいCloud Volumes ONTAP システムでKeystoneサブスクリプションを使用する必要がなくなった場合は、サブスクリプションのリンクを解除できます。既存の Cloud Volumes ONTAP サブスクリプションに関連付けられていないサブスクリプションはリンク解除のみ可能です。
+BlueXPでKeystoneサブスクリプションを使用する必要がなくなった場合は、サブスクリプションのリンクを解除できます。既存の Cloud Volumes ONTAP サブスクリプションに関連付けられていないサブスクリプションはリンク解除のみ可能です。
 
 .手順
 . BlueXPナビゲーションメニューから、* Governance > Digital Wallet *を選択します。
