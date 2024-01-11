@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-manage-node-based-licenses.html 
-keywords: license, licensing, install, updating license, system license, add system license, adding a system license, byol license, add byol license, update byol license, nlf, license generator 
+keywords: license, licensing, install, updating license, system license, add system license, adding a system license, byol license, add byol license, update byol license, nlf, license generator, digital wallet, bluexp digital wallet 
 summary: 各 Cloud Volumes ONTAP システムに必要な容量の有効なライセンスがあることを確認するために、 Digital Wallet でノードベースのライセンスを管理します。 
 ---
 = ノードベースのライセンスを管理します

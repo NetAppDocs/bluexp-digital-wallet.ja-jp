@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-manage-data-services-licenses.html 
-keywords: data services, byol, cloud backup, cloud tiering, data sense, cloud data sense, obtain license file, nlf, add license, update license 
+keywords: data services, byol, cloud backup, cloud tiering, data sense, cloud data sense, obtain license file, nlf, add license, update license, digital wallet, bluexp digital wallet, classification, bluexp classification, bluexp tiering, tiering, bluexp backup and recovery, backup and recovery 
 summary: BlueXPのデジタルウォレットでは、ネットアップから直接購入したライセンス（BYOL）を管理して、BlueXPのバックアップとリカバリ、分類、階層化に使用できます。使用済みライセンス容量、残りの空き容量を確認でき、容量の上限や有効期限に達した場合に通知が表示されます。 
 ---
 = BlueXPデータサービスのライセンスを管理します
