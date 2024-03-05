@@ -18,6 +18,18 @@ BlueXPデジタルウォレットの最新情報をご確認ください。
 
 
 
+== 2024年3月5日
+
+
+
+=== BlueXPディザスタリカバリ
+
+BlueXPのデジタルウォレットで、BlueXPディザスタリカバリのライセンスを管理できるようになりました。ライセンスの追加、ライセンスの更新、およびライセンス容量に関する詳細の表示を行うことができます。
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-data-services-licenses.html["BlueXPデータサービスのライセンスを管理する方法"]
+
+
+
 == 2023年7月30日
 
 

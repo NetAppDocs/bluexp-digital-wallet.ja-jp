@@ -44,28 +44,6 @@ sidebar:
       url: "/task-get-help.html"
   - title: 法的通知
     url: "/legal-notices.html"
-homepage:
-  tiles:
-  - title: はじめに
-    links:
-    - title: BlueXPのデジタルウォレットの詳細をご確認ください
-      url: concept-digital-wallet.html
-  - title: ライセンスを管理します
-    links:
-    - title: Cloud Volumes ONTAP の容量ベースのライセンスを管理します
-      url: task-manage-capacity-licenses.html
-    - title: BlueXPデータサービスのライセンスを管理します
-      url: task-manage-data-services-licenses.html
-    - title: PAYGOのサブスクリプションと契約を管理
-      url: task-manage-subscriptions.html
-  - title: ブログとコミュニティ
-    links:
-    - title: ネットアップコミュニティ
-      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
-    - title: BlueXPブログ
-      url: https://bluexp.netapp.com/blog
-    - title: クラウドに関する Web セミナー
-      url: https://bluexp.netapp.com/events
 product-family:
   name: BlueXP
   repo: bluexp-family

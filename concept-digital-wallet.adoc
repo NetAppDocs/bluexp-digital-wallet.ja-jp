@@ -23,7 +23,7 @@ BlueXPデジタルウォレットを使用すると、ネットアップ（BYOL�
 * Cloud Volumes ONTAP の容量ベースライセンスとノードベースライセンスを管理します
 * BlueXPデータサービスのライセンスを追加および管理します
 * BlueXPアカウントとAstra Controlに関連付けられたPAYGOおよび年間契約のサブスクリプションを管理します
-* Cloud Volumes ONTAP とともに使用するKeystoneサブスクリプションサービスを管理し、コミット済み容量の変更を申請する
+* Cloud Volumes ONTAPクラスタとオンプレミスのONTAPクラスタで使用するKeystoneサブスクリプションサービスを管理し、コミット済み容量の変更を要求する
 * オンプレミスのONTAP クラスタのハードウェアとソフトウェアの契約ステータス情報を表示します
 
 
@@ -31,11 +31,12 @@ BlueXPデジタルウォレットを使用すると、ネットアップ（BYOL�
 
 == サポートされるサービス
 
-BlueXPデジタルウォレットでは、以下のライセンスを管理できます。
+BlueXPデジタルウォレットでは、次のサービスのライセンスを管理できます。
 
-* バックアップとリカバリ
-* 分類
-* Cloud Volumes ONTAP
-* オンプレミスの ONTAP クラスタ
-* 階層化
+* https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["バックアップとリカバリ"^]
+* https://docs.netapp.com/us-en/bluexp-classification/index.html["分類"^]
+* https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/index.html["Cloud Volumes ONTAP"^]
+* https://docs.netapp.com/us-en/bluexp-disaster-recovery/index.html["ディザスタリカバリ"^] （BYOLのみ）
+* https://docs.netapp.com/us-en/bluexp-ontap-onprem/index.html["オンプレミスの ONTAP クラスタ"^]
+* https://docs.netapp.com/us-en/bluexp-tiering/index.html["階層化"^]
 
