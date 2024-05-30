@@ -628,8 +628,16 @@
   <block id="ca654cde28a00db1fb587b8b6bb82015" category="paragraph"><block ref="ca654cde28a00db1fb587b8b6bb82015" category="inline-link-rx"></block></block>
   <block id="970af11c442d109ac4d016f7c57f63fb" category="paragraph">容量ベースのライセンスは、 a_packag_ の形式で用意されています。Cloud Volumes ONTAP作業環境を作成するときは、ビジネスニーズに基づいて複数のライセンスパッケージから選択できます。作業環境の作成後にニーズが変わった場合は、パッケージをいつでも変更できます。たとえば、EssentialsパッケージからProfessionalパッケージに変更できます。</block>
   <block id="58dcfad3183b701a8f1b8781a5644d09" category="inline-link">容量単位のライセンスパッケージの詳細</block>
-  <block id="8e8751cb9b796773a6b79b4d5c3dc7b2" category="paragraph"><block ref="0205926668933cbb2cb5f56900594078" category="inline-link-rx"></block>。</block>
   <block id="bbe48fb854ea022537208eeeff822f91" category="list-title">このタスクについて</block>
   <block id="3e4729f0b91cf008c10b8ab719ea9e99" category="list-text">課金方法を変更しても、NetApp（BYOL）から購入したライセンスを使用して課金されるか、クラウドプロバイダのマーケットプレイスから購入したライセンスを使用して課金されるか（従量課金制）には影響しません。</block>
   <block id="07456d1e170e8be27eaff1e39e1ccdf6" category="paragraph">BlueXPは、常に最初にライセンスを請求しようとします。ライセンスが利用できない場合は、マーケットプレイスのサブスクリプションに対して課金されます。BYOLからMarketplaceへのサブスクリプション（またはその逆）では「変換」は必要ありません。</block>
+  <block id="d5f06dc5f98a38b5ccff1592c5d20e76" category="admonition">BlueXPで管理される製品とサービスの実際の使用量と計測値は常にGiBとTiBで計算されますが、GB / GiBとTB / TiBという用語は同じ意味で使用されます。これは、クラウドマーケットプレイスのリスト、価格見積もり、リストの説明、およびその他の関連ドキュメントに反映されます。</block>
+  <block id="3e509b6c896c67a8b8ec2afa8f3aa8eb" category="admonition">ライセンスファイルの取得方法の詳細については、を参照してください。<block ref="c65aa3342130b0295e06cd938a12ad5e" category="inline-link-rx"></block>。</block>
+  <block id="6b5c2460f150173d3723de8a857a4d33" category="paragraph"><block ref="179c8a3ed717f2c4de3149f0e9edf685" category="inline-link-rx"></block>。</block>
+  <block id="25b1fde564bb1fc860069167d8668df6" category="sidebar">ライセンスを管理します</block>
+  <block id="7cbe4872773ca07492a76acf7d557fef" category="sidebar">Cloud Volumes ONTAP の容量ベースのライセンスを管理します</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">ブログとコミュニティ</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">ネットアップコミュニティ</block>
+  <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXPブログ</block>
+  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">クラウドに関する Web セミナー</block>
 </blocks>

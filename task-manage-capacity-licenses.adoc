@@ -20,6 +20,9 @@ _ 容量ベースのライセンス _ 容量単位の Cloud Volumes ONTAP に対
 
 BlueXPデジタルウォレット_を使用すると、Cloud Volumes ONTAP のライセンスを1つの場所から管理できます。新しいライセンスを追加したり、既存のライセンスを更新したりできます。
 
+
+NOTE: BlueXPで管理される製品とサービスの実際の使用量と計測値は常にGiBとTiBで計算されますが、GB / GiBとTB / TiBという用語は同じ意味で使用されます。これは、クラウドマーケットプレイスのリスト、価格見積もり、リストの説明、およびその他の関連ドキュメントに反映されます。
+
 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["Cloud Volumes ONTAP ライセンスの詳細については、こちらをご覧ください"]。
 
 
@@ -177,6 +180,9 @@ NOTE: FlexCloneボリュームは料金が発生しないため、このレポ�
 .必要なもの
 ライセンスファイル（ HA ペアがある場合は _files_ ）。
 
+
+NOTE: ライセンスファイルの取得方法の詳細については、を参照してください。 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-node-licenses.html#obtain-a-system-license-file["システムライセンスファイルを取得します"^]。
+
 .手順
 . BlueXPナビゲーションメニューから、* Governance > Digital Wallet *を選択します。
 . [ライセンスの更新*（Cloud Volumes ONTAP *）]タブで、ライセンスの横にあるアクションメニューをクリックし、[ライセンスの更新*（Update License *）]を選択します。
@@ -190,7 +196,7 @@ NOTE: FlexCloneボリュームは料金が発生しないため、このレポ�
 
 容量ベースのライセンスは、 a_packag_ の形式で用意されています。Cloud Volumes ONTAP作業環境を作成するときは、ビジネスニーズに基づいて複数のライセンスパッケージから選択できます。作業環境の作成後にニーズが変わった場合は、パッケージをいつでも変更できます。たとえば、EssentialsパッケージからProfessionalパッケージに変更できます。
 
-https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["容量単位のライセンスパッケージの詳細"]。
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["容量単位のライセンスパッケージの詳細"^]。
 
 .このタスクについて
 * 課金方法を変更しても、NetApp（BYOL）から購入したライセンスを使用して課金されるか、クラウドプロバイダのマーケットプレイスから購入したライセンスを使用して課金されるか（従量課金制）には影響しません。
