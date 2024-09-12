@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-manage-data-services-licenses.html 
 keywords: data services, byol, cloud backup, cloud tiering, data sense, cloud data sense, obtain license file, nlf, add license, update license, digital wallet, bluexp digital wallet, classification, bluexp classification, bluexp tiering, tiering, bluexp backup and recovery, backup and recovery, disaster recovery 
-summary: BlueXPのデジタルウォレットでは、NetApp（BYOL）から直接購入したライセンスを管理して、BlueXPのバックアップとリカバリ、分類、ディザスタリカバリ、階層化に使用できます。使用済みライセンス容量、残りの空き容量を確認でき、容量の上限や有効期限に達した場合に通知が表示されます。 
+summary: BlueXP  のデジタルウォレットを使用すると、NetApp（BYOL）から直接購入したライセンスを管理して、BlueXP  のバックアップとリカバリ、ディザスタリカバリ、階層化に使用できます。使用済みライセンス容量、残りの空き容量を確認でき、容量の上限や有効期限に達した場合に通知が表示されます。 
 ---
 = BlueXPデータサービスのライセンスを管理します
 :hardbreaks:
@@ -14,15 +14,18 @@ summary: BlueXPのデジタルウォレットでは、NetApp（BYOL）から直�
 
 
 [role="lead"]
-BlueXPのデジタルウォレットでは、NetApp（BYOL）から直接購入したライセンスを管理して、BlueXPのバックアップとリカバリ、分類、ディザスタリカバリ、階層化に使用できます。使用済みライセンス容量、残りの空き容量を確認でき、容量の上限や有効期限に達した場合に通知が表示されます。
+BlueXP  のデジタルウォレットを使用すると、NetApp（BYOL）から直接購入したライセンスを管理して、BlueXP  のバックアップとリカバリ、ディザスタリカバリ、階層化に使用できます。使用済みライセンス容量、残りの空き容量を確認でき、容量の上限や有効期限に達した場合に通知が表示されます。
 
 このページの手順には、環境 の各サービスに関する情報が記載されています。これらのサービスのライセンスの詳細については、次のページを参照してください。
 
 * https://docs.netapp.com/us-en/bluexp-backup-recovery/task-licensing-cloud-backup.html["BlueXPのバックアップとリカバリのライセンスをセットアップ"^]
-* https://docs.netapp.com/us-en/bluexp-classification/task-licensing-datasense.html["BlueXP分類用のライセンスをセットアップ"^]
 * https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-licensing.html["BlueXPディザスタリカバリのライセンスを設定"^]
+* https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-licenses.html["BlueXPランサムウェア対策のライセンスを設定"^]
 * https://docs.netapp.com/us-en/bluexp-tiering/task-licensing-cloud-tiering.html["BlueXP階層化のライセンスをセットアップ"^]
 
+
+
+TIP: BlueXP  デジタルウォレットでは、BlueXP  分類のライセンスを管理することもできます。ただし、BlueXP  分類はBlueXP  のコア機能として追加料金なしで利用できるようになりました。ライセンスまたはサブスクリプションは不要になりました。 https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["BlueXPの分類の詳細については、こちらをご覧ください"^]
 
 
 

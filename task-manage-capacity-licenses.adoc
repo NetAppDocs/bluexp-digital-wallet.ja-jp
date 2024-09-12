@@ -181,7 +181,7 @@ NOTE: FlexCloneボリュームは料金が発生しないため、このレポ�
 ライセンスファイル（ HA ペアがある場合は _files_ ）。
 
 
-NOTE: ライセンスファイルの取得方法の詳細については、を参照してください。 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-node-licenses.html#obtain-a-system-license-file["システムライセンスファイルを取得します"^]。
+NOTE: ライセンスファイルの取得方法の詳細については、を参照してください https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-node-licenses.html#obtain-a-system-license-file["システムライセンスファイルを取得します"^]。
 
 .手順
 . BlueXPナビゲーションメニューから、* Governance > Digital Wallet *を選択します。
