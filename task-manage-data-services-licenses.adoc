@@ -10,7 +10,7 @@ summary: BlueXP  のデジタルウォレットを使用すると、NetApp（BY
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: https://docs.netapp.com/us-en/bluexp-backup-recovery/media/
+:imagesdir: ./media/
 
 
 [role="lead"]
@@ -34,18 +34,36 @@ TIP: BlueXP  デジタルウォレットでは、BlueXP  分類のライセン
 ライセンスの購入後、BlueXPでライセンスをアクティブ化するには、シリアル番号とNSSアカウントを入力するか、ネットアップライセンスファイル（NLF）をアップロードします。次の手順は、 NLF ライセンスファイルを取得する方法を示しています。
 
 .手順
+. BlueXP  アカウントIDを確認します。
++
+.. BlueXP  コンソールの右上で、>* IDおよびアクセス管理*を選択しますimage:icon-settings-option.png["BlueXP  Webコンソールの右上に表示される設定アイコン。"]。
+.. [Organization]ページで、アカウントIDを探してコピーします。
++
+アカウントIDが表示されておらず、組織IDがあるだけの場合は、組織IDの最初の8文字をコピーして_account-_に追加する必要があります。
+
++
+たとえば、次のように組織IDを入力します。
+
++
+ea10e1c6-80cc-4219-8e99-3c3e6b161ba5
+
++
+アカウントIDは次のようになります。
+
++
+アカウント- ea10e1c6
+
+
+
 . にサインインします https://mysupport.netapp.com["NetApp Support Site"^] をクリックし、*[システム]>[ソフトウェアライセンス]*を選択します。
 . ライセンスのシリアル番号を入力します。
 +
 image:screenshot_cloud_backup_license_step1.gif["シリアル番号で検索したあとのライセンスの一覧を示すスクリーンショット。"]
 
 . [License Key]列で、[Get NetApp License File]*を選択します。
-. BlueXPアカウントID（サポートサイトではテナントIDと呼ばれています）を入力し、*[送信]*を選択してライセンスファイルをダウンロードします。
+. BlueXP  アカウントID（サポートサイトではテナントIDと呼ばれます）を入力し、*[送信]*を選択してライセンスファイルをダウンロードします。
 +
 image:screenshot_cloud_backup_license_step2.gif["[Get license]ダイアログボックスのスクリーンショット。テナントIDを入力し、[Submit]を選択してライセンスファイルをダウンロードします。"]
-
-+
-BlueXPアカウントIDを確認するには、BlueXPの上部にある*[アカウント]*ドロップダウンを選択し、アカウントの横にある*[アカウントの管理]*を選択します。アカウント ID は、 [ 概要 ] タブにあります。
 
 
 

@@ -67,7 +67,6 @@
   <block id="b0cee72642f5457a71ddd0b49efb6d93" category="inline-link-macro">Cloud Volumes Service for Google Cloud</block>
   <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">サポート登録の概要</block>
   <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">サポート資格を有効にする登録には、次の2つの形式があります。</block>
-  <block id="2322ca552c2b0ebe090c8485519246a8" category="list-text">BlueXPアカウントIDサポートサブスクリプションの登録(BlueXPの[サポートリソース]ページにある20桁の960xxxxxxxxxシリアル番号)。</block>
   <block id="23fdcbefa6d9cd877be7ceb7a18bb936" category="paragraph">これは、BlueXP内のすべてのサービスのシングルサポートサブスクリプションIDとして機能します。各BlueXPアカウントレベルのサポート契約が登録されている必要があります。</block>
   <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">クラウドプロバイダのマーケットプレイスでのサブスクリプションに関連付けられているCloud Volumes ONTAP のシリアル番号を登録している（909201xxxxxxxxのシリアル番号）。</block>
   <block id="67dbdeb11e22ea7def810bade59ce818" category="paragraph">これらのシリアル番号は、通常PAY_GOシリアル番号と呼ばれ、Cloud Volumes ONTAP の導入時にBlueXPによって生成されます。</block>
@@ -102,7 +101,6 @@
   <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">この安全なトランザクションを完了するために、メールボックスに電子メールがすぐに送信されます。確認メールが数分で届かない場合は、必ずスパムフォルダを確認してください。</block>
   <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">Eメールからアクションを確認します。</block>
   <block id="201080500e946070a2e4873042507c77" category="paragraph">確認ではネットアップにリクエストが送信され、NetApp Support Site アカウントを作成することを推奨します。</block>
-  <block id="cc8b0535948da368f832027c19b7f853" category="list-text">シリアル番号フィールドには、上記のアカウントのシリアル番号（960xxxx）を必ずコピーしてください。これにより、アカウント処理が高速化されます。</block>
   <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">完了後</block>
   <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">このプロセスについては、ネットアップからご連絡ください。これは、新規ユーザ向けの1回限りのオンボーディング演習です。</block>
   <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">ネットアップでは、さまざまな方法でBlueXPをサポートしています。ナレッジベース（ KB ）記事やコミュニティフォーラムなど、 24 時間 365 日利用可能な幅広いセルフサポートオプションをご用意しています。サポート登録には、 Web チケット処理によるリモートテクニカルサポートが含まれます。</block>
@@ -124,7 +122,6 @@
   <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">[*Resources*]ページで、[Technical Support]で次のいずれかのオプションを選択します。</block>
   <block id="d63bf50426f4c712554faec55b30c548" category="list-text">*Service*:問題 が関連付けられているサービスを選択します。たとえば、サービス内のワークフローまたは機能を備えたテクニカルサポート問題 に固有のBlueXPなどです。</block>
   <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*作業環境*：ストレージに該当する場合は、* Cloud Volumes ONTAP *または*オンプレミス*を選択し、関連する作業環境を選択します。</block>
-  <block id="aa996e20900197b0ea41485ada083d8c" category="paragraph">作業環境のリストは、サービスの上部バナーで選択したBlueXPアカウント、ワークスペース、コネクタの範囲内にあります。</block>
   <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*ケース優先度*：ケースの優先度を選択します。優先度は、[低]、[中]、[高]、[クリティカル]のいずれかになります。</block>
   <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">これらの優先度の詳細を確認するには、フィールド名の横にある情報アイコンの上にマウスポインタを合わせます。</block>
   <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*事象の説明 *：実行したエラーメッセージやトラブルシューティング手順など、問題の詳細な概要 を入力します。</block>
@@ -193,7 +190,6 @@
   <block id="fc6ada65ff8f08c80e7d6167f68c89c2" category="list-text">リンクするサブスクリプションの場合は、をクリックします <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> をクリックし、 * Link * を選択します。</block>
   <block id="a71102951bc0488f4ec3cb5e52602100" category="inline-image-macro">サブスクリプションのリンクオプションを示すスクリーンショット。</block>
   <block id="53dd6d03631eca7d8e89d0d7d8cdeb77" category="paragraph"><block ref="53dd6d03631eca7d8e89d0d7d8cdeb77" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="c01bba3f5cf220440d62298c4287d655" category="paragraph">これで、サブスクリプションがBlueXPアカウントにリンクされ、Cloud Volumes ONTAP 作業環境の作成時に選択できるようになりました。</block>
   <block id="1b02ed65c5ea56c85fffa6b88378d762" category="section-title">コミット済み容量を増やして申請してください</block>
   <block id="a2748c51966db7db689a8801f6ae4150" category="list-text">容量を調整するサブスクリプションの場合、をクリックします <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> をクリックし、 * 詳細を表示して編集 * を選択します。</block>
   <block id="56ecf988dec174f4d23028e78eeed82c" category="list-text">1 つ以上のサブスクリプションのコミット済み容量を入力します。</block>
@@ -203,7 +199,6 @@
   <block id="8f140d9c4d508c36e3d4c57102f117eb" category="paragraph">リクエストに応じて、ネットアップのシステムで処理用のチケットが作成されます。</block>
   <block id="0c0401d1e9169d6dd38462b1e0d04126" category="section-title">サブスクリプションのリンクを解除します</block>
   <block id="a666a430e484ea214384aefaa30da852" category="list-text">リンクを解除するサブスクリプションの場合は、をクリックします <block ref="c9c50c6d591d91ccce1ee232fa490fb4" category="inline-image-macro-rx" type="image"></block> をクリックし、 * リンク解除 * を選択します。</block>
-  <block id="ae187bda8f85dfd75202915fcca6b90d" category="paragraph">サブスクリプションがBlueXPアカウントからリンク解除され、Cloud Volumes ONTAP 作業環境の作成時に選択できなくなりました。</block>
   <block id="0ba30235105c7547a3e7658745e09be4" category="summary">BlueXPデジタルウォレットの最新情報をご確認ください。</block>
   <block id="490414e0366b091220802d406e52c076" category="doc">新機能</block>
   <block id="102787ed6297b34a7504b527e91d01d3" category="section-title">2023年4月3日</block>
@@ -241,7 +236,6 @@
   <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">作業を開始する前に</block>
   <block id="2b474be1d4faf7d5e70a3977fa183a0a" category="paragraph">BlueXPデジタルウォレットには、作業環境として検出したオンプレミスのONTAP クラスタ、またはBlueXPに追加したNetApp Support Site アカウントに関連付けられているオンプレミスのクラスタに関する詳細が表示されます。</block>
   <block id="422bab6ebf30e7a3f981f61427aaba19" category="inline-link">オンプレミスのONTAP クラスタを検出する方法について説明します</block>
-  <block id="9f7c8fad2f6cbf64994a97a18db097a3" category="inline-link">BlueXPアカウントに関連付けられたNSSクレデンシャルを管理する方法について説明します</block>
   <block id="4bbcdd6338e8631576e63f1156b1c51d" category="section-title">クラスタ情報と契約の詳細を表示します</block>
   <block id="dfaa8df1d6444411a1429b0866742025" category="paragraph">オンプレミスのONTAP クラスタのハードウェアとソフトウェアの契約ステータスを表示して、有効期限が切れる前に契約を更新できるようにします。</block>
   <block id="e65135bd79d15db91bec6c98a9f8dabe" category="list-text">オンプレミスONTAP *を選択します。</block>
@@ -287,7 +281,6 @@
   <block id="e97d1d1134e32a84fb4d6d796e3e56a9" category="list-text">管理するサブスクリプションに対応する行のアクションメニューを選択します。</block>
   <block id="1dea06c0cd8c3b77e4597670a860c155" category="inline-image-macro">サブスクリプションのアクションメニューのスクリーンショット。</block>
   <block id="23531331db8be0d13d9ce3c0685c0c8e" category="paragraph"><block ref="23531331db8be0d13d9ce3c0685c0c8e" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="1201c1bd99e40a424aee33ac62838b92" category="list-text">サブスクリプションの名前を変更するか、サブスクリプションに関連付けられているBlueXPアカウントを管理するかを選択します。</block>
   <block id="7e3a4c0ec1aee45acf094839bb9c449f" category="summary">各 Cloud Volumes ONTAP システムに必要な容量の有効なライセンスがあることを確認するために、 Digital Wallet でノードベースのライセンスを管理します。</block>
   <block id="de94398a333e3b7bdafad2ddf3232331" category="doc">ノードベースのライセンスを管理します</block>
   <block id="4627bd080634e9380c75a1cc04a09486" category="paragraph">ノードベースライセンス _ は旧世代のライセンスモデルです（新規のお客様は使用できません）。</block>
@@ -386,7 +379,6 @@
   <block id="064ff692e4b4a468969f66368c68e2c8" category="sidebar">オンプレミスのONTAP クラスタのライセンスを管理します</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知識とサポート</block>
   <block id="49f326995814ee311b340478f99f992f" category="doc">BlueXPのデジタルウォレットドキュメント</block>
-  <block id="d73d2254cb7a33ffdc126efbce99e623" category="list-text">BlueXPアカウントとAstra Controlに関連付けられたPAYGOおよび年間契約のサブスクリプションを管理します</block>
   <block id="be062cdcabbb3055334e8f19b4bdf378" category="list-text">バックアップとリカバリ</block>
   <block id="337c62c6b6eb7319bae58701105e889c" category="list-text">階層化</block>
   <block id="f4b04af639ebf32754e26b928989f33f" category="inline-link">BlueXPのバックアップとリカバリのライセンスをセットアップ</block>
@@ -403,7 +395,6 @@
   <block id="61589f40a840f6f60d0d36160690dc0e" category="inline-image-macro">容量ベースライセンスのページを示すスクリーンショット。アカウントの使用済み容量の概要が表示され、ライセンスパッケージ別に容量が表示されます。</block>
   <block id="ccb04438d71ca79f2a97704ba47b5adf" category="paragraph">いずれかのライセンスの容量や期間を変更すると、でライセンス条件が自動的に更新されるようになりました。手動でライセンスを更新する必要はありません。</block>
   <block id="682e041ff00069faf1e43f1e418221a6" category="summary">クラウドプロバイダのマーケットプレイスからBlueXPに登録すると、BlueXPのWebサイトにリダイレクトされます。このWebサイトでは、サブスクリプションを保存して、特定のアカウントに関連付ける必要があります。サブスクリプションを登録すると、BlueXPのデジタルウォレットから各サブスクリプションを管理できます。</block>
-  <block id="65459c618528464246bc4dd16dea72ba" category="paragraph">BlueXPのデジタルウォレットには、BlueXPアカウントとAstra Controlに関連付けられたPAYGOの各サブスクリプションと年間契約に関する詳細が表示されます（Astra ControlはBlueXPの課金サービスを使用します）。</block>
   <block id="69cda14c45037fc1c766e6b7626c706b" category="inline-image-macro">デジタルウォレットの[Subscriptions]タブのスクリーンショット。行の最後にある矢印を選択して展開できます。</block>
   <block id="d6e80e5ccdacdc912b76ab91b58f6023" category="paragraph"><block ref="d6e80e5ccdacdc912b76ab91b58f6023" category="inline-image-macro-rx" type="image"></block></block>
   <block id="41f51117bfa13081af4c8a2db1a7ab58" category="list-text">契約の詳細を展開すると、BlueXPのデジタルウォレットに、現在のプランで利用できる内容（契約のオプションと単位（容量またはノード数）が表示されます。</block>
@@ -433,7 +424,6 @@
   <block id="ef932e9542b570b1aebe25543e12d641" category="inline-image-macro">BlueXPデジタルウォレットで使用される合計消費容量、事前コミット済み容量の合計（BYOLとマーケットプレイスの契約）、PAYGO（プロビジョニング済み容量）の合計容量を含むCloud Volumes ONTAP パッケージの概要を示すスクリーンショット。</block>
   <block id="7d6ebd560dc2c66d5d0db57db21f3c2e" category="paragraph"><block ref="7d6ebd560dc2c66d5d0db57db21f3c2e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="37532cd27e3c53471b1caed0ba1f90ed" category="section-title">使用状況レポートをダウンロードします</block>
-  <block id="819d4e1e06bcd4bb3249b60d928ccacc" category="paragraph">アカウント管理者は、BlueXPのデジタルウォレットから4つの使用状況レポートをダウンロードできます。これらの使用状況レポートには、サブスクリプションの容量の詳細と、Cloud Volumes ONTAP サブスクリプションのリソースに対する課金方法が表示されます。ダウンロード可能なレポートは、特定の時点のデータをキャプチャし、他のユーザーと簡単に共有できます。</block>
   <block id="c2b73e18a5b530a547ba48a8177d13c3" category="inline-image-macro">スクリーンショットは、デジタルウォレットのCloud Volumes ONTAP 容量ベースライセンスページを示し、使用状況レポートボタンが強調表示されています。</block>
   <block id="a1a4a48254cf8eb8962fbd995f5e7ea8" category="paragraph"><block ref="a1a4a48254cf8eb8962fbd995f5e7ea8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d11dcbec58d47bd13de1dcccfbd640ff" category="paragraph">以下のレポートをダウンロードできます。容量の値はTiB単位です。</block>
@@ -494,7 +484,6 @@
   <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">ログイン認証情報トークンを更新する必要がある場合は、の[認証情報の更新*]オプションも使用できます <block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> メニュー。</block>
   <block id="379f9cd57d97013f3f7fdd24f692a0b1" category="paragraph"><block ref="379f9cd57d97013f3f7fdd24f692a0b1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b23696557397783ca9c44bd2c80b335d" category="list-text"><block ref="b23696557397783ca9c44bd2c80b335d" category="inline-link-rx"></block></block>
-  <block id="e60eaacf5c9817a22b4cc8e32d3e60ca" category="list-text"><block ref="e60eaacf5c9817a22b4cc8e32d3e60ca" category="inline-link-rx"></block></block>
   <block id="da810fa51a2b9119147838a70412015f" category="paragraph"><block ref="a07feb0a336d59a2369adfa9ca88e728" category="inline-link-rx"></block>。</block>
   <block id="b4fa3d19dea2a10db131d6dd7f714436" category="list-text"><block ref="b4fa3d19dea2a10db131d6dd7f714436" category="inline-link-rx"></block></block>
   <block id="e82c60430ac236acfc954acd22ea737d" category="list-text"><block ref="e82c60430ac236acfc954acd22ea737d" category="inline-link-rx"></block></block>
@@ -512,25 +501,18 @@
   <block id="e49aa971c20ec071f1b5bbc3c7266769" category="list-text">シリアル番号のあるONTAPシステムのケースをオープンする場合は、そのシステムのシリアル番号にNSSアカウントを関連付ける必要があります。</block>
   <block id="c7b7a5ae9f37fd7d24e4d641b9186fe9" category="paragraph">このエラーは、NSSアカウントとそれに関連付けられているレコードの会社が、BlueXPアカウントのシリアル番号(例960xxxx）または動作環境のシリアル番号。次のいずれかのオプションを使用して、サポートを受けることができます。</block>
   <block id="28164bf9e881ddc9e7ff74744bfce180" category="paragraph">両方のタイプのシリアル番号を登録することで、サポートチケットのオープンやケースの自動生成などの機能を利用できます。登録を完了するには、以下の手順でNetApp Support Site（NSS）アカウントをBlueXPに追加してください。</block>
-  <block id="5a19febf1dcb23c10e8dcfde64ba764c" category="section-title">NetAppサポートにBlueXPアカウントを登録します</block>
-  <block id="6bbc2ba432f59ab65ee3d8ac5a58336e" category="paragraph">サポートに登録してサポート利用資格をアクティブ化するには、BlueXPアカウントの1人のユーザがNetApp Support SiteアカウントをBlueXPログインに関連付ける必要があります。ネットアップサポートへの登録方法は、NetApp Support Site （NSS）アカウントがあるかどうかによって異なります。</block>
   <block id="0c788a722f31f8f0cf36539ee04615cf" category="list-text">[NSSクレデンシャルの追加]*を選択し、NetApp Support Site（NSS）認証プロンプトに従います。</block>
-  <block id="8add4eb0d3f6ce61d374f3df3ee4eadf" category="paragraph">[リソース]ページに、アカウントがサポートに登録されていることが表示されます。</block>
   <block id="10c56875db7a47f791d653e5d5bff0e9" category="inline-image-macro">アカウントのシリアル番号、緑のチェックボックス、サポート登録済みのテキストを示すスクリーンショット。</block>
   <block id="3d183819a15163ef2e2e7d9d764254a9" category="paragraph"><block ref="3d183819a15163ef2e2e7d9d764254a9" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="d9a01bdcfab6f0a10fc126999b4d5988" category="paragraph">他のBlueXPユーザにNetApp Support Siteアカウントが関連付けられていない場合、このサポート登録ステータスは表示されません。ただし、BlueXPアカウントがサポートに登録されていないわけではありません。アカウント内の1人のユーザーがこれらの手順を実行している限り、アカウントは登録されています。</block>
   <block id="bdd862f49d428a850400bcf2f53cdaf2" category="paragraph">NetAppの既存のお客様で、ライセンスとシリアル番号は_NO_NSSアカウントしかお持ちでない場合は、NSSアカウントを作成してBlueXPログインに関連付ける必要があります。</block>
   <block id="0499bba105f8a891a2c671f1ba99dd34" category="list-text">の手順を実行して、新しいNSSアカウントをBlueXPログインに関連付けます <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>。</block>
   <block id="5cdee814e2d9ba3490a8f16d00c65759" category="paragraph">NetApp Support Siteアカウントを作成したら、の手順を実行してアカウントをBlueXPログインに関連付けます <block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block>。</block>
   <block id="3e616bae81890a6c8fae17c9b45af152" category="section-title">Cloud Volumes ONTAPサポートのためにNSSクレデンシャルを関連付けます</block>
-  <block id="d8f0da67cbab6e43f6d266bdab68cdc8" category="paragraph">NetApp Support Siteで次の主要なワークフローを有効にするには、BlueXPアカウントにクレデンシャルを関連付ける必要がCloud Volumes ONTAPあります。</block>
   <block id="a0518a10626dc11fd00e2d20265ad240" category="list-text">従量課金制のCloud Volumes ONTAPシステムのサポートを登録しています</block>
   <block id="321aadf78ef73521712291b7aba6411f" category="paragraph">お使いのシステムのサポートを有効にし、ネットアップのテクニカルサポートリソースにアクセスするには、 NSS アカウントを用意する必要があります。</block>
   <block id="d51b2b497db445a16b1c9583c1abbb59" category="list-text">お客様所有のライセンスを使用（BYOL）する場合のCloud Volumes ONTAP の導入</block>
   <block id="2ebfeabed40c2270d9fa8325080a4b3e" category="paragraph">ライセンスキーをBlueXPでアップロードし、購入した契約期間のサブスクリプションを有効にするには、NSSアカウントを提供する必要があります。これには、期間の更新の自動更新も含まれます。</block>
   <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">Cloud Volumes ONTAP ソフトウェアを最新リリースにアップグレードしています</block>
-  <block id="39f382b97080640c75604b5890f3a5d3" category="paragraph">NSSクレデンシャルをBlueXPアカウントに関連付ける方法は、BlueXPユーザログインに関連付けられたNSSアカウントとは異なります。</block>
-  <block id="e3bc6d35311568d55f1c8ea11984b964" category="paragraph">これらのNSSクレデンシャルは、特定のBlueXPアカウントIDに関連付けられています。BlueXPアカウントに属するユーザは、*[サポート]&gt;[NSS管理]*からこれらのクレデンシャルにアクセスできます。</block>
   <block id="0307a12e5749f8dd930472ee78f69d2c" category="list-text">BlueXPコンソールの右上で、[設定]アイコンを選択し、*[クレデンシャル]*を選択します。</block>
   <block id="f19ab635e6d5f884a22ee4ce067fdbfd" category="list-text">[ユーザクレデンシャル]*を選択します。</block>
   <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">登録プロセスが正常に完了したことを確認するには、[ヘルプ]アイコンを選択し、*[サポート]*を選択します。</block>
@@ -539,10 +521,8 @@
   <block id="85b9386ed443776127e099931d73448a" category="list-text">プロンプトが表示されたら、*続行*を選択してMicrosoftログインページにリダイレクトします。</block>
   <block id="24586b03da03249c22a79822574b4e88" category="list-text">にサインインします<block ref="fcc52edac3ce57829c48ee35d97a295d" category="inline-link-rx"></block> をクリックし、*[システム]&gt;[ソフトウェアライセンス]*を選択します。</block>
   <block id="929a00c33ff1e797afba661a33f187d7" category="list-text">[License Key]列で、[Get NetApp License File]*を選択します。</block>
-  <block id="3a9ab049ef9711b68ac94e0bc034cb30" category="list-text">BlueXPアカウントID（サポートサイトではテナントIDと呼ばれています）を入力し、*[送信]*を選択してライセンスファイルをダウンロードします。</block>
   <block id="b2ca6ef178712312d4798385b0f225aa" category="inline-image-macro">[Get license]ダイアログボックスのスクリーンショット。テナントIDを入力し、[Submit]を選択してライセンスファイルをダウンロードします。</block>
   <block id="dd7d821dbf8e495a16f2e05e456de274" category="paragraph"><block ref="dd7d821dbf8e495a16f2e05e456de274" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="19a9d224e357593876fd44c3faede4ab" category="paragraph">BlueXPアカウントIDを確認するには、BlueXPの上部にある*[アカウント]*ドロップダウンを選択し、アカウントの横にある*[アカウントの管理]*を選択します。アカウント ID は、 [ 概要 ] タブにあります。</block>
   <block id="519fe268f292c638e02a4e5bb7ab4dc1" category="list-text">BlueXPのメニューで* Governance &gt; Digital Wallet *を選択し、* Data Services Licenses *タブを選択します。</block>
   <block id="c8508c0ce4da6dc634b7c66b1df15681" category="list-text">「 * ライセンスの追加 * 」を選択します。</block>
   <block id="07a27581558b890ee2ba077c2fa844c8" category="list-text">[Add License]ダイアログで、ライセンス情報を入力し、*[Add License]*を選択します。</block>
@@ -642,4 +622,32 @@
   <block id="a269d93abb509861d65de68891092f13" category="summary">BlueXP  のデジタルウォレットを使用すると、NetApp（BYOL）から直接購入したライセンスを管理して、BlueXP  のバックアップとリカバリ、ディザスタリカバリ、階層化に使用できます。使用済みライセンス容量、残りの空き容量を確認でき、容量の上限や有効期限に達した場合に通知が表示されます。</block>
   <block id="f8caca15ab9e55b2643391493d5c81c7" category="inline-link">BlueXPランサムウェア対策のライセンスを設定</block>
   <block id="11fcd042a23eb699950bdd9edd2568bb" category="list-text"><block ref="11fcd042a23eb699950bdd9edd2568bb" category="inline-link-rx"></block></block>
+  <block id="3f4fba3deacd5b0acac06291dbdcdb43" category="list-text">BlueXP  部門やAstra Controlに関連付けられた従量課金制および年間契約のサブスクリプションを管理</block>
+  <block id="98d90e398fc56688ddc647e5f49075ec" category="paragraph">作業環境のリストは、サービスの上部バナーで選択したBlueXP  組織（またはアカウント）、プロジェクト（またはワークスペース）、コネクタの範囲内にあります。</block>
+  <block id="bcb02fe5bf814bc0d9811e97deeace94" category="paragraph">BlueXP  デジタルウォレットから4つの使用状況レポートをダウンロードできます。これらの使用状況レポートには、サブスクリプションの容量の詳細と、Cloud Volumes ONTAP サブスクリプションのリソースに対する課金方法が表示されます。ダウンロード可能なレポートは、特定の時点のデータをキャプチャし、他のユーザーと簡単に共有できます。</block>
+  <block id="e53331a3231a958d20a4871d8efc35d8" category="list-text">BlueXP  アカウントIDを確認します。</block>
+  <block id="e0e8a7d90375792efecad34c0c923e32" category="inline-image-macro">BlueXP  Webコンソールの右上に表示される設定アイコン。</block>
+  <block id="cd42e1c1af0a908f68d68ae6103b5c30" category="list-text">BlueXP  コンソールの右上で、&gt;* IDおよびアクセス管理*を選択します<block ref="32173ab85f1c68a28384d1a40cf387db" category="inline-image-macro-rx" type="image"></block>。</block>
+  <block id="3bcef3f6238058ae825d608e1557c538" category="list-text">[Organization]ページで、アカウントIDを探してコピーします。</block>
+  <block id="2bd8c9344d3768dd44b910db169ef1fa" category="paragraph">アカウントIDが表示されておらず、組織IDがあるだけの場合は、組織IDの最初の8文字をコピーして_account-_に追加する必要があります。</block>
+  <block id="14da2ef10b9e4cc4d0981b05fff98072" category="paragraph">たとえば、次のように組織IDを入力します。</block>
+  <block id="2740d3013330ec13ae7693ee76bc6509" category="paragraph">ea10e1c6-80cc-4219-8e99-3c3e6b161ba5</block>
+  <block id="6ffe1a2d88424dc37ba43bdf5999183e" category="paragraph">アカウントIDは次のようになります。</block>
+  <block id="c0b58edc6437b03c81d24f7ded6f3648" category="paragraph">アカウント- ea10e1c6</block>
+  <block id="33aed260657d37613aeee43d3e2173f8" category="list-text">BlueXP  アカウントID（サポートサイトではテナントIDと呼ばれます）を入力し、*[送信]*を選択してライセンスファイルをダウンロードします。</block>
+  <block id="7c27c9e51d561399ee84fb8d2259328c" category="paragraph">これで、サブスクリプションがBlueXP  の組織またはアカウントにリンクされ、Cloud Volumes ONTAP作業環境の作成時に選択できるようになりました。</block>
+  <block id="287c693dd0bc6ec48aa0fc3f4b950a9e" category="paragraph">サブスクリプションはBlueXP  の組織またはアカウントからリンク解除され、Cloud Volumes ONTAP作業環境の作成時に選択できなくなります。</block>
+  <block id="e1aa28849db2f09269597c9486d71590" category="inline-link">BlueXP  組織またはアカウントに関連付けられたNSSクレデンシャルの管理方法</block>
+  <block id="691c5bcb5b91398c6e6a5541f8f58b5b" category="list-text"><block ref="691c5bcb5b91398c6e6a5541f8f58b5b" category="inline-link-rx"></block></block>
+  <block id="343db25ecff212a0d088e939e917acea" category="paragraph">BlueXP  のデジタルウォレットには、お客様のBlueXP  組織またはアカウントに関連付けられた各PAYGOサブスクリプションと年間契約、およびAstra Control（Astra ControlはBlueXP  の課金サービスを使用）に関する詳細が表示されます。</block>
+  <block id="1857ec7d8bf266184255083ab9e4370e" category="list-text">サブスクリプションの名前を変更するか、サブスクリプションに関連付けられているBlueXP  組織またはアカウントを管理するかを選択します。</block>
+  <block id="29360bfcdbc91d3f1514c372b4585965" category="list-text">BlueXP  アカウントのシリアル番号（BlueXP  のサポートリソースページに記載されている20桁の960xxxxxxxxxシリアル番号）を登録します。</block>
+  <block id="444b74bc81e823cc1c4c704219ad8ed3" category="section-title">NetAppサポートのためのBlueXP  の登録</block>
+  <block id="b3bf31f8a918c712f26cdf493a908825" category="paragraph">サポートに登録してサポート利用資格をアクティブ化するには、BlueXP  組織（またはアカウント）の1人のユーザがNetAppサポートサイトのアカウントをBlueXP  ログインに関連付ける必要があります。ネットアップサポートへの登録方法は、NetApp Support Site （NSS）アカウントがあるかどうかによって異なります。</block>
+  <block id="2ba7f9eae7a02f9c3ac0fc07517d1c48" category="paragraph">[リソース]ページに、BlueXP  組織がサポートに登録されていることが表示されます。</block>
+  <block id="c05e530d1466e986d570cfe3f92656c3" category="paragraph">他のBlueXPユーザにNetApp Support Siteアカウントが関連付けられていない場合、このサポート登録ステータスは表示されません。ただし、BlueXP  組織がサポートに登録されていないわけではありません。組織内の1人のユーザーがこれらの手順を実行している限り、組織は登録されています。</block>
+  <block id="a2454703f88e5bf5b433ae850a87151b" category="list-text">シリアル番号フィールドには、上記のアカウントのシリアル番号（960xxxx）を必ずコピーしてください。これにより処理が高速化されます。</block>
+  <block id="0ca08a23718c0a91743dd6c0146ca353" category="paragraph">Cloud Volumes ONTAPで次の主要なワークフローを有効にするには、NetAppサポートサイトのクレデンシャルをBlueXP  組織に関連付ける必要があります。</block>
+  <block id="c81c8e01f5d906ae1ab0c5c606f06b05" category="paragraph">NSSクレデンシャルとBlueXP  組織の関連付けは、BlueXP  ユーザログインに関連付けられたNSSアカウントとは異なります。</block>
+  <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">これらのNSSクレデンシャルは、特定のBlueXP  組織IDに関連付けられています。BlueXP  組織に属するユーザは、*[サポート]&gt;[NSS管理]*からこれらのクレデンシャルにアクセスできます。</block>
 </blocks>

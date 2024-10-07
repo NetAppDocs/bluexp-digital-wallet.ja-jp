@@ -20,7 +20,7 @@ BlueXPデジタルウォレットを使用すると、オンプレミスのONTAP
 BlueXPデジタルウォレットには、作業環境として検出したオンプレミスのONTAP クラスタ、またはBlueXPに追加したNetApp Support Site アカウントに関連付けられているオンプレミスのクラスタに関する詳細が表示されます。
 
 * https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["オンプレミスのONTAP クラスタを検出する方法について説明します"^]
-* https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["BlueXPアカウントに関連付けられたNSSクレデンシャルを管理する方法について説明します"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["BlueXP  組織またはアカウントに関連付けられたNSSクレデンシャルの管理方法"^]
 
 
 

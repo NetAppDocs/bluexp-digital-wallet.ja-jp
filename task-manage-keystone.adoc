@@ -55,7 +55,7 @@ image:screenshot-keystone-link.png["サブスクリプションのリンクオ�
 
 
 .結果
-これで、サブスクリプションがBlueXPアカウントにリンクされ、Cloud Volumes ONTAP 作業環境の作成時に選択できるようになりました。
+これで、サブスクリプションがBlueXP  の組織またはアカウントにリンクされ、Cloud Volumes ONTAP作業環境の作成時に選択できるようになりました。
 
 
 
@@ -98,4 +98,4 @@ BlueXPでKeystoneサブスクリプションを使用する必要がなくなっ
 
 
 .結果
-サブスクリプションがBlueXPアカウントからリンク解除され、Cloud Volumes ONTAP 作業環境の作成時に選択できなくなりました。
+サブスクリプションはBlueXP  の組織またはアカウントからリンク解除され、Cloud Volumes ONTAP作業環境の作成時に選択できなくなります。
