@@ -1,0 +1,11 @@
+= BlueXPディザスタリカバリ
+:allow-uri-read: 
+
+
+
+
+=== BlueXPディザスタリカバリ
+
+BlueXPのデジタルウォレットで、BlueXPディザスタリカバリのライセンスを管理できるようになりました。ライセンスの追加、ライセンスの更新、およびライセンス容量に関する詳細の表示を行うことができます。
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-data-services-licenses.html["BlueXPデータサービスのライセンスを管理する方法"]
