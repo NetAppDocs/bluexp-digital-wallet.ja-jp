@@ -601,12 +601,10 @@
   <block id="483b8e46eb21b512550083b13a6ba1de" category="paragraph"><block ref="f5d9875e96b8ed7153bab8f22c840330" category="inline-link-macro-rx"></block>です。<block ref="f050330f0428b7d1c9a33b47b1e41be1" category="inline-link-macro-rx"></block>です。</block>
   <block id="32790cf377a1a575eece70f624d64118" category="list-text">「 * 概要 * 」を選択します。</block>
   <block id="de9c819c70af50797f21116704502cee" category="list-text">詳細を表示し、ライセンスとサブスクリプションを管理するには、それぞれのデータサービス（Cloud Volumes ONTAPを含む）の*[表示]*を選択します。</block>
-  <block id="f2900320586b6454b48843852d2c9cd6" category="paragraph">各タイルには容量ステータスの概要がグラフィカルに表示され、詳細ページでは容量の支払い方法を確認および管理できます。</block>
   <block id="d3a8f85cb0b390c3875d9014a9f0e6a1" category="list-text">[ライセンス]タブまたは*[サブスクリプション]タブを選択します。</block>
   <block id="661d4023a402ca9354d866c7cb4a3bf7" category="list-text">列フィルタとフィルタの基準となる値を選択して、テーブルをフィルタリングします。たとえば、*サブスクリプション*タブでは、タイプ列を年間契約またはサブスクリプションでフィルタリングできます。</block>
   <block id="e079053622b71496829bde7eae702aa6" category="inline-image-macro">サブスクリプションテーブルのフィルタアクション</block>
   <block id="327b1c0b128564e29e2060bd2c4ca978" category="paragraph"><block ref="327b1c0b128564e29e2060bd2c4ca978" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="169b50970986d18dea7b02feeadb180d" category="list-text">テーブルに表示される列をカスタマイズします。表示または非表示にする列を示す列アイコンを選択すると、テーブルに列を追加および削除できます。次のスクリーンショットは、[Type]、[End Date]、[Status]、および[Configuration]の各列のみを示しています。</block>
   <block id="cf44bd43ea5e0e4180c911de11e7fc50" category="inline-image-macro">スクリーンショットは、列の表示と非表示を切り替える方法の例を示しています。</block>
   <block id="b04f4a30838d70bc9423c5bcc2a9d78b" category="paragraph"><block ref="b04f4a30838d70bc9423c5bcc2a9d78b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="57cba9caf80ab7bb6590dd12a1c40e9a" category="list-text">いずれかの行を展開すると、サブスクリプションやライセンスに含まれる内容、購入済み容量、契約条件の詳細が表示されます。</block>
@@ -723,4 +721,6 @@
   <block id="c7031958abe0c6bca3058548b703b37f" category="sidebar">Cloud Volumes ONTAPヨウリヨウヘエスライセンス</block>
   <block id="f34953a70b4a66823b7c335bccdd1df4" category="sidebar">Cloud Volumes ONTAPノノオトヘエスライセンス</block>
   <block id="b7dddfb63fd700204e12dba0c2972cb4" category="sidebar">Marketplaceサブスクリプションの管理</block>
+  <block id="77f5141787aa2cd1e98caca9f5ff20ed" category="paragraph">各タイルには、容量の概要がグラフィカルに表示されます。詳細ページを表示して、その容量の支払い方法を確認および管理できます。</block>
+  <block id="8716d9652e3590060e2dac142eea7751" category="list-text">テーブルに表示される列をカスタマイズします。表示または非表示にする列を示す*列*アイコンを選択すると、テーブルに列を追加および削除できます。次のスクリーンショットは、[Type]、[End Date]、[Status]、および[Configuration]の各列のみを示しています。</block>
 </blocks>

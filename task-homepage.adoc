@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-homepage.html 
-keywords: license, licensing, capacity license, capacity based license, add license, install license, digital wallet, bluexp digital wallet, cloud volumes ontap license, cloud volumes ontap 
+keywords: license, licensing, dashboard, capacity license, capacity based license, add license, install license, digital wallet, bluexp digital wallet, cloud volumes ontap license, cloud volumes ontap 
 summary: デジタルホームページで、組織のすべてのサブスクリプションとライセンスの概要を確認できます。 
 ---
 = ダッシュボードの概要を使用する
@@ -43,14 +43,14 @@ link:task-manage-data-services-licenses.html["ライセンスの管理に関す�
 . 「 * 概要 * 」を選択します。
 . 詳細を表示し、ライセンスとサブスクリプションを管理するには、それぞれのデータサービス（Cloud Volumes ONTAPを含む）の*[表示]*を選択します。
 +
-各タイルには容量ステータスの概要がグラフィカルに表示され、詳細ページでは容量の支払い方法を確認および管理できます。
+各タイルには、容量の概要がグラフィカルに表示されます。詳細ページを表示して、その容量の支払い方法を確認および管理できます。
 
 . [ライセンス]タブまたは*[サブスクリプション]タブを選択します。
 . 列フィルタとフィルタの基準となる値を選択して、テーブルをフィルタリングします。たとえば、*サブスクリプション*タブでは、タイプ列を年間契約またはサブスクリプションでフィルタリングできます。
 +
 image:screenshot_digital_wallet_filter.png["サブスクリプションテーブルのフィルタアクション"]
 
-. テーブルに表示される列をカスタマイズします。表示または非表示にする列を示す列アイコンを選択すると、テーブルに列を追加および削除できます。次のスクリーンショットは、[Type]、[End Date]、[Status]、および[Configuration]の各列のみを示しています。
+. テーブルに表示される列をカスタマイズします。表示または非表示にする列を示す*列*アイコンを選択すると、テーブルに列を追加および削除できます。次のスクリーンショットは、[Type]、[End Date]、[Status]、および[Configuration]の各列のみを示しています。
 +
 image:screenshot_digital_wallet_show_hide_columns.png["スクリーンショットは、列の表示と非表示を切り替える方法の例を示しています。"]
 
