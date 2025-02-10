@@ -22,28 +22,32 @@ sidebar:
       url: "/concept-digital-wallet.html"
   - title: BlueXPのデジタルウォレットをご利用ください
     entries:
-    - title: Cloud Volumes ONTAP のライセンスを管理します
+    - title: 概要ダッシュボードの使用
+      url: "/task-homepage.html"
+    - title: ライセンスの管理
       entries:
-      - title: 容量ベースのライセンス
-        url: "/task-manage-capacity-licenses.html"
-      - title: ノードベースのライセンス
-        url: "/task-manage-node-based-licenses.html"
-    - title: BlueXPデータサービスのライセンスを管理します
-      url: "/task-manage-data-services-licenses.html"
-    - title: PAYGOのサブスクリプションと契約を管理
+      - title: データサービスのライセンスを管理します。
+        url: "/task-manage-data-services-licenses.html"
+      - title: Cloud Volumes ONTAP のライセンスを管理します
+        entries:
+        - title: Cloud Volumes ONTAPヨウリヨウヘエスライセンス
+          url: "/task-manage-capacity-licenses.html"
+        - title: Cloud Volumes ONTAPノノオトヘエスライセンス
+          url: "/task-manage-node-based-licenses.html"
+    - title: Marketplaceサブスクリプションの管理
       url: "/task-manage-subscriptions.html"
     - title: Keystoneサブスクリプションを管理
       url: "/task-manage-keystone.html"
-    - title: オンプレミスのONTAP クラスタのライセンスを管理します
+    - title: オンプレミスのONTAPのライセンスを管理
       url: "/task-manage-on-prem-clusters.html"
-  - title: 知識とサポート
-    entries:
-    - title: サポートに登録します
-      url: "/task-support-registration.html"
-    - title: ヘルプを表示します
-      url: "/task-get-help.html"
-  - title: 法的通知
-    url: "/legal-notices.html"
+    - title: 知識とサポート
+      entries:
+      - title: サポートに登録します
+        url: "/task-support-registration.html"
+      - title: ヘルプを表示します
+        url: "/task-get-help.html"
+    - title: 法的通知
+      url: "/legal-notices.html"
 product-family:
   name: BlueXP
   repo: bluexp-family

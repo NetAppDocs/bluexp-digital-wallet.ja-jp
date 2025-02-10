@@ -1,16 +1,16 @@
 ---
 sidebar: sidebar 
 permalink: task-manage-capacity-licenses.html 
-keywords: license, licensing, capacity license, capacity based license, add license, install license, digital wallet, digital wallet, bluexp digital wallet, cloud volumes ontap license, cloud volumes ontap 
+keywords: license, licensing, capacity license, capacity based license, add license, install license, digital wallet, bluexp digital wallet, cloud volumes ontap license, cloud volumes ontap 
 summary: 容量ベースのライセンスをデジタルウォレットから管理して、ネットアップアカウントに Cloud Volumes ONTAP システム用の十分な容量があることを確認します。 
 ---
-= 容量ベースのライセンスを管理します
+= 容量ベースのCloud Volume ONTAPライセンスを管理します。
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 
-:imagesdir: https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/media/
+:imagesdir: ./media/
 
 
 [role="lead lead"]
@@ -33,7 +33,7 @@ https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html[
 
 一方、BlueXPは、ネットアップのライセンスサービスに自動的に問い合わせて、NetApp Support Site アカウントに関連付けられているライセンスの詳細を取得します。エラーがなければ、BlueXPは自動的にライセンスをデジタルウォレットに追加します。
 
-BlueXPでライセンスを追加できない場合は、手動でライセンスをデジタルウォレットに追加する必要があります。たとえば、インターネットにアクセスできない場所にConnectorがインストールされている場合は、ライセンスを自分で追加する必要があります。 <<購入済みライセンスをアカウントに追加します,購入済みライセンスをアカウントに追加する方法について説明します>>。
+BlueXPでライセンスを追加できない場合は、手動でライセンスをデジタルウォレットに追加する必要があります。たとえば、インターネットにアクセスできない場所にConnectorがインストールされている場合は、ライセンスを自分で追加する必要があります。 <<Add purchased licenses to your account,購入済みライセンスをアカウントに追加する方法について説明します>>。
 
 
 
@@ -43,41 +43,84 @@ BlueXPのデジタルウォレットには、アカウントの消費容量の�
 
 .手順
 . BlueXPナビゲーションメニューから、* Governance > Digital Wallet *を選択します。
-. Cloud Volumes ONTAP *タブで、* Capacity Based Licenses *を選択したままにします。
-. パッケージの概要を確認します。この概要には、消費容量、事前コミット済み容量の合計、従量課金制の合計容量が表示されます。
+. [概要]*タブのCloud Volumes ONTAP [容量]タイルには、アカウントにプロビジョニングされている現在の容量が表示されます。
 +
-** Total Consumed capacity_は、ネットアップアカウントのすべてのCloud Volumes ONTAP システムのプロビジョニング済み総容量です。充電は、ボリューム内のローカルスペース、使用済みスペース、格納済みスペース、または有効なスペースに関係なく、各ボリュームにプロビジョニングされたサイズに基づいて行われます。
-** _Total precommitted capacity_は、ネットアップから購入したライセンスで許可された容量（BYOLまたはマーケットプレイス契約）の合計です。
-** _従量課金制の合計_は、クラウドマーケットプレイスのサブスクリプションを使用してプロビジョニングされた合計容量です。PAYGOによる課金は、消費容量がライセンスで許可された容量を超えている場合、またはBlueXPデジタルウォレットに使用可能なBYOLライセンスがない場合にのみ使用されます。
-+
-BlueXPデジタルウォレットに含まれるCloud Volumes ONTAP パッケージの概要の例を次に示します。
+image:screenshot_cvo_overview_digital_wallet.png["Cloud Volumes ONTAPライセンスとサブスクリプションの容量の概要を示すスクリーンショット。"]
 
 +
-image:screenshot_capacity-based-licenses.png["BlueXPデジタルウォレットで使用される合計消費容量、事前コミット済み容量の合計（BYOLとマーケットプレイスの契約）、PAYGO（プロビジョニング済み容量）の合計容量を含むCloud Volumes ONTAP パッケージの概要を示すスクリーンショット。"]
+** _データサービスライセンス_は、NetAppアカウント内のすべてのCloud Volumes ONTAPシステムのプロビジョニング済み容量の合計です。充電は、ボリューム内のローカルスペース、使用済みスペース、格納済みスペース、または有効なスペースに関係なく、各ボリュームにプロビジョニングされたサイズに基づいて行われます。
+** _年間契約_は、NetAppから購入したライセンス容量（お客様所有のライセンスを使用（BYOL）またはマーケットプレイス契約）の合計です。
+** _PAYGO_は、クラウドマーケットプレイスのサブスクリプションを使用してプロビジョニングされた合計容量です。PAYGOによる課金は、消費容量がライセンスで許可された容量を超えている場合、またはBlueXPデジタルウォレットに使用可能なBYOLライセンスがない場合にのみ使用されます。
 
 
-
-. ライセンスパッケージごとの使用済み容量を表示します。
-+
-** 消費容量_パッケージのボリュームの容量を表示します。特定のパッケージの詳細を表示するには、ツールチップの上にマウスポインタを置きます。
+. [表示]*を選択すると、各ライセンスパッケージの消費容量が表示されます。
+. 購入した各パッケージライセンスの詳細を表示するには、*[ライセンス]*タブを選択します。
 +
 Essentialsパッケージに表示される容量を理解するには、充電の仕組みを理解しておく必要があります。 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html#notes-about-charging["Essentialsパッケージの充電について説明します"]。
 
-** _推奨容量_は、ネットアップから購入したライセンス容量（BYOLまたはマーケットプレイス契約）です。
+. [サブスクリプション]*タブを選択して、ライセンス消費モデル別の消費容量を表示します。このタブには、PAYGOと年間契約の両方のライセンスが含まれます。
 +
-*** _BYOL_このパッケージタイプに対してネットアップから購入したライセンス容量を表示します。
-*** _Marketplace契約_このパッケージタイプのマーケットプレイス契約で購入したライセンス容量を表示します。
+現在表示している組織に関連付けられているサブスクリプションのみが表示されます。
 
-
-** _PAYGO_ライセンス消費モデル別の消費容量を表示します。
+. サブスクリプションに関する情報を表示する際、次のようにテーブルの詳細を操作できます。
 +
-次に、複数のライセンスパッケージがあるアカウントの例を示します。
-
+** 行を展開すると詳細が表示されます。
 +
-image:screenshot-digital-wallet-packages.png["スクリーンショット：EssentialsパッケージとProfessionalパッケージの消費容量、事前コミット済み容量、従量課金制（プロビジョニング済み）容量を示しています。"]
+image:screenshot-subscriptions-expand.png["デジタルウォレットの[Subscriptions]タブのスクリーンショット。行の最後にある矢印を選択して展開できます。"]
+
+** image:icon-column-selector.png["テーブルヘッダーの末尾にあるプラスアイコン"]テーブルに表示する列を選択します。デフォルトでは、［用語］および［自動更新］の列は表示されません。自動更新列には、Azure契約の更新情報のみが表示されます。
 
 
 
+
+
+
+== パッケージの詳細の表示
+
+Cloud Volumes ONTAPページでレガシーモードに切り替えると、パッケージごとに使用される容量の詳細を表示できます。
+
+. BlueXPナビゲーションメニューから、* Governance > Digital Wallet *を選択します。
+. [概要]*タブのCloud Volumes ONTAP [容量]タイルには、アカウントにプロビジョニングされている現在の容量が表示されます。
+. [表示]*を選択すると、各ライセンスパッケージのプロビジョニング済み容量が表示されます。
+. [レガシービューに切り替える]*を選択します。
++
+image:screenshot_digital_wallet_legacy_view.png["[Switch to Legacy view]ボタンのスクリーンショット"]
+
+
+
+
+
+== 充電方法を変更します
+
+容量ベースのライセンスは、 a_packag_ の形式で用意されています。Cloud Volumes ONTAP作業環境を作成するときは、ビジネスニーズに基づいて複数のライセンスパッケージから選択できます。作業環境の作成後にニーズが変わった場合は、パッケージをいつでも変更できます。たとえば、EssentialsパッケージからProfessionalパッケージに変更できます。
+
+https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["容量単位のライセンスパッケージの詳細"^]。
+
+.このタスクについて
+* 課金方法を変更しても、NetApp（BYOL）から購入したライセンスで課金されるか、クラウドプロバイダのマーケットプレイスの従量課金制（PAYGO）サブスクリプションで課金されるかには影響しません。
++
+BlueXPは、常に最初にライセンスを請求しようとします。ライセンスが利用できない場合は、マーケットプレイスのサブスクリプションに対して課金されます。BYOLからMarketplaceへのサブスクリプション（またはその逆）では「変換」は必要ありません。
+
+* クラウドプロバイダの市場からプライベートオファーまたは契約を結んでいる場合、契約に含まれていない課金方式に変更すると、BYOL（ネットアップからライセンスを購入した場合）またはPAYGOに対して課金されます。
+
+
+.手順
+. BlueXPナビゲーションメニューから、* Governance > Digital Wallet *を選択します。
+. [* Overview * （概要 * ） ] タブを選択します。
+. Cloud Volumes ONTAPタイルで、* View *を選択します。
+. [レガシービューに切り替える]*を選択します。
++
+image:screenshot_digital_wallet_legacy_view.png["[Switch to Legacy view]ボタンのスクリーンショット"]
+
+. 下にスクロールして* Capacity-based license *の表を表示し、*[Change Charging Method]*を選択します。
++
+image:screenshot-digital-wallet-charging-method-button.png["BlueXPデジタルウォレットのCloud Volumes ONTAP ページのスクリーンショット。表のすぐ上に[Change Charging Method]ボタンがあります。"]
+
+. 作業環境を選択して新しい充電方法を選択し、パッケージタイプを変更するとサービス料金に影響することを確認します。
++
+image:screenshot-digital-wallet-charging-method.png["Cloud Volumes ONTAP 作業環境の新しい充電方法を選択する[充電方法の変更]ダイアログボックスのスクリーンショット。"]
+
+. 「充電方法の変更」*を選択します。
 
 
 
@@ -90,7 +133,7 @@ image:screenshot-digital-wallet-usage-report.png["スクリーンショットは
 
 以下のレポートをダウンロードできます。容量の値はTiB単位です。
 
-* *使用状況の概要*：このレポートには、デジタルウォレットの「Cloud Volumes ONTAP Packages Summary」カードの内容が正確に表示されます。次の情報が含まれています。
+* *使用状況の概要*：このレポートには、次の情報が含まれています。
 +
 ** 合計消費容量
 ** 事前コミット済み容量の合計
@@ -99,7 +142,7 @@ image:screenshot-digital-wallet-usage-report.png["スクリーンショットは
 ** PAYGOの合計容量
 
 
-* * Cloud Volumes ONTAP パッケージの使用状況*：このレポートには、デジタルウォレット内のパッケージカードに記載されている内容が正確に表示されます。最適化されたI/Oパッケージを除く各パッケージについて、次の情報が含まれています。
+* * Cloud Volumes ONTAPパッケージの使用状況*：このレポートには、最適化されたI/Oパッケージを除く各パッケージに関する次の情報が含まれています。
 +
 ** 合計消費容量
 ** 事前コミット済み容量の合計
@@ -108,7 +151,7 @@ image:screenshot-digital-wallet-usage-report.png["スクリーンショットは
 ** PAYGOの合計容量
 
 
-* * Storage VMの使用量*：このレポートは、Cloud Volumes ONTAP システムとStorage Virtual Machine（SVM）全体で、課金された容量の内訳を表示します。この情報は、デジタルウォレットのどの画面にも表示されません。次の情報が含まれています。
+* * Storage VMの使用量*：このレポートは、Cloud Volumes ONTAP システムとStorage Virtual Machine（SVM）全体で、課金された容量の内訳を表示します。この情報は、レポートでのみ使用できます。次の情報が含まれています。
 +
 ** 作業環境のIDと名前（UUIDとして表示）
 ** クラウド
@@ -141,97 +184,10 @@ NOTE: FlexCloneボリュームは料金が発生しないため、このレポ�
 
 .手順
 . BlueXPナビゲーションメニューから、* Governance > Digital Wallet *を選択します。
-. Cloud Volumes ONTAP *タブで、* Capacity Based Licenses *を選択したまま* Usage report *をクリックします。
+. [概要（Overview）]*タブで、[表示（Cloud Volumes ONTAP）]タイルから*[表示（View）]*を選択します。
+. [Usage report]*を選択します。
 +
 使用状況レポートがダウンロードされます。
 
 . ダウンロードしたファイルを開き、レポートにアクセスします。
-
-
-
-
-== 購入済みライセンスをアカウントに追加します
-
-購入したライセンスがBlueXPデジタルウォレットに表示されない場合は、Cloud Volumes ONTAP で使用できる容量を確保するために、ライセンスをBlueXPに追加する必要があります。
-
-.必要なもの
-* ライセンスファイルまたはライセンスファイルのシリアル番号をBlueXPに提供する必要があります。
-* シリアル番号を入力する場合は、最初にが必要です https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["NetApp Support Site アカウントをBlueXPに追加します"^]。シリアル番号へのアクセスが許可されているNetApp Support Siteのアカウントです。
-
-
-.手順
-. BlueXPナビゲーションメニューから、* Governance > Digital Wallet *を選択します。
-. [* Cloud Volumes ONTAP *（ライセンスの追加）]タブで、[*容量ベースのライセンス*]を選択したまま、[*ライセンスの追加]をクリックします。
-. 容量ベースのライセンスのシリアル番号を入力するか、ライセンスファイルをアップロードしてください。
-+
-シリアル番号を入力した場合は、シリアル番号へのアクセス権を持つNetApp Support Siteのアカウントも選択する必要があります。
-
-. [ ライセンスの追加 ] をクリックします。
-
-
-
-
-== 容量ベースのライセンスを更新する
-
-容量を追加購入した場合やライセンスの期間を延長した場合は、デジタルウォレット内のライセンスがBlueXPによって自動的に更新されます。必要なことは何もありません。
-
-ただし、インターネットにアクセスできない場所にBlueXPを導入した場合は、BlueXPでライセンスを手動で更新する必要があります。
-
-.必要なもの
-ライセンスファイル（ HA ペアがある場合は _files_ ）。
-
-
-NOTE: ライセンスファイルの取得方法の詳細については、を参照してください https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-node-licenses.html#obtain-a-system-license-file["システムライセンスファイルを取得します"^]。
-
-.手順
-. BlueXPナビゲーションメニューから、* Governance > Digital Wallet *を選択します。
-. [ライセンスの更新*（Cloud Volumes ONTAP *）]タブで、ライセンスの横にあるアクションメニューをクリックし、[ライセンスの更新*（Update License *）]を選択します。
-. ライセンスファイルをアップロードします。
-. [ ライセンスのアップロード ] をクリックします。
-
-
-
-
-== 充電方法を変更します
-
-容量ベースのライセンスは、 a_packag_ の形式で用意されています。Cloud Volumes ONTAP作業環境を作成するときは、ビジネスニーズに基づいて複数のライセンスパッケージから選択できます。作業環境の作成後にニーズが変わった場合は、パッケージをいつでも変更できます。たとえば、EssentialsパッケージからProfessionalパッケージに変更できます。
-
-https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html["容量単位のライセンスパッケージの詳細"^]。
-
-.このタスクについて
-* 課金方法を変更しても、NetApp（BYOL）から購入したライセンスを使用して課金されるか、クラウドプロバイダのマーケットプレイスから購入したライセンスを使用して課金されるか（従量課金制）には影響しません。
-+
-BlueXPは、常に最初にライセンスを請求しようとします。ライセンスが利用できない場合は、マーケットプレイスのサブスクリプションに対して課金されます。BYOLからMarketplaceへのサブスクリプション（またはその逆）では「変換」は必要ありません。
-
-* クラウドプロバイダの市場からプライベートオファーまたは契約を結んでいる場合、契約に含まれていない課金方式に変更すると、BYOL（ネットアップからライセンスを購入した場合）またはPAYGOに対して課金されます。
-
-
-.手順
-. BlueXPナビゲーションメニューから、* Governance > Digital Wallet *を選択します。
-. [*充電方法*（Cloud Volumes ONTAP *）]タブで、[*充電方法の変更*（* Change Charging method *）]
-+
-image:screenshot-digital-wallet-charging-method-button.png["BlueXPデジタルウォレットのCloud Volumes ONTAP ページのスクリーンショット。表のすぐ上に[Change Charging Method]ボタンがあります。"]
-
-. 作業環境を選択して新しい充電方法を選択し、パッケージタイプを変更するとサービス料金に影響することを確認します。
-+
-image:screenshot-digital-wallet-charging-method.png["Cloud Volumes ONTAP 作業環境の新しい充電方法を選択する[充電方法の変更]ダイアログボックスのスクリーンショット。"]
-
-. [充電方法の変更*]をクリックします。
-
-
-.結果
-BlueXPは、Cloud Volumes ONTAP システムの充電方法を変更します。
-
-また、BlueXPのデジタルウォレットでは、変更に合わせてパッケージタイプごとの消費容量が更新されます。
-
-
-
-== 容量ベースのライセンスを削除する
-
-容量ベースのライセンスの期限が切れて使用できなくなった場合は、いつでも削除できます。
-
-.手順
-. BlueXPナビゲーションメニューから、* Governance > Digital Wallet *を選択します。
-. [ライセンスの削除（Cloud Volumes ONTAP ）]タブで、ライセンスの横にあるアクションメニューをクリックし、[ライセンスの削除（Remove License）]を選択します。
-. [ 削除（ Remove ） ] をクリックして確定します。
 

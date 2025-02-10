@@ -28,12 +28,12 @@ BlueXPでKeystoneサブスクリプションを使用および管理するには
 
 .手順
 . BlueXPナビゲーションメニューから、* Governance > Digital Wallet *を選択します。
-. [Keystone ]*を選択します。
+. [Keystoneサブスクリプション]*を選択します。
 . 「 NetApp Keystone へようこそ」ページが表示された場合は、ページに記載されているアドレスにメールを送信してください。
 +
 ネットアップの担当者は、お客様のユーザアカウントに登録へのアクセスを許可することで、リクエストを処理します。
 
-. Keystoneサブスクリプション*に戻ってサブスクリプションを確認してください。
+. [Keystoneサブスクリプション]*タブに戻って、サブスクリプションを確認してください。
 +
 image:screenshot-keystone-overview.png["Keystoneサブスクリプションのリストを示すスクリーンショット。"]
 
@@ -47,7 +47,7 @@ NetAppがアカウントを承認したら、Keystoneサブスクリプション
 
 .手順
 . BlueXPナビゲーションメニューから、* Governance > Digital Wallet *を選択します。
-. [Keystone ]*を選択します。
+. [Keystoneサブスクリプション]*を選択します。
 . リンクするサブスクリプションの場合は、をクリックします image:icon-action.png["横方向の 3 つの点を示すアイコン"] をクリックし、 * Link * を選択します。
 +
 image:screenshot-keystone-link.png["サブスクリプションのリンクオプションを示すスクリーンショット。"]
@@ -65,7 +65,7 @@ image:screenshot-keystone-link.png["サブスクリプションのリンクオ�
 
 .手順
 . BlueXPナビゲーションメニューから、* Governance > Digital Wallet *を選択します。
-. [Keystone ]*を選択します。
+. [Keystoneサブスクリプション]*を選択します。
 . 容量を調整するサブスクリプションの場合、をクリックします image:icon-action.png["横方向の 3 つの点を示すアイコン"] をクリックし、 * 詳細を表示して編集 * を選択します。
 . 1 つ以上のサブスクリプションのコミット済み容量を入力します。
 +
@@ -89,7 +89,7 @@ https://docs.netapp.com/us-en/keystone-staas/integrations/aiq-keystone-details.h
 
 == サブスクリプションのリンクを解除します
 
-BlueXPでKeystoneサブスクリプションを使用する必要がなくなった場合は、サブスクリプションのリンクを解除できます。既存の Cloud Volumes ONTAP サブスクリプションに関連付けられていないサブスクリプションはリンク解除のみ可能です。
+BlueXP  でKeystoneサブスクリプションを使用する必要がなくなった場合は、サブスクリプションのリンクを解除できます。既存の Cloud Volumes ONTAP サブスクリプションに関連付けられていないサブスクリプションはリンク解除のみ可能です。
 
 .手順
 . BlueXPナビゲーションメニューから、* Governance > Digital Wallet *を選択します。

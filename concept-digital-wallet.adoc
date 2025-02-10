@@ -14,24 +14,27 @@ summary: BlueXPデジタルウォレットを使用すると、ネットアッ�
 
 
 [role="lead"]
-BlueXPデジタルウォレットを使用すると、ネットアップ（BYOL）、BlueXPマーケットプレイスのサブスクリプション、NetApp Keystone から購入したBlueXPライセンスを管理、監視できます。
+BlueXP  デジタルウォレットを使用すると、NetApp（BYOL）、BlueXP  データサービスマーケットプレイスのサブスクリプション（NetApp Cloud Volumes ONTAPを含む）、NetApp Keystoneから購入したBlueXP  ライセンスを管理および監視できます。
 
 
 
-== の機能
+== デジタルウォレットでのライセンスとサブスクリプションの表示方法
 
-* Cloud Volumes ONTAP の容量ベースライセンスとノードベースライセンスを管理します
-* BlueXPデータサービスのライセンスを追加および管理します
-* BlueXP  部門やAstra Controlに関連付けられた従量課金制および年間契約のサブスクリプションを管理
-* Cloud Volumes ONTAPクラスタとオンプレミスのONTAPクラスタで使用するKeystoneサブスクリプションサービスを管理し、コミット済み容量の変更を要求する
-* オンプレミスのONTAP クラスタのハードウェアとソフトウェアの契約ステータス情報を表示します
+サブスクリプションに使用したBlueXP  アカウントがNetAppサポートサイトのアカウントでもある場合、ライセンスとサブスクリプションの両方がデジタルウォレットに自動的に表示されます。NetAppサポートサイト（NSS）のアカウントに関連付けられていないBlueXP  アカウントを使用していた場合は、ライセンスを手動で追加および更新する必要があります。使用状況、容量、その他の詳細は変更されません。
 
+一方、BlueXPは、ネットアップのライセンスサービスに自動的に問い合わせて、NetApp Support Site アカウントに関連付けられているライセンスの詳細を取得します。エラーがなければ、BlueXPは自動的にライセンスをデジタルウォレットに追加します。
+
+BlueXP  がライセンスを追加できない場合は、手動でデジタルウォレットに追加する必要があります。たとえば、BlueXP  ユーザアカウントがNetAppサポートサイトのアカウントに関連付けられていない場合は、自分でライセンスを追加する必要があります。
+
+NetAppの営業担当者からライセンスを購入すると、シリアル番号と追加ライセンスの詳細が記載されたEメールがNetAppから送信されます。デジタルウォレットのそれぞれのライセンスを追加または更新するには、そのシリアル番号が必要です。
+
+https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["NetAppサポートサイトのアカウントをBlueXP  のユーザクレデンシャルに追加する方法"^]です。
 
 
 
 == サポートされるサービス
 
-BlueXPデジタルウォレットでは、次のサービスのライセンスを管理できます。
+BlueXP  デジタルウォレットを使用すると、次のサービスのライセンスとサブスクリプションを管理できます。
 
 * https://docs.netapp.com/us-en/bluexp-backup-recovery/index.html["バックアップとリカバリ"^]
 * https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/index.html["Cloud Volumes ONTAP"^]
@@ -40,6 +43,3 @@ BlueXPデジタルウォレットでは、次のサービスのライセンス�
 * https://docs.netapp.com/us-en/bluexp-ontap-onprem/index.html["オンプレミスの ONTAP クラスタ"^]
 * https://docs.netapp.com/us-en/bluexp-tiering/index.html["階層化"^]
 
-
-
-TIP: BlueXP  デジタルウォレットでは、BlueXP  分類のライセンスを管理することもできます。ただし、BlueXP  分類はBlueXP  のコア機能として追加料金なしで利用できるようになりました。ライセンスまたはサブスクリプションは不要になりました。 https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["BlueXPの分類の詳細については、こちらをご覧ください"^]

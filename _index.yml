@@ -15,8 +15,12 @@ indexpage:
       url: task-manage-capacity-licenses.html
     - title: BlueXPデータサービスのライセンスを管理します
       url: task-manage-data-services-licenses.html
-    - title: PAYGOのサブスクリプションと契約を管理
+  - title: サブスクリプションを管理します
+    links:
+    - title: Marketplaceのサブスクリプションと契約の管理
       url: task-manage-subscriptions.html
+    - title: Keystoneサブスクリプションを管理
+      url: task-manage-keystone.html
   - title: ブログとコミュニティ
     links:
     - title: ネットアップコミュニティ

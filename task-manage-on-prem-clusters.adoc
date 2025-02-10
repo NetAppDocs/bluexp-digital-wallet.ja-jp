@@ -4,7 +4,7 @@ permalink: task-manage-on-prem-clusters.html
 keywords: digital wallet, cluster, on-prem ontap cluster, onprem cluster, contract, licensing, ontap licensing, ontap contract, bluexp digital wallet 
 summary: BlueXPデジタルウォレットを使用すると、オンプレミスのONTAP クラスタごとに契約の詳細を確認できます。BlueXPでクラスタをまだ検出していない場合は、デジタルウォレットから検出することもできます。 
 ---
-= オンプレミスのONTAP クラスタのライセンスを管理します
+= オンプレミスのONTAPのライセンスを管理
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

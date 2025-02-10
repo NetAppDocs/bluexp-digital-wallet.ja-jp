@@ -1,0 +1,29 @@
+= 
+:allow-uri-read: 
+
+
+ライセンスに関連付けられたBlueXP  アカウントがNetAppサポートサイトのアカウントでもあり、BlueXP  がインターネットにアクセスできる場合、ライセンス情報がデジタルウォレットに自動的に表示されます。NSSアカウントに関連付けられていないBlueXP  アカウントを使用している場合は、手動でライセンスを追加する必要があります。
+
+BlueXP  でライセンスを追加するには、シリアル番号と関連付けられたNSSアカウントを入力するか、NetAppライセンスファイル（NLF）をアップロードします。BlueXP  がインターネットにアクセスできない場合（プライベートモードインストール）は、アップロードするNetAppライセンスファイルを取得する必要があります。
+
+NetAppの営業担当者からライセンスを購入すると、シリアル番号と追加ライセンスの詳細が記載されたEメールがNetAppから送信されます。デジタルウォレットのそれぞれのライセンスを追加または更新するには、そのシリアル番号が必要です。
+
+
+NOTE: シリアル番号を入力する場合は、最初にが必要です https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["NetApp Support Site アカウントをBlueXPに追加します"^]。シリアル番号へのアクセスが許可されているNetApp Support Siteのアカウントです。
+
+.手順
+. BlueXP  メニューから* Governance > Digital Wallet *を選択し、* Data services licenses *タブを選択します。
+. 「 * ライセンスの追加 * 」を選択します。
+. [Add license_]ダイアログで、ライセンス情報を入力し、*[Add license]*を選択します。
++
+** シリアル番号があり、NSSアカウントがわかっている場合は、*[シリアル番号の入力]*を選択してその情報を入力します。
++
+シリアル番号を入力した場合は、シリアル番号へのアクセス権を持つNetApp Support Siteのアカウントも選択する必要があります。
+
++
+お使いのNetApp Support Siteのアカウントがドロップダウンリストにない場合は、 https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["NSSアカウントをBlueXPに追加します"^]
+
+** ライセンスファイル（BlueXP  をプライベートモードで使用する場合に必要）がある場合は、*ライセンスファイルのアップロード*オプションを選択し、プロンプトに従ってファイルを添付します。
+
+
+
