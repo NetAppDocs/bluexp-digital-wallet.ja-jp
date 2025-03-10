@@ -683,7 +683,6 @@
   <block id="56bba40e5f5cc68b12fbc07db999847e" category="paragraph">クレデンシャルの形式は、使用しているマーケットプレイスによって異なります。たとえば、Azure MarketplaceのサブスクリプションはAzureサブスクリプションの名前に関連付けられ、AWS MarketplaceのサブスクリプションはAWSアカウントIDを使用します。使用可能なクレデンシャルのリストは、[Credentials]ページで確認できます。</block>
   <block id="ccc5335acd730af69ab0b427088bef46" category="paragraph">サブスクリプションのサブスクリプションを解除した場合、[構成]オプションはグレー表示されます。</block>
   <block id="114bfa63105a2d23514e606861c49818" category="list-text">設定するサブスクリプションに対応する行でアクションメニューを選択し、*設定*を選択します。</block>
-  <block id="a02d5bdda2c413e728f48f77a424c9a4" category="list-text">[_Configure_Dialog]で、サブスクリプションを設定するクレデンシャルを選択します。選択できるのは、現在選択されているコネクタに関連付けられているクレデンシャルのみです。使用する資格情報が表示されない場合は、別のコネクタビューに切り替えてみてください。##これは正確に説明されていますか？##</block>
   <block id="5a66070f9f0ecd83dd28335db5efc481" category="section-title">サブスクリプションをBlueXP  組織に関連付ける</block>
   <block id="8b0d95a41f38606f34e0ab449b5ee46d" category="paragraph">サブスクリプションを組織に関連付けると、その組織のメンバーがそのサブスクリプションを課金に使用できるようになります。</block>
   <block id="9b5a99aec31dce1baddb14dc161239a5" category="paragraph">サブスクリプションの使用を特定の組織に制限したり、複数の組織間でサブスクリプションを共有したりできます。必要に応じて、既存の組織のサブスクリプションを置き換えることもできます。</block>
@@ -694,7 +693,6 @@
   <block id="bf82031efce8f265bece8bef7a61504f" category="list-text">必要に応じて、スライダを使用して、選択した組織の既存のサブスクリプションを置き換えることを示します。</block>
   <block id="e43ddb0fd3dbaee9a42e954a181ab141" category="list-text">[関連付け]*を選択します。</block>
   <block id="3b446cd4e304253a8a5be3d76f1f7d85" category="section-title">サブスクリプションに関連付けられたクレデンシャルを表示する</block>
-  <block id="f9a62957a3b5c40b90446ae870786bb9" category="paragraph">##デジタルウォレットの* Marketplace Subscriptions *ページから、特定のサブスクリプションの資格情報を表示できます。これにより、サブスクリプションの請求方法を確認できます。資格情報は使用しているコネクタにも関連付けられているため、表示するサブスクリプションに関連付けられているコネクタを選択する必要があります。##</block>
   <block id="c2c1fba9bd77826ae21ba53eaa6f5a8e" category="admonition">必要に応じて、上部ナビゲーションバーの[Connector]ドロップダウンを使用してコネクタを切り替えます。</block>
   <block id="45cdea95a34c9590c63f84497bc5f85c" category="list-text">資格情報を表示するサブスクリプションが含まれている行で、[表示]を選択します。サブスクリプションに複数の資格情報が関連付けられている場合、資格情報は表示されず、別のコネクタを選択するように指示されます。</block>
   <block id="aea9c467234db8f0360906cb49a2233c" category="section-title">マーケットプレイスの新しいサブスクリプションを追加</block>
@@ -723,4 +721,17 @@
   <block id="b7dddfb63fd700204e12dba0c2972cb4" category="sidebar">Marketplaceサブスクリプションの管理</block>
   <block id="77f5141787aa2cd1e98caca9f5ff20ed" category="paragraph">各タイルには、容量の概要がグラフィカルに表示されます。詳細ページを表示して、その容量の支払い方法を確認および管理できます。</block>
   <block id="8716d9652e3590060e2dac142eea7751" category="list-text">テーブルに表示される列をカスタマイズします。表示または非表示にする列を示す*列*アイコンを選択すると、テーブルに列を追加および削除できます。次のスクリーンショットは、[Type]、[End Date]、[Status]、および[Configuration]の各列のみを示しています。</block>
+  <block id="626a42c4b175379d9d0e723ada0cf740" category="doc">サブスクリプションを削除する機能</block>
+  <block id="0d4a9d16793bcc1fc3c4982137275a77" category="paragraph">サブスクリプションを解除した場合は、デジタルウォレットからサブスクリプションを削除できるようになりました。</block>
+  <block id="86eb6e7f10c1d00078e563696c2882c7" category="section-title">Marketplaceサブスクリプションの消費容量を表示</block>
+  <block id="0a85a2f78dadf31d5b3bcc7353bae9d1" category="paragraph">PAYGOサブスクリプションを表示するときに、サブスクリプションの消費容量を表示できるようになりました。</block>
+  <block id="88b1e2295dd3d145bab292b5d6b7a69d" category="list-text">[_Configure_Dialog]で、サブスクリプションを設定するクレデンシャルを選択します。選択できるのは、現在選択されているコネクタに関連付けられているクレデンシャルのみです。使用する資格情報が表示されない場合は、別のコネクタビューに切り替えてみてください。</block>
+  <block id="36faba60710a43a53c90eeea27395090" category="paragraph">特定のサブスクリプションのクレデンシャルは、デジタルウォレットの* Marketplace Subscriptions *ページで確認できます。これにより、サブスクリプションの請求方法を確認できます。資格情報は使用しているコネクタにも関連付けられているため、表示するサブスクリプションに関連付けられているコネクタを選択する必要があります。</block>
+  <block id="c9db549b3c47c258a77389c2a1310393" category="section-title">サブスクリプションの削除</block>
+  <block id="2cac1e5bd6e0f02534855a25f0ddf98b" category="paragraph">ハイパースケーラ（AWS Google Cloud、Azure）でBlueXP  サブスクリプションのサブスクライブを解除すると、デジタルウォレットのサブスクリプションステータスが* Unsubscribed *と表示されます。</block>
+  <block id="6b083541bf531a238745c888c414e6af" category="paragraph">登録解除されたサブスクリプションをデジタルウォレットから削除して、表示しないようにすることができます。</block>
+  <block id="ff0876f12c0b09da7a5bae608ec5986f" category="list-text">削除するサブスクリプションに対応する行のアクションメニューを選択します*削除*を選択します。</block>
+  <block id="2b6dc47a20b39f901a45db5ed6695823" category="paragraph">ステータスが* Unsubscribed *のサブスクリプションのみを削除できます。</block>
+  <block id="328bc94c6a18dd3a8b5eacb533435091" category="list-text">[サブスクリプションの削除]ダイアログで、サブスクリプションを削除することを確認します。</block>
+  <block id="f070435ef55d6c7cc1db59f0a41a4609" category="section-title">2025年3月10日</block>
 </blocks>

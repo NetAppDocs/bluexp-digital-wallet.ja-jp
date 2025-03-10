@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, enhancements, fixes, digital wallet, bluexp digital wallet' 
+keywords: 'what"s new, features, release notes, enhancements, fixes, digital wallet, bluexp digital wallet, licenses' 
 summary: BlueXPデジタルウォレットの最新情報をご確認ください。 
 ---
 = 新機能
@@ -15,6 +15,22 @@ summary: BlueXPデジタルウォレットの最新情報をご確認くださ�
 
 [role="lead"]
 BlueXPデジタルウォレットの最新情報をご確認ください。
+
+
+
+== 2025年3月10日
+
+
+
+=== サブスクリプションを削除する機能
+
+サブスクリプションを解除した場合は、デジタルウォレットからサブスクリプションを削除できるようになりました。
+
+
+
+=== Marketplaceサブスクリプションの消費容量を表示
+
+PAYGOサブスクリプションを表示するときに、サブスクリプションの消費容量を表示できるようになりました。
 
 
 
