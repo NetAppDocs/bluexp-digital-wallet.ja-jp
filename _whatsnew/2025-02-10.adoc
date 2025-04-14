@@ -26,4 +26,4 @@ BlueXP  デジタルウォレットで、プロバイダーの資格情報へ�
 
 === Cloud Volume ONTAPライセンスの管理
 
-ホームページまたは*データサービスライセンス*タブでCloud Volumes ONTAPライセンスを管理できるようになりました。[Marketplace subscriptions]タブを使用して、サブスクリプション情報を表示します。
+ホームページまたは*直接ライセンス*タブでCloud Volumes ONTAPライセンスを管理できるようになりました。[Marketplace subscriptions]タブを使用して、サブスクリプション情報を表示します。

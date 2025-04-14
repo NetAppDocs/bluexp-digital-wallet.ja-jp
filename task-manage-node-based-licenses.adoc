@@ -82,8 +82,8 @@ Cloud Volumes ONTAP の未割り当てのノードベースライセンスがあ
 
 ライセンスを交換すると、 Cloud Volumes ONTAP ライセンスが取り消され、サービスのドル相当ライセンスが作成されます。
 
-* Cloud Volumes ONTAP HA ペアのライセンスは 51TiB のデータサービスライセンスに変換されます
-* Cloud Volumes ONTAP シングルノードのライセンスは、 32TiB のデータサービスライセンスに変換されます
+* Cloud Volumes ONTAP HAペアのライセンスを51TiBの直接ライセンスに変換
+* Cloud Volumes ONTAPシングルノードのライセンスを32TiBの直接ライセンスに変換
 
 
 変換されたライセンスの有効期限は、Cloud Volumes ONTAPライセンスと同じです。

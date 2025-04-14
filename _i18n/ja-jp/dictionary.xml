@@ -14,9 +14,6 @@
   <block id="ea9a2b9ac34c9aab133f21aa5b67976e" category="list-text">[ ライセンスの追加 ] をクリックします。</block>
   <block id="662442d32a5fd91298fcf8b6391fdf17" category="section-title">充電方法を変更します</block>
   <block id="cfdb32f80009b1e5c5c0468dda9f013d" category="paragraph">クラウドプロバイダの市場からプライベートオファーまたは契約を結んでいる場合、契約に含まれていない課金方式に変更すると、BYOL（ネットアップからライセンスを購入した場合）またはPAYGOに対して課金されます。</block>
-  <block id="de4b4e176958ea7181911ce715504321" category="list-text">作業環境を選択して新しい充電方法を選択し、パッケージタイプを変更するとサービス料金に影響することを確認します。</block>
-  <block id="b0d246ceb3cd290ace3abd509e982f73" category="inline-image-macro">Cloud Volumes ONTAP 作業環境の新しい充電方法を選択する[充電方法の変更]ダイアログボックスのスクリーンショット。</block>
-  <block id="6e594f7cd72195c88515a50fcfc2397e" category="paragraph"><block ref="6e594f7cd72195c88515a50fcfc2397e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">結果</block>
   <block id="885d83848cc69da53e81865263b93e9b" category="summary">BlueXPデジタルウォレットを使用すると、ネットアップ（BYOL）、BlueXPマーケットプレイスのサブスクリプション、NetApp Keystone から購入したBlueXPライセンスを管理、監視できます。</block>
   <block id="3d6f73228ead0d62be228ed7b18d0d05" category="doc">BlueXPのデジタルウォレットの詳細をご確認ください</block>
@@ -241,8 +238,6 @@
   <block id="bec033f0535da0f58c9f0a7ccd96e793" category="paragraph">ライセンスファイルがまだない場合は、以下のセクションを参照してください。</block>
   <block id="df5b9d272738b4adaa43e7eb4949a0e5" category="section-title">未割り当てのノードベースライセンスを交換します</block>
   <block id="82330159ba1b86113008185841af38f9" category="paragraph">ライセンスを交換すると、 Cloud Volumes ONTAP ライセンスが取り消され、サービスのドル相当ライセンスが作成されます。</block>
-  <block id="9df8e0785445964e646ecf922e67b378" category="list-text">Cloud Volumes ONTAP HA ペアのライセンスは 51TiB のデータサービスライセンスに変換されます</block>
-  <block id="fc9771c21d913259d9cc1605db9e67fc" category="list-text">Cloud Volumes ONTAP シングルノードのライセンスは、 32TiB のデータサービスライセンスに変換されます</block>
   <block id="fff69e388498c7da2216c0a49587cbc8" category="list-text">[*Exchange ライセンス *] をクリックします。</block>
   <block id="25abdaf706ab9bbfe1775de2626f958f" category="inline-image-macro">未割り当てライセンスページに表示される Exchange ライセンスオプションのスクリーンショット。</block>
   <block id="59069c86e2c388bcb56b4ec04ba7c1b1" category="paragraph"><block ref="59069c86e2c388bcb56b4ec04ba7c1b1" category="inline-image-macro-rx" type="image"></block></block>
@@ -349,7 +344,6 @@
   <block id="b37ea3f4c93245969c515634c741e9bf" category="paragraph">BlueXPデジタルウォレット_を使用すると、Cloud Volumes ONTAP のライセンスを1つの場所から管理できます。新しいライセンスを追加したり、既存のライセンスを更新したりできます。</block>
   <block id="03fc5be3f1d32a032f3da42181c0e6ed" category="section-title">BlueXPデジタルウォレットへのライセンスの追加方法</block>
   <block id="472179c55c070df5bcb6f6fd708c412f" category="paragraph">一方、BlueXPは、ネットアップのライセンスサービスに自動的に問い合わせて、NetApp Support Site アカウントに関連付けられているライセンスの詳細を取得します。エラーがなければ、BlueXPは自動的にライセンスをデジタルウォレットに追加します。</block>
-  <block id="c713a53d9b2831d188de3225e90ebdee" category="paragraph">BlueXPでライセンスを追加できない場合は、手動でライセンスをデジタルウォレットに追加する必要があります。たとえば、インターネットにアクセスできない場所にConnectorがインストールされている場合は、ライセンスを自分で追加する必要があります。 <block ref="2b377ff52574668221716136185f8476" category="inline-xref-macro-rx"></block>。</block>
   <block id="70998cc9a7ddc4592ecb1e8fc59e0b63" category="paragraph">BlueXPのデジタルウォレットには、アカウントの消費容量の合計と、ライセンスパッケージの消費容量が表示されます。この情報は、料金の支払い方法や、容量の追加購入が必要かどうかを把握するのに役立ちます。</block>
   <block id="37532cd27e3c53471b1caed0ba1f90ed" category="section-title">使用状況レポートをダウンロードします</block>
   <block id="c2b73e18a5b530a547ba48a8177d13c3" category="inline-image-macro">スクリーンショットは、デジタルウォレットのCloud Volumes ONTAP 容量ベースライセンスページを示し、使用状況レポートボタンが強調表示されています。</block>
@@ -378,8 +372,6 @@
   <block id="8b3da2ed858ee5c956acde26c9ef7dd0" category="admonition">FlexCloneボリュームは料金が発生しないため、このレポートには含まれていません。</block>
   <block id="23e918e9f1c9f1bb5769dcc236489de2" category="paragraph">使用状況レポートがダウンロードされます。</block>
   <block id="05655bb3cbd3604d6c71a1db823ad94f" category="list-text">ダウンロードしたファイルを開き、レポートにアクセスします。</block>
-  <block id="325ef46eb3d6b63c4d60ef08cdd6176f" category="inline-image-macro">BlueXPデジタルウォレットのCloud Volumes ONTAP ページのスクリーンショット。表のすぐ上に[Change Charging Method]ボタンがあります。</block>
-  <block id="bdc5814154b1b181ca8722ef08ed8a28" category="paragraph"><block ref="bdc5814154b1b181ca8722ef08ed8a28" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3d6aabe991edb10f282fd60995e725ca" category="inline-image-macro">Keystoneサブスクリプションのリストを示すスクリーンショット。</block>
   <block id="6fd94fda3665b39867817d4700d184e8" category="paragraph"><block ref="6fd94fda3665b39867817d4700d184e8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="990d530a36683451e6ac666b1b224270" category="paragraph">BlueXPデジタルウォレットでノードベースライセンスを管理し、各Cloud Volumes ONTAP システムに必要な容量を含む有効なライセンスがあることを確認する。</block>
@@ -552,7 +544,6 @@
   <block id="a52d65f3839199e04d1925a40469777d" category="paragraph">ライセンスに関連付けられたBlueXP  アカウントがNetAppサポートサイトのアカウントでもあり、BlueXP  がインターネットにアクセスできる場合、ライセンス情報がデジタルウォレットに自動的に表示されます。NSSアカウントに関連付けられていないBlueXP  アカウントを使用している場合は、手動でライセンスを追加する必要があります。</block>
   <block id="cbb4f0e1a501c6c19666681fbeca0825" category="paragraph">BlueXP  でライセンスを追加するには、シリアル番号と関連付けられたNSSアカウントを入力するか、NetAppライセンスファイル（NLF）をアップロードします。BlueXP  がインターネットにアクセスできない場合（プライベートモードインストール）は、アップロードするNetAppライセンスファイルを取得する必要があります。</block>
   <block id="e4da416e4783a9b97eecd8ddbd39ca5b" category="paragraph">NetAppの営業担当者からライセンスを購入すると、シリアル番号と追加ライセンスの詳細が記載されたEメールがNetAppから送信されます。デジタルウォレットのそれぞれのライセンスを追加または更新するには、そのシリアル番号が必要です。</block>
-  <block id="359aa3841e5418fafbad09669e55c993" category="list-text">BlueXP  メニューから* Governance &gt; Digital Wallet *を選択し、* Data services licenses *タブを選択します。</block>
   <block id="37fcb8e7d30cc5903f7318cd979d8ae4" category="list-text">「 * ライセンスの追加 * 」を選択します。</block>
   <block id="b969961bd169c5e07234d15767633a3b" category="list-text">[Add license_]ダイアログで、ライセンス情報を入力し、*[Add license]*を選択します。</block>
   <block id="b20365c7ce019b6e1f4c2c98af493327" category="list-text">シリアル番号があり、NSSアカウントがわかっている場合は、*[シリアル番号の入力]*を選択してその情報を入力します。</block>
@@ -566,11 +557,8 @@
   <block id="7416ddc285206d8d8958e74f1f79eea8" category="paragraph">BlueXP  アカウントがNSSアカウントに関連付けられていない場合は、手動でライセンスを更新する必要があります。</block>
   <block id="496eadbb25ec6a253c30a9f555549e85" category="paragraph">BlueXP  でライセンスを手動で更新するには、シリアル番号と関連付けられたNSSアカウントを入力するか、NetAppライセンスファイル（Cloud Volumes ONTAP HAペアの場合は_files_）をアップロードします。BlueXP  がインターネットにアクセスできない場合（プライベートモードインストール）は、アップロードするNetAppライセンスファイルを取得する必要があります。</block>
   <block id="379dad0f18d68789867e193b48643375" category="list-text">新しいライセンスを購入するには、NetAppの担当者にお問い合わせください。</block>
-  <block id="5ebf99ee813e440150ec86c75a891b13" category="paragraph">ライセンスの支払い後、NetAppサポートサイトに登録されると、BlueXP  によってBlueXP  デジタルウォレット内のライセンスが自動的に更新され、データサービスのライセンスページに5~10分後に変更が反映されます。</block>
   <block id="5a25c9da253ea71b2f8779b02afe0ab3" category="inline-xref">ライセンスファイルの取得方法について説明します。</block>
   <block id="05ee1a0f0e0943d6cf0066b6754bddd3" category="list-text">BlueXP  がライセンスを自動的に更新できない場合（BlueXP  をプライベートモードで使用している場合など）は、サポートからNetAppライセンスファイルを取得し、手動でライセンスファイルをアップロードする必要があります。<block ref="19f08aed796241a6f1136d21f3565562" category="inline-xref-macro-rx"></block></block>
-  <block id="dc645aed622f4988d777551bcc3d7aa4" category="list-text">[_Data service licenses]タブで、更新するシリアル番号のを選択し<block ref="c2d801cfb83353ade7055f5accb1a490" category="inline-image-macro-rx" type="image"></block>、*[Update license]*を選択します。</block>
-  <block id="1485ebb78de4d89be89ebe9a91c558f8" category="list-text">[_Update license_]ページで、ライセンスファイルをアップロードし、*[Update License]*を選択します。</block>
   <block id="abbf3397e656c62394e67cdc1337be3c" category="doc">新しい概要ダッシュボード</block>
   <block id="3aff149422876e5f443408fd802b4fb2" category="paragraph">BlueXP  デジタルウォレットは使いやすさを考慮して再設計され、追加のサブスクリプションとライセンス管理が可能になりました。</block>
   <block id="890f7a0157ba95ff799f6f457d82439a" category="paragraph">デジタルウォレットのホームページには、NetAppライセンスとMarketplaceサブスクリプションの更新されたダッシュボードがあり、特定のサービス、ライセンスタイプ、必要なアクションをドリルダウンできます。</block>
@@ -579,7 +567,6 @@
   <block id="175fca0ca5f306258c490378dc2367db" category="section-title">サブスクリプションと組織の関連付け</block>
   <block id="a5f7678a307b711643d239d80564147c" category="paragraph">サブスクリプションが関連付けられている組織をデジタルウォレットから直接更新できるようになりました。</block>
   <block id="e8545e234450bbc06ae95bfd7828cfcd" category="section-title">Cloud Volume ONTAPライセンスの管理</block>
-  <block id="78ab02ef4a4fa36c21e9d7181ab77517" category="paragraph">ホームページまたは*データサービスライセンス*タブでCloud Volumes ONTAPライセンスを管理できるようになりました。[Marketplace subscriptions]タブを使用して、サブスクリプション情報を表示します。</block>
   <block id="90929795d9664576087005f35ed4c0dc" category="paragraph">BlueXP  デジタルウォレットを使用すると、NetApp（BYOL）、BlueXP  データサービスマーケットプレイスのサブスクリプション（NetApp Cloud Volumes ONTAPを含む）、NetApp Keystoneから購入したBlueXP  ライセンスを管理および監視できます。</block>
   <block id="a67b2f9752b2d88ce6e38f260686ae69" category="section-title">デジタルウォレットでのライセンスとサブスクリプションの表示方法</block>
   <block id="1efe9efa98048a473a6092d3c9947337" category="paragraph">サブスクリプションに使用したBlueXP  アカウントがNetAppサポートサイトのアカウントでもある場合、ライセンスとサブスクリプションの両方がデジタルウォレットに自動的に表示されます。NetAppサポートサイト（NSS）のアカウントに関連付けられていないBlueXP  アカウントを使用していた場合は、ライセンスを手動で追加および更新する必要があります。使用状況、容量、その他の詳細は変更されません。</block>
@@ -609,7 +596,6 @@
   <block id="b04f4a30838d70bc9423c5bcc2a9d78b" category="paragraph"><block ref="b04f4a30838d70bc9423c5bcc2a9d78b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="57cba9caf80ab7bb6590dd12a1c40e9a" category="list-text">いずれかの行を展開すると、サブスクリプションやライセンスに含まれる内容、購入済み容量、契約条件の詳細が表示されます。</block>
   <block id="a4bee04006bf7e006f35bb8a6a3f32ae" category="list-text">アクションメニューを使用して、ライセンスの更新や別の組織へのサブスクリプションの関連付けなど、特定のライセンスまたはサブスクリプションを管理します。</block>
-  <block id="24a529315ea2d732361e5d6769f85ff8" category="paragraph">特定のサービスの*概要*ページから新しいライセンスまたはサブスクリプションを追加することはできません。ライセンスまたはサブスクリプションを追加できるのは、*データサービスライセンス*タブまたは*マーケットプレイスサブスクリプション*タブからのみです。</block>
   <block id="ca23b039c5d1d583cc53022c31a54485" category="inline-link-macro">ライセンスの管理の詳細については、こちらをご覧ください。</block>
   <block id="4b2167e14a21898c791009b50b46ec9e" category="inline-link-macro">サブスクリプションの管理について詳しくは、こちらをご覧ください。</block>
   <block id="edf4dbcbd1200ec7acd2d146b799e81e" category="paragraph"><block ref="1126b2e5fef6a9209f75e5a91faff8ca" category="inline-link-macro-rx"></block> <block ref="841d65307797c9e89f68fecb565ac37f" category="inline-link-macro-rx"></block></block>
@@ -622,7 +608,6 @@
   <block id="a495aa39c60dc5d48d7bb146e6f7265a" category="list-text">[概要]*タブのCloud Volumes ONTAP [容量]タイルには、アカウントにプロビジョニングされている現在の容量が表示されます。</block>
   <block id="260fa7c60a4b141a99b00056d3d429d3" category="inline-image-macro">Cloud Volumes ONTAPライセンスとサブスクリプションの容量の概要を示すスクリーンショット。</block>
   <block id="e0e863a6ab1f77fce34b0885510033de" category="paragraph"><block ref="e0e863a6ab1f77fce34b0885510033de" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="bea623ba2f203df6f2cad1b5d6c826c6" category="list-text">_データサービスライセンス_は、NetAppアカウント内のすべてのCloud Volumes ONTAPシステムのプロビジョニング済み容量の合計です。充電は、ボリューム内のローカルスペース、使用済みスペース、格納済みスペース、または有効なスペースに関係なく、各ボリュームにプロビジョニングされたサイズに基づいて行われます。</block>
   <block id="80495a5c91b6e7cae60c8c5c750734bc" category="list-text">_年間契約_は、NetAppから購入したライセンス容量（お客様所有のライセンスを使用（BYOL）またはマーケットプレイス契約）の合計です。</block>
   <block id="e55807174fe6f2d9f15f9e357ee0d63e" category="list-text">_PAYGO_は、クラウドマーケットプレイスのサブスクリプションを使用してプロビジョニングされた合計容量です。PAYGOによる課金は、消費容量がライセンスで許可された容量を超えている場合、またはBlueXPデジタルウォレットに使用可能なBYOLライセンスがない場合にのみ使用されます。</block>
   <block id="d02d58b5b8770f720f9d912913a80f1a" category="list-text">[表示]*を選択すると、各ライセンスパッケージの消費容量が表示されます。</block>
@@ -639,8 +624,6 @@
   <block id="31ccaa5879eee7a69ef3c48f1004c59c" category="list-text">課金方法を変更しても、NetApp（BYOL）から購入したライセンスで課金されるか、クラウドプロバイダのマーケットプレイスの従量課金制（PAYGO）サブスクリプションで課金されるかには影響しません。</block>
   <block id="2daabc6822724771970f17e8ae6a4cee" category="list-text">[* Overview * （概要 * ） ] タブを選択します。</block>
   <block id="5b37c7034b369fcc6d9b931180eef46f" category="list-text">Cloud Volumes ONTAPタイルで、* View *を選択します。</block>
-  <block id="1cd5a7f8284f11c93e9f7bd64be49b8a" category="list-text">下にスクロールして* Capacity-based license *の表を表示し、*[Change Charging Method]*を選択します。</block>
-  <block id="08755db7952950f790eaa52809aad08e" category="list-text">「充電方法の変更」*を選択します。</block>
   <block id="a9bcc09a5114887c29b3f365ee72e9e5" category="list-text">*使用状況の概要*：このレポートには、次の情報が含まれています。</block>
   <block id="4600869c8040d8603fe9dbe6d56a2b2a" category="list-text">* Cloud Volumes ONTAPパッケージの使用状況*：このレポートには、最適化されたI/Oパッケージを除く各パッケージに関する次の情報が含まれています。</block>
   <block id="a65d4ec7ff2941ad2ea2bc688a6dbbb3" category="list-text">* Storage VMの使用量*：このレポートは、Cloud Volumes ONTAP システムとStorage Virtual Machine（SVM）全体で、課金された容量の内訳を表示します。この情報は、レポートでのみ使用できます。次の情報が含まれています。</block>
@@ -648,7 +631,6 @@
   <block id="f4c2ce2a853a74c3742ccc54482c074e" category="list-text">[Usage report]*を選択します。</block>
   <block id="1df0076b49b993598a996d2d7eb46dd2" category="paragraph">BlueXP  のデジタルウォレットでは、NetApp（BYOL）から直接購入したライセンスを管理して、Cloud Volumes for ONTAPなどのBlueXP  データサービスで使用できます。使用済みライセンス容量、残りの空き容量を確認でき、容量の上限や有効期限に達した場合に通知が表示されます。</block>
   <block id="bac99350c8b9abdf51c8cb6c7a0467fd" category="inline-link-macro">概要ダッシュボードの詳細</block>
-  <block id="7b372c62933632ddd06313e5973ab678" category="admonition">[データサービスライセンス]ページには、すべてのライセンスが表示されます。特定のデータサービスのライセンスの詳細が必要な場合は、*[概要]*ダッシュボードのデータサービスタイルを使用してください。<block ref="9a2921323c53c040741c05db9c27525e" category="inline-link-macro-rx"></block>です。</block>
   <block id="353c347239342af7353680135c05995b" category="inline-link">Cloud Volumes ONTAPのライセンスを設定する</block>
   <block id="a44e51eede13b57e35e18c372d5ef72e" category="list-text"><block ref="a44e51eede13b57e35e18c372d5ef72e" category="inline-link-rx"></block></block>
   <block id="1ce97cc664bad2b8b354b3220e6331e7" category="list-text">[Keystoneサブスクリプション]*を選択します。</block>
@@ -685,12 +667,8 @@
   <block id="114bfa63105a2d23514e606861c49818" category="list-text">設定するサブスクリプションに対応する行でアクションメニューを選択し、*設定*を選択します。</block>
   <block id="5a66070f9f0ecd83dd28335db5efc481" category="section-title">サブスクリプションをBlueXP  組織に関連付ける</block>
   <block id="8b0d95a41f38606f34e0ab449b5ee46d" category="paragraph">サブスクリプションを組織に関連付けると、その組織のメンバーがそのサブスクリプションを課金に使用できるようになります。</block>
-  <block id="9b5a99aec31dce1baddb14dc161239a5" category="paragraph">サブスクリプションの使用を特定の組織に制限したり、複数の組織間でサブスクリプションを共有したりできます。必要に応じて、既存の組織のサブスクリプションを置き換えることもできます。</block>
   <block id="3c966102b2078c31428f6f529f1d49df" category="paragraph">サブスクリプションを組織に関連付けるには、組織管理者ロールが必要です。</block>
   <block id="23fa25e10ada436e3690c33daf78f47f" category="admonition">BlueXP  は、組織を使用してユーザーとリソースを管理する標準モードでIDおよびアクセス管理（IAM）をサポートします。BlueXP  をプライベートモードまたは制限モードで使用している場合は、BlueXP  アカウント_を使用して、サブスクリプションを含むユーザーとリソースを管理します。</block>
-  <block id="e8d4d17604edcb01795d2dec29046b8c" category="list-text">関連付けるサブスクリプションに対応する行でアクションメニューを選択し、*関連付け*を選択します。</block>
-  <block id="712bf394985d0b4e0af760f8e8abd91c" category="list-text">[サブスクリプションの関連付け]ダイアログで、このサブスクリプションを関連付ける組織を選択します。</block>
-  <block id="bf82031efce8f265bece8bef7a61504f" category="list-text">必要に応じて、スライダを使用して、選択した組織の既存のサブスクリプションを置き換えることを示します。</block>
   <block id="e43ddb0fd3dbaee9a42e954a181ab141" category="list-text">[関連付け]*を選択します。</block>
   <block id="3b446cd4e304253a8a5be3d76f1f7d85" category="section-title">サブスクリプションに関連付けられたクレデンシャルを表示する</block>
   <block id="c2c1fba9bd77826ae21ba53eaa6f5a8e" category="admonition">必要に応じて、上部ナビゲーションバーの[Connector]ドロップダウンを使用してコネクタを切り替えます。</block>
@@ -715,7 +693,6 @@
   <block id="e74b98af0a0d10cc27c402c02fac1fda" category="sidebar">Marketplaceのサブスクリプションと契約の管理</block>
   <block id="a35e94495c93c5d785f8b1240c15be6a" category="sidebar">概要ダッシュボードの使用</block>
   <block id="9f0562c731b8981f21e8a7ac75bd947f" category="sidebar">ライセンスの管理</block>
-  <block id="494ac06bbc5d38299a90be70b7e29b29" category="sidebar">データサービスのライセンスを管理します。</block>
   <block id="c7031958abe0c6bca3058548b703b37f" category="sidebar">Cloud Volumes ONTAPヨウリヨウヘエスライセンス</block>
   <block id="f34953a70b4a66823b7c335bccdd1df4" category="sidebar">Cloud Volumes ONTAPノノオトヘエスライセンス</block>
   <block id="b7dddfb63fd700204e12dba0c2972cb4" category="sidebar">Marketplaceサブスクリプションの管理</block>
@@ -728,11 +705,43 @@
   <block id="88b1e2295dd3d145bab292b5d6b7a69d" category="list-text">[_Configure_Dialog]で、サブスクリプションを設定するクレデンシャルを選択します。選択できるのは、現在選択されているコネクタに関連付けられているクレデンシャルのみです。使用する資格情報が表示されない場合は、別のコネクタビューに切り替えてみてください。</block>
   <block id="36faba60710a43a53c90eeea27395090" category="paragraph">特定のサブスクリプションのクレデンシャルは、デジタルウォレットの* Marketplace Subscriptions *ページで確認できます。これにより、サブスクリプションの請求方法を確認できます。資格情報は使用しているコネクタにも関連付けられているため、表示するサブスクリプションに関連付けられているコネクタを選択する必要があります。</block>
   <block id="c9db549b3c47c258a77389c2a1310393" category="section-title">サブスクリプションの削除</block>
-  <block id="2cac1e5bd6e0f02534855a25f0ddf98b" category="paragraph">ハイパースケーラ（AWS Google Cloud、Azure）でBlueXP  サブスクリプションのサブスクライブを解除すると、デジタルウォレットのサブスクリプションステータスが* Unsubscribed *と表示されます。</block>
-  <block id="6b083541bf531a238745c888c414e6af" category="paragraph">登録解除されたサブスクリプションをデジタルウォレットから削除して、表示しないようにすることができます。</block>
-  <block id="ff0876f12c0b09da7a5bae608ec5986f" category="list-text">削除するサブスクリプションに対応する行のアクションメニューを選択します*削除*を選択します。</block>
-  <block id="2b6dc47a20b39f901a45db5ed6695823" category="paragraph">ステータスが* Unsubscribed *のサブスクリプションのみを削除できます。</block>
   <block id="328bc94c6a18dd3a8b5eacb533435091" category="list-text">[サブスクリプションの削除]ダイアログで、サブスクリプションを削除することを確認します。</block>
   <block id="f070435ef55d6c7cc1db59f0a41a4609" category="section-title">2025年3月10日</block>
   <block id="341aea52571ed6aae4899a6ea183248a" category="admonition">デジタルウォレットでサブスクリプション情報を表示するには、コネクタをデプロイしておく必要があります。Cloud Volumes ONTAPのノードライセンスを表示するには、コネクタも必要です。</block>
+  <block id="af4e4720a5da7d0d997443fe59680cce" category="list-text">BlueXP  メニューから* Governance &gt; Digital Wallet *を選択し、* Direct licenses *タブを選択します。</block>
+  <block id="893ec57836c27cc349c4eb2a62a0aa1f" category="paragraph">ライセンスの支払い後、NetAppサポートサイトに登録されると、BlueXP  はBlueXP  デジタルウォレットのライセンスを自動的に更新し、*直接ライセンス*ページに5～10分後に変更が反映されます。</block>
+  <block id="02dcd8bce07de7dc097a4ebfd00eaf71" category="list-text">[直接ライセンス]タブで、更新するシリアル番号としてを選択し、*[ライセンスの更新]*を選択し<block ref="c2d801cfb83353ade7055f5accb1a490" category="inline-image-macro-rx" type="image"></block>ます。</block>
+  <block id="8d41ba787c10f2cc6998265252545826" category="list-text">[ライセンスの更新]ページで、ライセンスファイルをアップロードし、*[ライセンスの更新]*を選択します。</block>
+  <block id="80f48cc4cb64860e960ab9e9145cc67e" category="paragraph">ライセンスを管理するには、サービス名に基づいてライセンスをグループ化します。これにより、特定のサービスに関連するすべてのライセンスを表示できます。行を展開すると、サービスに関連する各ライセンスに関する詳細情報を表示できます。各サービスのルート行には、サービス名とそのサービスの使用済み容量が表示されます。ライセンスはサービス名別に自動的にグループ化されます。各サービスのルート行には、サービス名とそのサービスの使用済み容量が表示されます。</block>
+  <block id="7a31e490cd0c8ad68b05578ab24c91cb" category="list-text">BlueXP  メニューから* Governance *&gt;* Digital Wallet *を選択し、* Direct licenses *タブを選択します。</block>
+  <block id="f82297c58511adf82f03f07c94881e8b" category="list-text">サービス名の行をクリックして展開します。そのサービスに関連するすべてのライセンスが表示されます。展開された各行には、ライセンスID、シリアル番号、容量、有効期限など、ライセンスに関する詳細情報が表示されます。</block>
+  <block id="0bc14678dfe9cde6019256774c92b34e" category="paragraph">ホームページまたは*直接ライセンス*タブでCloud Volumes ONTAPライセンスを管理できるようになりました。[Marketplace subscriptions]タブを使用して、サブスクリプション情報を表示します。</block>
+  <block id="a97b82bb80667e8975635f977670227e" category="paragraph">特定のサービスの*概要*ページから新しいライセンスまたはサブスクリプションを追加することはできません。ライセンスまたはサブスクリプションを追加できるのは、それぞれ*直接ライセンス*タブまたは*マーケットプレイスサブスクリプション*タブからのみです。</block>
+  <block id="18a9434b229122882af8f6b252453c72" category="paragraph">BlueXPでライセンスを追加できない場合は、手動でライセンスをデジタルウォレットに追加する必要があります。たとえば、コネクタがインターネットにアクセスできない場所にインストールされている場合は、自分でライセンスを追加する必要があります。<block ref="21379db3c6d74c3a5d2d6d121cdcf537" category="inline-link-rx"></block>です。</block>
+  <block id="b989e51822e011c35b6e3fc2f6e007cf" category="list-text">直接ライセンス_は、NetAppアカウント内のすべてのCloud Volumes ONTAPシステムのプロビジョニング済み容量の合計です。充電は、ボリューム内のローカルスペース、使用済みスペース、格納済みスペース、または有効なスペースに関係なく、各ボリュームにプロビジョニングされたサイズに基づいて行われます。</block>
+  <block id="0e4bc6fa91df5edc0eafb52c324b38f3" category="list-text">下にスクロールして* Capacity-based license *の表を表示し、*[Change charging method]*を選択します。</block>
+  <block id="bdc1bf68b97604b69c5291bbde33e6e2" category="inline-image-macro">「充電方法の変更」ボタンが表のすぐ上にあるBlueXP  デジタルウォレットの「Cloud Volumes ONTAP」ページのスクリーンショット。</block>
+  <block id="6167afda1681ca1123608e055285c232" category="paragraph"><block ref="6167afda1681ca1123608e055285c232" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d05997f9ad638ee4daa35dcd63a1c553" category="list-text">*充電方法の変更*ポップアップで作業環境を選択し、新しい充電方法を選択してから、パッケージタイプの変更がサービス料金に影響することを確認します。</block>
+  <block id="c2a404ae45ebabafb7f3598bcd8a1a18" category="list-text">「充電方法の変更」*を選択します。</block>
+  <block id="2ef1ddd95077dddfd70d5ab07187d1f8" category="admonition">[直接ライセンス]ページには、すべてのライセンスが表示されます。特定のデータサービスのライセンスの詳細が必要な場合は、*[概要]*ダッシュボードのデータサービスタイルを使用してください。<block ref="9a2921323c53c040741c05db9c27525e" category="inline-link-macro-rx"></block>です。</block>
+  <block id="6d6c2071320d39aedc7f752f83e093e6" category="section-title">ライセンスステータスの表示</block>
+  <block id="488b3f4a79a8819dabc209f2405c7ba7" category="list-text">Cloud Volumes ONTAP HAペアのライセンスを51TiBの直接ライセンスに変換</block>
+  <block id="d8961eb56e3c50e0da29ec362dcb385a" category="list-text">Cloud Volumes ONTAPシングルノードのライセンスを32TiBの直接ライセンスに変換</block>
+  <block id="40f89c459ce0878b228a9591409f3603" category="paragraph">サブスクリプションの使用を特定の組織に制限したり、複数の組織間でサブスクリプションを共有したりできます。</block>
+  <block id="b3170678c3c61ffc94af47ef973eeb35" category="list-text">関連付けるサブスクリプションの行で、アクションメニューを開き、*関連付け*を選択します。</block>
+  <block id="7d3a30fe2668092a63decc90304c25c5" category="list-text">[サブスクリプションの関連付け]ダイアログで、サブスクリプションに関連付ける組織を1つ以上選択します。</block>
+  <block id="5f2584f9079ec37953d08854e13410ab" category="section-title">サブスクリプションの設定解除</block>
+  <block id="3eeaae02c9959c91b45646bc49679ed8" category="paragraph">サブスクリプションを削除する前に、設定を解除する必要があります。これにより、関連付けられているすべてのデータと設定がクリアされます。</block>
+  <block id="e6e43a3845b22ab829011de2cc5db21b" category="list-text">BlueXP  のナビゲーションメニューで、*ガバナンス&gt;デジタルウォレット*を選択します。</block>
+  <block id="8f401d09de150d1b370bd812c149ef02" category="list-text">設定を解除するサブスクリプションの行で、アクションメニューをクリックして*設定解除*を選択します。</block>
+  <block id="25f9b23bd620e2b7744e0ee585d450c4" category="list-text">プロンプトに従って、関連付けられている設定またはデータを削除またはリセットします。</block>
+  <block id="c967e7e2ec19dfbde4242e266c145df0" category="list-text">ステータスが*未設定*に更新されるまで待ちます。</block>
+  <block id="d1e12202953a977de666de2e1fa787af" category="paragraph">クラウドプロバイダ（AWS、Google Cloud、Azure）でBlueXP  サブスクリプションのサブスクリプションを解除すると、デジタルウォレットのサブスクリプションステータスが* Unsubscribed *と表示されます。</block>
+  <block id="bb7c20b1665589d2dd3cde7478cbc1fb" category="paragraph">デジタルウォレットから*購読解除された*購読を削除して、表示されないようにすることができます。</block>
+  <block id="5d0f52ca6f93228b13b446aa98e06f20" category="paragraph">サブスクリプションを削除できるのは、* Unsubscribed *と* Unconfigured *の両方である場合のみです。つまり、削除する前に、関連するすべての設定、データ、および構成をクリアまたはリセットする必要があります。</block>
+  <block id="1cdf55c4f07b4e6c150fa4314c119aa5" category="paragraph">サブスクリプションがまだ設定されている場合、*削除*オプションは表示されません。オプションを使用可能にするには、関連付けられている設定、サービス、またはデータをすべてクリアして、サブスクリプションの構成を解除します。</block>
+  <block id="f718d4efc769e352af879333b97563c1" category="list-text">削除するサブスクリプションの行で、アクションメニューを開き、*削除*を選択します。</block>
+  <block id="d945569d4f85da82c21c1eedda61f245" category="paragraph">ステータスが* Unsubscribed *および* Unconfigured *のサブスクリプションのみを削除できます。</block>
+  <block id="22a93e112ce29f0d1e8dfc0ede83e119" category="sidebar">直接ライセンスの管理</block>
 </blocks>

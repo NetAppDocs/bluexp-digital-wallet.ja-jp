@@ -33,7 +33,7 @@ https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/concept-licensing.html[
 
 一方、BlueXPは、ネットアップのライセンスサービスに自動的に問い合わせて、NetApp Support Site アカウントに関連付けられているライセンスの詳細を取得します。エラーがなければ、BlueXPは自動的にライセンスをデジタルウォレットに追加します。
 
-BlueXPでライセンスを追加できない場合は、手動でライセンスをデジタルウォレットに追加する必要があります。たとえば、インターネットにアクセスできない場所にConnectorがインストールされている場合は、ライセンスを自分で追加する必要があります。 <<Add purchased licenses to your account,購入済みライセンスをアカウントに追加する方法について説明します>>。
+BlueXPでライセンスを追加できない場合は、手動でライセンスをデジタルウォレットに追加する必要があります。たとえば、コネクタがインターネットにアクセスできない場所にインストールされている場合は、自分でライセンスを追加する必要があります。 https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-data-services-licenses.html#add-a-license["購入済みライセンスをアカウントに追加する方法について説明します"^]です。
 
 
 
@@ -48,7 +48,7 @@ BlueXPのデジタルウォレットには、アカウントの消費容量の�
 image:screenshot_cvo_overview_digital_wallet.png["Cloud Volumes ONTAPライセンスとサブスクリプションの容量の概要を示すスクリーンショット。"]
 
 +
-** _データサービスライセンス_は、NetAppアカウント内のすべてのCloud Volumes ONTAPシステムのプロビジョニング済み容量の合計です。充電は、ボリューム内のローカルスペース、使用済みスペース、格納済みスペース、または有効なスペースに関係なく、各ボリュームにプロビジョニングされたサイズに基づいて行われます。
+** 直接ライセンス_は、NetAppアカウント内のすべてのCloud Volumes ONTAPシステムのプロビジョニング済み容量の合計です。充電は、ボリューム内のローカルスペース、使用済みスペース、格納済みスペース、または有効なスペースに関係なく、各ボリュームにプロビジョニングされたサイズに基づいて行われます。
 ** _年間契約_は、NetAppから購入したライセンス容量（お客様所有のライセンスを使用（BYOL）またはマーケットプレイス契約）の合計です。
 ** _PAYGO_は、クラウドマーケットプレイスのサブスクリプションを使用してプロビジョニングされた合計容量です。PAYGOによる課金は、消費容量がライセンスで許可された容量を超えている場合、またはBlueXPデジタルウォレットに使用可能なBYOLライセンスがない場合にのみ使用されます。
 
@@ -112,14 +112,11 @@ BlueXPは、常に最初にライセンスを請求しようとします。ラ�
 +
 image:screenshot_digital_wallet_legacy_view.png["[Switch to Legacy view]ボタンのスクリーンショット"]
 
-. 下にスクロールして* Capacity-based license *の表を表示し、*[Change Charging Method]*を選択します。
+. 下にスクロールして* Capacity-based license *の表を表示し、*[Change charging method]*を選択します。
 +
-image:screenshot-digital-wallet-charging-method-button.png["BlueXPデジタルウォレットのCloud Volumes ONTAP ページのスクリーンショット。表のすぐ上に[Change Charging Method]ボタンがあります。"]
+image:screenshot-digital-wallet-charging-method-button.png["「充電方法の変更」ボタンが表のすぐ上にあるBlueXP  デジタルウォレットの「Cloud Volumes ONTAP」ページのスクリーンショット。"]
 
-. 作業環境を選択して新しい充電方法を選択し、パッケージタイプを変更するとサービス料金に影響することを確認します。
-+
-image:screenshot-digital-wallet-charging-method.png["Cloud Volumes ONTAP 作業環境の新しい充電方法を選択する[充電方法の変更]ダイアログボックスのスクリーンショット。"]
-
+. *充電方法の変更*ポップアップで作業環境を選択し、新しい充電方法を選択してから、パッケージタイプの変更がサービス料金に影響することを確認します。
 . 「充電方法の変更」*を選択します。
 
 

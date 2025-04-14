@@ -12,7 +12,7 @@ NetAppの営業担当者からライセンスを購入すると、シリアル�
 NOTE: シリアル番号を入力する場合は、最初にが必要です https://docs.netapp.com/us-en/bluexp-setup-admin/task-adding-nss-accounts.html["NetApp Support Site アカウントをBlueXPに追加します"^]。シリアル番号へのアクセスが許可されているNetApp Support Siteのアカウントです。
 
 .手順
-. BlueXP  メニューから* Governance > Digital Wallet *を選択し、* Data services licenses *タブを選択します。
+. BlueXP  メニューから* Governance > Digital Wallet *を選択し、* Direct licenses *タブを選択します。
 . 「 * ライセンスの追加 * 」を選択します。
 . [Add license_]ダイアログで、ライセンス情報を入力し、*[Add license]*を選択します。
 +
