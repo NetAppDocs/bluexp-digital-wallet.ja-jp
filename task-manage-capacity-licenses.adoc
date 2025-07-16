@@ -82,9 +82,13 @@ Cloud Volumes ONTAPページでレガシーモードに切り替えると、パ�
 . BlueXPナビゲーションメニューから、* Governance > Digital Wallet *を選択します。
 . [概要]*タブのCloud Volumes ONTAP [容量]タイルには、アカウントにプロビジョニングされている現在の容量が表示されます。
 . [表示]*を選択すると、各ライセンスパッケージのプロビジョニング済み容量が表示されます。
-. [レガシービューに切り替える]*を選択します。
+. [アドバンストビューに切り替える]*を選択します。
 +
-image:screenshot_digital_wallet_legacy_view.png["[Switch to Legacy view]ボタンのスクリーンショット"]
+image:screenshot_digital_wallet_legacy_view.png["[Switch to advanced view]ボタンのスクリーンショット"]
+
+. 表示するパッケージの詳細を表示します。
++
+image:screenshot_digital_wallet_standard_view.png["標準表示に切り替えボタンのスクリーンショット"]
 
 
 
@@ -108,7 +112,7 @@ BlueXPは、常に最初にライセンスを請求しようとします。ラ�
 . BlueXPナビゲーションメニューから、* Governance > Digital Wallet *を選択します。
 . [* Overview * （概要 * ） ] タブを選択します。
 . Cloud Volumes ONTAPタイルで、* View *を選択します。
-. [レガシービューに切り替える]*を選択します。
+. [アドバンストビューに切り替える]*を選択します。
 +
 image:screenshot_digital_wallet_legacy_view.png["[Switch to Legacy view]ボタンのスクリーンショット"]
 

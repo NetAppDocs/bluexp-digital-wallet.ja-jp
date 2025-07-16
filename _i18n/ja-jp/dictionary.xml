@@ -276,16 +276,6 @@
   <block id="9906134ee224bc081497b19c4269cc34" category="paragraph">使用されなくなったために期限切れになった容量ライセンスは、いつでも削除できます。</block>
   <block id="c320af21170d1ca43751b7580a1125f4" category="list-text">容量ライセンスの横にあるアクションメニューをクリックし、 * ライセンスの削除 * を選択します。</block>
   <block id="03b194a23dcb353466fbfb7acff64363" category="list-text">[ 削除（ Remove ） ] をクリックします。</block>
-  <block id="b38317f372e5ede5e8e7662a6abf56de" category="section-title">評価ライセンスを BYOL に変換します</block>
-  <block id="6f3e45030426e1b86c424d2780111d20" category="paragraph">評価用ライセンスは 30 日間有効です。インプレースアップグレードの評価ライセンスの上に、新しい BYOL ライセンスを適用できます。</block>
-  <block id="6e7fc6b7eae0415b78955003531a799e" category="paragraph">EvalライセンスをBYOLに変換すると、BlueXPはCloud Volumes ONTAP システムを再起動します。</block>
-  <block id="9a640fdf29d0376d44625fbe7757592a" category="list-text">シングルノードシステムで再起動を実行すると、リブートプロセス中に I/O が中断されます。</block>
-  <block id="a1b2198d5e77e52b34a9567f6e8204f9" category="list-text">HA ペアの場合、再起動によってテイクオーバーとギブバックが開始され、クライアントへの I/O の提供が継続されます。</block>
-  <block id="b7c7df7a1f738eeeb402c8feafc80dba" category="list-text">「 * 評価 * 」をクリックします。</block>
-  <block id="fcb9420dfbbc4a57ba1b1a992a71d207" category="list-text">表で、 Cloud Volumes ONTAP システムの *Convert to BYOL License* をクリックします。</block>
-  <block id="e539cbd6aefe9d1fb7bc951680944206" category="list-text">シリアル番号を入力するか、ライセンスファイルをアップロードしてください。</block>
-  <block id="b171537681ac6ab38d6353435252c4f1" category="list-text">[ ライセンスの変換 ] をクリックします。</block>
-  <block id="629b6ceff1a1b74de909c5f304f623b9" category="paragraph">BlueXPが変換プロセスを開始しますCloud Volumes ONTAP は、このプロセスの一環として自動的に再起動します。バックアップが完了すると、ライセンス情報に新しいライセンスが反映されます。</block>
   <block id="594cb44c6500d8855ad820b0653e02c7" category="section-title">PAYGOとBYOLの2つのモデルが変わります</block>
   <block id="a704128156d562fe5860508e9584ee34" category="paragraph">システムをPAYGOからノード単位のライセンスからBYOLへ（逆も同様）に変換することはできません。従量課金制サブスクリプションとBYOLサブスクリプションを切り替える場合は、新しいシステムを導入し、既存のシステムから新しいシステムにデータをレプリケートする必要があります。</block>
   <block id="7f7c7e70efe0e6e29f5d0b207145f30e" category="list-text">新しい Cloud Volumes ONTAP の作業環境を作成します。</block>
@@ -618,7 +608,6 @@
   <block id="8ac1ecc7ceb7a49d071b4f1b71f0e176" category="section-title">パッケージの詳細の表示</block>
   <block id="f88e8fee4b6b78cbc9779b73098653b5" category="paragraph">Cloud Volumes ONTAPページでレガシーモードに切り替えると、パッケージごとに使用される容量の詳細を表示できます。</block>
   <block id="4a95292c803539c8cf72591c54db0644" category="list-text">[表示]*を選択すると、各ライセンスパッケージのプロビジョニング済み容量が表示されます。</block>
-  <block id="28db6f5e86482ae58b9becef415d1abc" category="list-text">[レガシービューに切り替える]*を選択します。</block>
   <block id="13bb1907bdca20408e78b483332beab6" category="inline-image-macro">[Switch to Legacy view]ボタンのスクリーンショット</block>
   <block id="ad8dd0162f38eb308d880b20d20ab47e" category="paragraph"><block ref="ad8dd0162f38eb308d880b20d20ab47e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="31ccaa5879eee7a69ef3c48f1004c59c" category="list-text">課金方法を変更しても、NetApp（BYOL）から購入したライセンスで課金されるか、クラウドプロバイダのマーケットプレイスの従量課金制（PAYGO）サブスクリプションで課金されるかには影響しません。</block>
@@ -744,4 +733,10 @@
   <block id="f718d4efc769e352af879333b97563c1" category="list-text">削除するサブスクリプションの行で、アクションメニューを開き、*削除*を選択します。</block>
   <block id="d945569d4f85da82c21c1eedda61f245" category="paragraph">ステータスが* Unsubscribed *および* Unconfigured *のサブスクリプションのみを削除できます。</block>
   <block id="22a93e112ce29f0d1e8dfc0ede83e119" category="sidebar">直接ライセンスの管理</block>
+  <block id="40d1f3228e91a00383279859612f7ba5" category="list-text">[アドバンストビューに切り替える]*を選択します。</block>
+  <block id="3df898a44cd4e747f0651fff3683bca8" category="inline-image-macro">[Switch to advanced view]ボタンのスクリーンショット</block>
+  <block id="d4de4fdd26abe13af932d9682aa962d4" category="paragraph"><block ref="d4de4fdd26abe13af932d9682aa962d4" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cf5e0e2d5e3b97433dcea18ed2c97b91" category="list-text">表示するパッケージの詳細を表示します。</block>
+  <block id="f651647ac9ca970bf81f92917731dcbb" category="inline-image-macro">標準表示に切り替えボタンのスクリーンショット</block>
+  <block id="20dbfe4510a959e2d164802031656e83" category="paragraph"><block ref="20dbfe4510a959e2d164802031656e83" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
