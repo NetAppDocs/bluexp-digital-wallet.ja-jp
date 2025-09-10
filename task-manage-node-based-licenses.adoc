@@ -52,6 +52,9 @@ image:screenshot_paygo_licenses.png["BlueXPのデジタルウォレットペー�
 システムライセンスと容量ライセンスを追加または削除して、ネットアップから直接購入したライセンスを管理する。
 
 
+NOTE: はBYOLライセンスの購入、延長、および更新を制限しています。 https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/whats-new.html#restricted-availability-of-byol-licensing-for-cloud-volumes-ontap["Cloud Volumes ONTAPの BYOL ライセンスの利用制限"^] 。
+
+
 
 === 未割り当てのライセンスを追加します
 
@@ -130,9 +133,7 @@ image:screenshot-license-generator.png["スクリーンショット：NetApp Lic
 
 === システムライセンスを更新する
 
-ネットアップの担当者に連絡してBYOLサブスクリプションを更新すると、BlueXPは自動的にネットアップから新しいライセンスを取得してCloud Volumes ONTAP システムにインストールします。
-
-BlueXPがセキュリティ保護されたインターネット接続経由でライセンスファイルにアクセスできない場合は、自分でファイルを取得し、BlueXPに手動でアップロードできます。
+NetAppの担当者に連絡してBYOLサブスクリプションを更新すると、 BlueXPはNetAppから新しいライセンスを自動的に取得し、 Cloud Volumes ONTAPシステムにインストールします。BlueXPが安全なインターネット接続経由でライセンスファイルにアクセスできない場合は、お客様ご自身でファイルを取得し、 BlueXPに手動でアップロードしてください。
 
 .手順
 . BlueXPナビゲーションメニューから、* Governance > Digital Wallet *を選択します。

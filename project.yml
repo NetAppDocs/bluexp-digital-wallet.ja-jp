@@ -33,6 +33,24 @@ sidebar:
           url: "/task-manage-capacity-licenses.html"
         - title: Cloud Volumes ONTAPノノオトヘエスライセンス
           url: "/task-manage-node-based-licenses.html"
+    - title: プライベートオファーを管理する
+      entries:
+      - title: AWSプライベートオファーを管理する
+        entries:
+        - title: BlueXPの AWS プライベートオファーを管理する
+          url: "/task-manage-private-aws.html"
+        - title: Data Infrastructure Insightsの AWS プライベートオファーを管理する
+          url: "/task-manage-private-aws-cloud-insights.html"
+      - title: Azure プライベート オファーを管理する
+        entries:
+        - title: BlueXPの Azure プライベート オファーを管理する
+          url: "/task-manage-private-azure.html"
+        - title: NetApp Cloud Insightsの Azure プライベート オファーを管理する
+          url: "/task-manage-private-azure-data.html"
+      - title: Google Cloud のプライベート オファーを管理する
+        entries:
+        - title: NetApp BlueXP向け Google Cloud プライベート オファーを管理する
+          url: "/task-manage-private-google-cloud.html"
     - title: Marketplaceサブスクリプションの管理
       url: "/task-manage-subscriptions.html"
     - title: Keystoneサブスクリプションを管理
