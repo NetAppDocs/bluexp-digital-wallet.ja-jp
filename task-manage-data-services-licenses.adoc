@@ -21,7 +21,7 @@ NOTE: [直接ライセンス]ページには、すべてのライセンスが表
 
 このページの手順には、環境 の各サービスに関する情報が記載されています。これらのサービスのライセンスの詳細については、次のページを参照してください。
 
-* https://docs.netapp.com/us-en/bluexp-backup-recovery/task-licensing-cloud-backup.html["BlueXPのバックアップとリカバリのライセンスをセットアップ"^]
+* https://docs.netapp.com/us-en/bluexp-backup-recovery/br-start-licensing.html["BlueXPのバックアップとリカバリのライセンスをセットアップ"^]
 * https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-licensing.html["BlueXPディザスタリカバリのライセンスを設定"^]
 * https://docs.netapp.com/us-en/bluexp-ransomware-protection/rp-start-licenses.html["BlueXPランサムウェア対策のライセンスを設定"^]
 * https://docs.netapp.com/us-en/bluexp-tiering/task-licensing-cloud-tiering.html["BlueXP階層化のライセンスをセットアップ"^]
